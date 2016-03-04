@@ -7,17 +7,17 @@
 ## Teaching Schedule
 
 
-<div style="width: 72%; text-align: right; color: #666;">72%</div>
-<span style="display: inline-block; height: 10px; width: 72%; background: #cfc; border-top-left-radius: 3px; border-bottom-left-radius: 3px;"></span><span style="display: inline-block; margin: 0; ;height: 10px;  width: 28%; background: #ddd; border-top-right-radius: 3px; border-bottom-right-radius: 3px;"><span>
+<div style="width: 4%; text-align: right; color: #666;">2.8%</div>
+<span style="display: inline-block; height: 10px; width: 2.8%; background: #2196f3; border-top-left-radius: 3px; border-bottom-left-radius: 3px;"></span><span style="display: inline-block; margin: 0; ;height: 10px;  width: 97.2%; background: #ddd; border-top-right-radius: 3px; border-bottom-right-radius: 3px;"><span>
 
 No.|Course|Time(days)|Date
 ---|------|----------|----
-1|~~HTML~~<br>~~CSS<br>HTML+CSS~~|6|~~0829/0830/0912/0913/0919/0920~~
-2|~~Java SE~~|6|~~1017/1018/1024/1025/1031/1101~~
-3|~~JavaScript~~<br>~~jQuery~~|2|~~1107/1107~~
-4|~~Database~~|4|~~1114/1115/1121/1122~~
-5|~~Java EE~~<br>~~AJAX~~<br>~~JSON~~|5|~~1128/1129/1205/1206/1212~~
-6|Java EE Frameworks|7|~~1213/1219/1220~~<br>1226/1227/0102/0103
+1|HTML<br>CSS<br>HTML+CSS|6|0829/0830/0912/0913/0919/0920
+2|Java SE|6|1017/1018/1024/1025/1031/1101
+3|JavaScript<br>jQuery|2|1107/1107
+4|Database|4|1114/1115/1121/1122
+5|Java EE<br>AJAX<br>JSON|5|1128/1129/1205/1206/1212
+6|Java EE Frameworks|7|1213/1219/1220<br>1226/1227/0102/0103
 7|Android|6|0109/0110/0116/0117/0123/0124
 8|Exam|1|0130
 
