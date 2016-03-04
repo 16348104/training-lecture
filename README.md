@@ -1,2 +1,3 @@
-# training-lecture
-Java Training Lectures.
+# Training Lecture
+
+> Java Training Lectures.
