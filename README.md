@@ -1,18 +1,20 @@
 # Training Lecture
 
-> Java training lectures
+> Java Training Lectures
+
+> Tsinghua University
 
 > Spring 2016.
 
 ## Teaching Schedule
 
 
-<div style="width: 4%; text-align: right; color: #666;">2.8%</div>
+<div style="width: 100%; text-align: left; color: #666;">2.8%</div>
 <span style="display: inline-block; height: 10px; width: 2.8%; background: #2196f3; border-top-left-radius: 3px; border-bottom-left-radius: 3px;"></span><span style="display: inline-block; margin: 0; ;height: 10px;  width: 97.2%; background: #ddd; border-top-right-radius: 3px; border-bottom-right-radius: 3px;"><span>
 
 No.|Course|Time(days)|Date
 ---|------|----------|----
-1|HTML<br>CSS<br>HTML+CSS|6|0305/0306/0312/0313/0319/0320
+1|HTML<br>CSS<br>HTML+CSS|6|~~0305~~<br>0306/0312/0313/0319/0320
 2|Java SE|6|0326/0327/0409/0410/0416/0417
 3|JavaScript<br>jQuery|2|0423/0424
 4|Database|4|0507/0508/0514/0515
