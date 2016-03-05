@@ -6,7 +6,7 @@
 <h1 style="color:#f00;">Hello,HTML!</h1>
 ```
 
-> 5个概念
+> 5 个概念
 
 1. **元素 element** `h1`
 2. **标记 tag**
@@ -16,7 +16,7 @@
         - 部分元素（空元素）没有结束标记
             1. `meta`
             2. `img`
-            3. ...
+            3.  `input`
 3. **属性 attribute** `style`
 4. **值例 value** `color:#f00;`
 5. **内容 content** `Hello,HTML!`
