@@ -25,7 +25,7 @@
 ### Styles
 - *style*
 
-### Formatting
+### Text Formatting
 - b `bold`
 - em `emphasis`
 - i `italic`
