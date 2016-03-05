@@ -1,5 +1,7 @@
 # Chapter 3 DOM
 
+> Document Object Model
+
 [JavaScript HTML DOM Navigation](http://www.w3schools.com/js/js_htmldom_navigation.asp)
 
 > Source code:
