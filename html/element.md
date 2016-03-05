@@ -23,18 +23,18 @@
 - pre   `preformatted`
 
 ### Styles
-- style
+- *style*
 
 ### Formatting
-- b
-- em
-- i
-- small
+- b `bold`
+- em `emphasis`
+- i `italic`
+- small 
 - strong
-- sub
-- sup
-- ins
-- del
+- sub `subscript`
+- sup `superscript`
+- ins `inserted`
+- del `deleted`
 - mark
  
 ### Quotations
