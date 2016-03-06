@@ -109,15 +109,15 @@
 
 - Block-level Element 块级元素
     - A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
-        - `<div>`
-        - `<h1> - <h6>`
-        - `<p>`
-        - `<form>`
+        - `div`
+        - `h1 - h6`
+        - `p`
+        - `form`
 - Inline Element 行内元素
     - An inline element does not start on a new line and only takes up as much width as necessary.
-        - `<span>`
-        - `<a>`
-        - `<img>`
+        - `span`
+        - `a`
+        - `img`
 
 ## URL
 
