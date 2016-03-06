@@ -61,11 +61,22 @@
     - 并集选择器
     - 派生选择器
     
-## 锚点的伪类 `pseudo-class`
+## 伪类 `pseudo-class`
+
+- 锚点的 LoVe - HeAt
     
-    - `link`
-    - `visited`
-    - `hover`
-    - `active`
+  - `link`
+  - `visited`
+  - `hover`
+  - `active`
+- `first-child` 
+ 
+
     
-## `其他重要的伪类`
+## 伪元素
+  - `before`
+  - `after`
+  - `first-letter`
+  - `first-line`
+
+
