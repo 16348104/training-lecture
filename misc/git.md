@@ -11,6 +11,10 @@
     ```
     开始 - cmd - enter
     DOS
+    C:\Users\Administrator>edit .gitconfig
+    
+    或：
+    
     d:
     cd (change directory)
     D:\0\PortableGit\bin>
