@@ -69,7 +69,9 @@
 - table
 - tr    `table row`
 - th    `table heading`
-- td    `table data`
+- td    `table data
+  - `colspan`
+  - `rowspan`
 - caption
 
 ### Lists
@@ -86,7 +88,7 @@
 - **select**
 - **option**
 - **textarea**
-- button
+- **button**
 
 ### JavaScript
 - *`script`*
