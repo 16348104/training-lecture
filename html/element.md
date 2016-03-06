@@ -101,6 +101,10 @@
 - `&yen;` - &yen;
 - `&nbsp;` - `none-breaking space`
 
+## Grouping tags
+- **div**   `division`
+- **span**
+
 ## Block Elements and Inline Elements
 
 - Block-level Element
@@ -114,10 +118,6 @@
         - `<span>`
         - `<a>`
         - `<img>`
-
-## Grouping tags
-- **div**   `division`
-- **span**
 
 ## URL
 
