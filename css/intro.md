@@ -1,6 +1,6 @@
 # Chapter 1 引言
 
-> Cascading Style Sheets
+> Cascading Style Sheets 层叠样式表
 
 <h1 style="color:#f00;">Hello,CSS!</h1>
 
