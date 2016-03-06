@@ -17,6 +17,7 @@
             1. `meta`
             2. `img`
             3.  `input`
+            4.  `br`
 3. **属性 attribute** `style`
 4. **值例 value** `color:#f00;`
 5. **内容 content** `Hello,HTML!`
