@@ -9,7 +9,7 @@ h1 {
 }
 ```
 
-> 4个概念
+> 4 个概念
 
 1. **选择器 selector** `h1`
 2. **样式声明 declaration** `color: #f00;`
