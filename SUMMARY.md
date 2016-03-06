@@ -60,3 +60,6 @@
 // - [MVC](spring/mvc.md)
 //* [Android](android/README.md)
 //* [Project](project/README.md)
+ - [MISC](misc.md/README.md)
+ * [IDEA](misc/idea.md)
+ * [Git](misc/git.md) 
