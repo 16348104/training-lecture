@@ -8,6 +8,7 @@
 
 ```html
 <!-- index.html -->
+<link href="style.css">
 <h1>Hello,CSS!</h1>
 ```
 
