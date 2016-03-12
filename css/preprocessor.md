@@ -8,3 +8,17 @@
     - [http://lesscss.org](http://lesscss.org)
 4. Stylus
     - [http://learnboost.github.com/stylus](http://learnboost.github.com/stylus)
+
+- Stylus
+  - install nodejs
+  - install Stylus
+
+  ```
+  #npm install stylus -g
+  ```
+  
+  - compile stylus file to css file
+
+  ```
+  # stylus --compress < test.styl > test.css
+  ```
