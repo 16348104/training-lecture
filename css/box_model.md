@@ -16,10 +16,6 @@
             <div style="height:50px; color:#333; border:1px dashed #333; margin:0 30px 30px; background:#ddd;">
                 content
             </div>
-            </div>
-        </div>
-    </div>
-</div>
 <br>
 
 > Source code
