@@ -20,5 +20,5 @@
   - compile stylus file to css file
 
   ```
-  # stylus --compress < test.styl > test.css
+  #stylus --compress < test.styl > test.css
   ```
