@@ -69,7 +69,7 @@
 - table
 - tr    `table row`
 - th    `table heading`
-- td    `table data
+- td    `table data`
   - `colspan`
   - `rowspan`
 - caption
