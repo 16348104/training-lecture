@@ -6,7 +6,7 @@
 
   > 布局样式：`float` `clear` `position` `display` 等
 
-- 浮动改变了什么
+- `float` 改变了什么
   1. 浮动的 box 脱离了标准流，原位置被其他 box 占据
   2. 浮动的 box 宽度自适应于内容
   3. 占据浮动 box 的内容在浮动 box 的 `margin` 之外
