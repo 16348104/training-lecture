@@ -9,8 +9,8 @@
 ## Teaching Schedule
 
 
-<div style="width: 100%; text-align: left; color: #666;">5.6%</div>
-<span style="display: inline-block; height: 10px; width: 5.6%; background: #2196f3; border-top-left-radius: 3px; border-bottom-left-radius: 3px;"></span><span style="display: inline-block; margin: 0; ;height: 10px;  width: 94.4%; background: #ddd; border-top-right-radius: 3px; border-bottom-right-radius: 3px;"><span>
+<div style="margin-left: 11.1%; text-align: left; color: #666;">11.1%</div>
+<span style="display: inline-block; height: 10px; width: 11.1%; background: #2196f3; border-top-left-radius: 3px; border-bottom-left-radius: 3px;"></span><span style="display: inline-block; margin: 0; ;height: 10px;  width: 88.9%; background: #ddd; border-top-right-radius: 3px; border-bottom-right-radius: 3px;"><span>
 
 No.|Course|Time(days)|Date
 ---|------|----------|----
