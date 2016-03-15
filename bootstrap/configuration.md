@@ -8,6 +8,7 @@
   - `bootstrap.min.css`
   - `jquery.js`
   - `bootstrap.min.js`
+  - a basic `container` or `container-fluid` div in the body
 
 > source code
 
