@@ -1,8 +1,15 @@
 # Chapter 2 配置
 
-1. Download latest Bootstrap
-  - [download Bootstrap currently v3.3.6](http://getbootstrap.com/getting-started/#download)
+1. Download latest Bootstrap (currently v3.3.6)
+  - [download Bootstrap](http://getbootstrap.com/getting-started/#download)
 2. Create first HTML file
+3. Add Bootstrap component
+  - `<meta name="viewport" content="width=device-width, initial-scale=1">`
+  - `bootstrap.min.css`
+  - `jquery.js`
+  - `bootstrap.min.js`
+
+> source code
 
   ```html
   <!DOCTYPE html>
