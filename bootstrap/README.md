@@ -1,5 +1,7 @@
 # Bootstrap
 
+![Bootstrap](../image/bootstrap/bs.png)
+
 > 教学要求
 
 1. 了解主流前端框架 
