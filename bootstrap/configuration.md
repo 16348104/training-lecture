@@ -9,6 +9,8 @@
   - `jquery.js`
   - `bootstrap.min.js`
   - a basic `container` or `container-fluid` div in the body
+    - `container` 固定宽度并支持响应式布局的容器
+    - `container-fluid` 100% 宽度，占据全部视口（viewport）的容器
 
 > source code
 
