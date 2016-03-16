@@ -29,3 +29,6 @@
 19. Tabs/Pills
   - pill `胶囊`
 20. Forms
+21. Inputs
+22. Carousel `旋转木马`
+23. Modal `模态框`
