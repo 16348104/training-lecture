@@ -35,3 +35,4 @@
 24. Tooltip `提示工具`
 25. Popover `弹出框`
 26. Scrollspy `滚动监听`
+27. Affix `附加导航`
