@@ -5,6 +5,7 @@
 2. Typography `印刷 排版`
   - **Responsive Utilities**
 3. Tables
+  - **Responsive Tables**
 4. Images
 5. Jumbotron
 6. Wells
