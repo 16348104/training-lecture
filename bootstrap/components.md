@@ -26,3 +26,6 @@
   - `caret`
 18. Collapse
   - Accordion `手风琴 - 折叠效果`
+19. Tabs/Pills
+  - pill `胶囊`
+20. Forms
