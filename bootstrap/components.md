@@ -1,4 +1,4 @@
-# Chapter 3 Components
+# Chapter 3 常用组件
 
 1. **Grid Basic** `栅格`
   - [What is the difference among col-lg-*, col-md-* and col-sm-* in twitter bootstrap3?](http://stackoverflow.com/a/28654005/3414180)
