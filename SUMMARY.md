@@ -17,7 +17,7 @@
 * [Bootstrap](bootstrap/README.md)
  - [引言](bootstrap/intro.md)
  - [基本配置](bootstrap/configuration.md)
- - [组件](bootstrap/components.md)
+ - [常用组件](bootstrap/components.md)
 //* [JavaScript](javascript/README.md)
 //* [jQuery](jquery/README.md)
 //* [BootStrap](bootstrap/README.md)
