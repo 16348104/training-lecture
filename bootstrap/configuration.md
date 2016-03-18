@@ -1,4 +1,4 @@
-# Chapter 2 配置
+# Chapter 2 基本配置
 
 1. Download latest Bootstrap (currently v3.3.6)
   - [download Bootstrap](http://getbootstrap.com/getting-started/#download)
