@@ -32,10 +32,39 @@
   - inside container
   - outside container
 6. Wells `浅容器` `.well` `.well-sm` `well-lg`
-7. Alerts
-  - **Closing Alerts**
+7. Alerts `.alert` `.alert-success` `.alert-info` `.alert-warning` `.alert-danger`
+  - **Closing Alerts** `.close` `data-dismiss="alert"`
+    - a
+    - button
 8. Buttons
-9. Button Groups
+  - styles
+ 
+   ```
+    .btn-default
+    .btn-primary
+    .btn-success
+    .btn-info
+    .btn-warning
+    .btn-danger
+    .btn-link
+    ```
+    
+  - sizes
+ 
+   ```
+   .btn-lg
+   .btn-md
+   .btn-sm
+   .btn-xs
+   ```
+   - `.btn-block`
+   - `.active` `.disabled`
+        
+9. Button Groups 
+  - `.btn-group`
+  - `.btn-group-lg`
+  - `.btn-group-vertical`
+  - `.btn-gropu-justified`
 10. Glyphicons `字体图标`
 11. Badges/Labels `徽章、标签`
 12. Progress Bars
