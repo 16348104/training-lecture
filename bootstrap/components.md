@@ -21,9 +21,13 @@
   - `.text-muted, .text-primary, .text-success, .text-info, .text-warning, .text-danger`
 3. Tables `.table` `.table-striped` `.table-borderd` `.table-hover` `.table-condensed`
   - **Responsive Tables** div `.table-responsive`
-4. Images
-  - **Responsive Images**
-  - **Responsive Embeds**
+4. Images `.img-rounded` `.img-circle` `.img-thumbnail`
+  - **Responsive Images** `.img-responsive`
+  - **Responsive Embeds** `embed-responsive` `.embed-responsive-item` `embed-responsive-16by9` `embed-responsive-4by3`
+    - iframe
+    - embed
+    - video
+    - object
 5. Jumbotron `超大屏幕 - 巨幕`
 6. Wells `浅容器`
 7. Alerts
