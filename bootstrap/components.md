@@ -1,6 +1,6 @@
 # Chapter 3 常用组件
 
-1. **Grid Basic** `栅格` `col-*-`
+1. **Grid Basic** `栅格` `.col-*-`
   - xs (for phones)
   - sm (for tablets)
   - md (for desktops)
@@ -10,6 +10,16 @@
 
 2. Typography `排版`
   - **Responsive Utilities**
+  - h1-h6
+  - small
+  - mark
+  - abbr
+  - blockquote
+  - dl
+  - code
+  - kbd
+  - pre
+  - .text-muted, .text-primary, .text-success, .text-info, .text-warning, .text-danger
 3. Tables
   - **Responsive Tables**
 4. Images
