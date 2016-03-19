@@ -9,7 +9,6 @@
   > [What is the difference among col-lg-*, col-md-* and col-sm-* in twitter bootstrap3?](http://stackoverflow.com/a/28654005/3414180)
 
 2. Typography `排版`
-  - **Responsive Utilities**
   - h1-h6
   - small
   - mark
