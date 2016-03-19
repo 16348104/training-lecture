@@ -13,7 +13,7 @@
   - small
   - mark
   - abbr
-    - blockquote `.blockquote-reverse`
+  - blockquote `.blockquote-reverse`
   - dl
   - code
   - kbd
