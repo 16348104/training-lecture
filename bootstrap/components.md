@@ -73,7 +73,7 @@
 10. Glyphicons `字体图标` `.glyphicon .glyphicon-*`
 11. Badges/Labels `徽章、标签` `.badeg` `.label-default, .label-primary, .label-success, .label-info, .label-warning .label-danger`
 12. Progress Bars `.progress` `.progress-bar` `style="width: 12%;"` 
-13. Pagination ul `.pagination` `.active` `.disabled` `.pagination-lg` `.pagination-sm` ul `.breadcrumbs`
+13. Pagination ul `.pagination` `.active` `.disabled` `.pagination-lg` `.pagination-sm` ul `.breadcrumb`
 14. Pager ul `.pager` li `.previous` `.next`
 15. List Groups
 16. Panels `面板`
