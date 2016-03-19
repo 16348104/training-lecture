@@ -75,8 +75,8 @@
 12. Progress Bars `.progress` `.progress-bar` `style="width: 12%;"` 
 13. Pagination ul `.pagination` `.active` `.disabled` `.pagination-lg` `.pagination-sm` ul `.breadcrumb`
 14. Pager ul `.pager` li `.previous` `.next`
-15. List Groups
-16. Panels `面板`
+15. List Groups ul/div `.list-group` li/a `.list-group-item .list-group-item-*` `.active` `.disabled`
+16. Panels `面板` `.panel` `.panel-*` `.panel-headind` `.panel-body` `.panel-footer` `.panel-group`
 17. Dropdowns `下拉菜单`
   - `caret`
 18. Collapse `折叠板`
