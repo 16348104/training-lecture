@@ -1,7 +1,13 @@
 # Chapter 3 常用组件
 
 1. **Grid Basic** `栅格`
-  - [What is the difference among col-lg-*, col-md-* and col-sm-* in twitter bootstrap3?](http://stackoverflow.com/a/28654005/3414180)
+  - xs (for phones)
+  - sm (for tablets)
+  - md (for desktops)
+  - lg (for larger desktops)
+  
+  > [What is the difference among col-lg-*, col-md-* and col-sm-* in twitter bootstrap3?](http://stackoverflow.com/a/28654005/3414180)
+
 2. Typography `排版`
   - **Responsive Utilities**
 3. Tables
