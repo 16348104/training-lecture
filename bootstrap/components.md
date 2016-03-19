@@ -14,12 +14,12 @@
   - small
   - mark
   - abbr
-  - blockquote
+  - blockquote `.blockquote-reverse`
   - dl
   - code
   - kbd
   - pre
-  - .text-muted, .text-primary, .text-success, .text-info, .text-warning, .text-danger
+  - `.text-muted, .text-primary, .text-success, .text-info, .text-warning, .text-danger`
 3. Tables
   - **Responsive Tables**
 4. Images
