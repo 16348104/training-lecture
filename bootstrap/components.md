@@ -77,7 +77,7 @@
 14. Pager ul `.pager` li `.previous` `.next`
 15. List Groups ul/div `.list-group` li/a `.list-group-item .list-group-item-*` `.active` `.disabled`
 16. Panels `面板` `.panel` `.panel-*` `.panel-headind` `.panel-body` `.panel-footer` `.panel-group`
-17. Dropdowns `下拉菜单`
+17. Dropdowns `下拉菜单` div `.dropdown` li `divider` `dropdown-header`
   - `caret`
 18. Collapse `折叠板`
   - Accordion `手风琴`
