@@ -23,7 +23,7 @@
   - **Responsive Tables** div `.table-responsive`
 4. Images `.img-rounded` `.img-circle` `.img-thumbnail`
   - **Responsive Images** `.img-responsive`
-  - **Responsive Embeds** `embed-responsive` `.embed-responsive-item` `embed-responsive-16by9` `embed-responsive-4by3`
+  - **Responsive Embeds** `.embed-responsive` `.embed-responsive-item` `embed-responsive-16by9` `embed-responsive-4by3`
     - iframe
     - embed
     - video
