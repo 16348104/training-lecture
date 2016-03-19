@@ -79,7 +79,7 @@
 16. Panels `面板` `.panel` `.panel-*` `.panel-headind` `.panel-body` `.panel-footer` `.panel-group`
 17. Dropdowns `下拉菜单` div `.dropdown` li `divider` `dropdown-header`
   - `caret`
-18. Collapse `折叠板`
+18. Collapse `折叠板` `data-toggle="collapse"` `data-target="#demo"` `.collapse` `.in`
   - Accordion `手风琴`
 19. Tabs/Pills
   - pill `胶囊`
