@@ -28,8 +28,10 @@
     - embed
     - video
     - object
-5. Jumbotron `超大屏幕 - 巨幕`
-6. Wells `浅容器`
+5. Jumbotron `超大屏幕 - 巨幕` `.jumbotron`
+  - inside container
+  - outside container
+6. Wells `浅容器` `.well` `.well-sm` `well-lg`
 7. Alerts
   - **Closing Alerts**
 8. Buttons
