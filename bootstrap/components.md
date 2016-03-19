@@ -70,8 +70,8 @@
     - btn `.dropdown-toggle` `data-toggle="dropdown"`
     - ul `.dropdown-menu` `role="menu"`
     - span `.caret`
-10. Glyphicons `字体图标`
-11. Badges/Labels `徽章、标签`
+10. Glyphicons `字体图标` `.glyphicon .glyphicon-*`
+11. Badges/Labels `徽章、标签` `.badeg` `.label-default, .label-primary, .label-success, .label-info, .label-warning .label-danger`
 12. Progress Bars
 13. Pagination
 14. Pager
