@@ -1,6 +1,6 @@
 # Chapter 3 常用组件
 
-1. **Grid Basic** `栅格`
+1. **Grid Basic** `栅格` `col-*-`
   - xs (for phones)
   - sm (for tablets)
   - md (for desktops)
