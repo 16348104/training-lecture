@@ -20,7 +20,7 @@
   - pre
   - `.text-muted, .text-primary, .text-success, .text-info, .text-warning, .text-danger`
 3. Tables `.table` `.table-striped` `.table-borderd` `.table-hover` `.table-condensed`
-  - **Responsive Tables** div `table-responsive`
+  - **Responsive Tables** div `.table-responsive`
 4. Images
   - **Responsive Images**
   - **Responsive Embeds**
