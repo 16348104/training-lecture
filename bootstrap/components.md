@@ -118,8 +118,7 @@
         </a>
     </div>
   ```
-  
-24. Modal `模态框`
+24. Modal `模态框` button `data-toggle="modal"` `data-target="#modal"` div `modal` `fade` `modal-dialog` `modal-content` `modal-head` `modal-body` `modal-footer` `close` `data-dismiss="modal"` `modal-sm` `modal-lg`
 25. Tooltip `提示工具`
 26. Popover `弹出框`
 27. Scrollspy `滚动监听`
