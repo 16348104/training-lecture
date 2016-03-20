@@ -85,7 +85,7 @@
   - pill `胶囊`
   - Dynamic Tabs `data-toggle="tab"` `.tab-content` `.tab-pane`
   - Dynamic Pills `data-toggle="pill"`
-20. Navbar
+20. Navbar nav `.navbar` `.navbar-default` `.navbar-inverse` `.navbar-fixed-*` `.navbar-header` `.navbar-brand` ul `.nav` `.navbar-nav` `navbar-right`
 21. Forms
 22. Inputs
 23. Carousel `旋转木马`
