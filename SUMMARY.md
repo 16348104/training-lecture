@@ -21,7 +21,7 @@
    * [引言](bootstrap/intro.md)
    * [基本配置](bootstrap/configuration.md)
    * [常用组件](bootstrap/components.md)
-   * [设计联系](bootstrap/exercise.md)
+   * [设计练习](bootstrap/exercise.md)
 * [MISC](misc/README.md)
    * [IDEA](misc/idea.md)
    * [Git](misc/git.md)
