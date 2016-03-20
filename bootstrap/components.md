@@ -81,7 +81,7 @@
   - `caret`
 18. Collapse `折叠板` `data-toggle="collapse"` `data-target="#demo"` `.collapse` `.in`
   - Accordion `手风琴` `.panel-group` `data-parent="#demo"` `.panel-collapse`
-19. Tabs/Pills `list-inline` `nav` `nav-tabs` `nav-pills` `nav-stack` `nav-justified`
+19. Tabs/Pills `list-inline` `nav` `nav-tabs` `nav-pills` `nav-stacked` `nav-justified`
   - pill `胶囊`
 20. Navbar
 21. Forms
