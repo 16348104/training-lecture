@@ -88,7 +88,7 @@
 20. Navbar nav `.navbar` `.navbar-default` `.navbar-inverse` `.navbar-fixed-*` `.navbar-header` `.navbar-brand` ul `.nav` `.navbar-nav` `navbar-right`
   - Collapsing Navigation Bar button `.navbar-toggle` `data-toggle="collapse"` `data-target="#navbar"` span `.icon-bar` div `collapse navbar-collapse`
 21. Forms `.form-inline` `.form-horizontal` `.form-group` `.form-control` `.control-label` div `checkbox` `radio`
-22. Inputs `.checkbox-inline` `radio-inline` `.form-control-static`
+22. Inputs `.checkbox-inline` `radio-inline` `.form-control-static` `help-block`
 23. Carousel `旋转木马`
 24. Modal `模态框`
 25. Tooltip `提示工具`
