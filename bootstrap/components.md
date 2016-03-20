@@ -86,6 +86,7 @@
   - Dynamic Tabs `data-toggle="tab"` `.tab-content` `.tab-pane`
   - Dynamic Pills `data-toggle="pill"`
 20. Navbar nav `.navbar` `.navbar-default` `.navbar-inverse` `.navbar-fixed-*` `.navbar-header` `.navbar-brand` ul `.nav` `.navbar-nav` `navbar-right`
+  - Collapsing Navigation Bar button `.navbar-toggle` `data-toggle="collapse"` `data-target="#navbar"` span `.icon-bar` div `collapse navbar-collapse`
 21. Forms
 22. Inputs
 23. Carousel `旋转木马`
