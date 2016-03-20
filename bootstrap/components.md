@@ -81,13 +81,14 @@
   - `caret`
 18. Collapse `折叠板` `data-toggle="collapse"` `data-target="#demo"` `.collapse` `.in`
   - Accordion `手风琴` `.panel-group` `data-parent="#demo"` `.panel-collapse`
-19. Tabs/Pills `list-inline` `nav` `nav-tabs` `nav-pills` `nav-stack` `nav-justified` 
+19. Tabs/Pills `list-inline` `nav` `nav-tabs` `nav-pills` `nav-stack` `nav-justified`
   - pill `胶囊`
-20. Forms
-21. Inputs
-22. Carousel `旋转木马`
-23. Modal `模态框`
-24. Tooltip `提示工具`
-25. Popover `弹出框`
-26. Scrollspy `滚动监听`
-27. Affix `附加导航`
+20. Navbar
+21. Forms
+22. Inputs
+23. Carousel `旋转木马`
+24. Modal `模态框`
+25. Tooltip `提示工具`
+26. Popover `弹出框`
+27. Scrollspy `滚动监听`
+28. Affix `附加导航`
