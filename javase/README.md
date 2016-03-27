@@ -1,5 +1,7 @@
 # Java SE
 
+![Java SE](../image/javase/java_logo.png)
+
 > 教学要求
 
 1. 初步理解面向对象的程序设计
