@@ -55,7 +55,7 @@
       .;%JAVA_HOME%\lib;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar
       ```
       
-      - 验证
+      - 验证 CMD
 
       ```
       java
