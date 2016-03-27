@@ -24,7 +24,7 @@
         - Java 语言的版本
             - Java Standard Edition
             - Java Enterprise Edition
-            - ~~Java Micro(Mobile) Edition~~
+            - ~~Java Micro Edition~~
                     Android
                     iOS
     - Java特性
