@@ -63,7 +63,7 @@
       java -version
       ```
     
-    - Java DOC
+    - Java Documentation
 5. Hello,world!
     ```java
     // Hello.java
@@ -80,7 +80,7 @@
         - 编译
         - 运行
     - java 源文件
-    - class 类文件/字节码文件
+    - class 类文件/字节码文件 `byte code`
 
 6. Java VM
     - Write once,run anywhere.
