@@ -14,7 +14,7 @@
                 eg. 汇编语言
         - 3GL HLL High Level Language
                 高级计算机语言
-                eg. Java C C++ Delphi Basic Python PHP VC C# VB
+                eg. Java C C++ Delphi Basic Python VC C# VB GO
         - 4GL
                 第四代计算机语言 
                 SQL
