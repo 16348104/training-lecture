@@ -237,7 +237,7 @@
 2. 数据类型、直接量和变量
 
     - **数据类型**
-        - 基本数据类型
+        - 基本数据类型 `primitive data type`
             - **布尔类型** `boolean`
             - 基本数值类型
                 - 定点类型
@@ -246,24 +246,23 @@
                     - 短整型 `short`
                     - **整形** `int`
                     - 长整型 `long`
-
-                    ```
-                    long l = 2147483648L;
-                    ```
-                    
                 - 浮点类型
                     - 单精度浮点数 `float`
-                      
-                      ```
-                      float f = 1.23f;
-                      ```
-                      
                     - **双精度浮点数** `double`
         - 引用数据类型
-            - 类
-            - 接口
-            - 枚举
-            - 数组
+            - 类 `class`
+            - 接口 `interface`
+            - 枚举 `enum`
+            - 数组 `array`
+    - 基本数据类型的封装类 `wrapper class`
+      - `Boolean` - `boolean`
+      - `Byte` - `byte`
+      - `Character` - `char`
+      - `Short` - `short`
+      - `Integer` - `int`
+      - `Long` - `long`
+      - `Float` - `float`
+      - `Double` - `double`
     - 变量
         - 类型
         - 名字
@@ -271,6 +270,18 @@
         - 存储单元
     - 直接量
         - 基本数据类型直接量
+            - 整形默认为 `int`
+
+            ```java
+            long l = 2147483648L;
+            ```
+                    
+            - 浮点型默认为 `double` 
+
+            ```java
+            float f = 1.23f;
+            ```
+
             - `char` 的直接量
                 - 1 整数（0～65535）
                 - 'a' 单个字符
