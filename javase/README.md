@@ -1,6 +1,6 @@
 # Java SE
 
-![Java SE](../image/javase/logo.png)
+![Java SE](../image/javase/java-logo-vector.png)
 
 > 教学要求
 
