@@ -283,13 +283,25 @@
             ```
 
             - `char` 的直接量
-                - 1 整数（0～65535）
+                - 1 整数 [0,65535]
                 - 'a' 单个字符
-                - '\t' 转义字符
                 - '\123' 3位八进制字符
-                - '\u4E00' 4位十六进制字符，unicode字符
-        - 字符串直接量
-        - `null` 一切引用数据类型的直接量
+                - '\u4E00' 4位十六进制字符，unicode 字符
+                - '\t' 转义字符串 `escape sequence`
+                
+                ```
+                \t    tab
+                \b	backspace
+                \n	newline
+                \r	carriage return
+                \f	form feed
+                \'	single quote character
+                \"	a double quote character
+                \\	a backslash character
+                ```
+
+            - 字符串直接量
+            - `null` 一切引用数据类型的直接量
 
 3. 运算符
     - 算术运算符
