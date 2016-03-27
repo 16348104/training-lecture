@@ -25,6 +25,7 @@
 * [Java SE](javase/README.md)
  - [引言](javase/intro.md)
  - [语言基础](javase/basic.md)
+ - [练习题](javase/exercise.md)
 * [MISC](misc/README.md)
    * [IDEA](misc/idea.md)
    * [Git](misc/git.md)
