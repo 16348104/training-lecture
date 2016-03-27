@@ -37,6 +37,28 @@
                 lake-let
 4. 开发环境
     - JDK Java Development Kit
+      - 安装 JDK JRE
+    - 环境变量
+      - 开始 - 计算机（右键） - 属性 - 高级系统设置 - 高级 - 环境变量 - 系统变量 - 新建
+      
+      ```
+      1.
+      JAVA_HOME
+      your_jdk_path
+      
+      2.
+      CLASS_PATH
+      .;%JAVA_HOME%\lib;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar
+      ```
+      
+      - 验证
+
+      ```
+      java
+      javac
+      java -version
+      ```
+    
     - Java DOC
 5. Hello,world!
     ```java
