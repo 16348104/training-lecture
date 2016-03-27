@@ -43,11 +43,15 @@
       
       ```
       1.
-      JAVA_HOME
+      JAVA_HOME 新建
       your_jdk_path
       
       2.
-      CLASS_PATH
+      Path 加在最前
+      %JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
+      
+      3.
+      CLASSPATH 新建
       .;%JAVA_HOME%\lib;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar
       ```
       
