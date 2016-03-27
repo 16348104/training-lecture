@@ -8,78 +8,7 @@
 
 2. 判断101-200之间有多少个素数，并输出所有素数。素数：只能被1和它本身整除的正整数（1不是素数）
 
-    ````java
-    public class E2 {
-        public static void main(String[] args) {
-            int counter = 0;
-            for (int i = 101; i < 200; i++) {
-                boolean b = true;
-                for (int j = 2; j < i/2 + 1; j++) {
-                    if (i % j == 0) {
-                        b = false;
-                        break;
-                    }
-                }
-                if (b) {
-                    System.out.println(i);
-                    counter++;
-                }
-            }
-            System.out.println("total: " + counter);
-        }
-    }
-    
-    /*
-    101
-    103
-    107
-    109
-    113
-    127
-    131
-    137
-    139
-    149
-    151
-    157
-    163
-    167
-    173
-    179
-    181
-    191
-    193
-    197
-    199
-    total: 21
-    */
-    ````
-
 3. 打印出所有的“水仙花数”，所谓“水仙花数”是指一个三位数，其各位数字立方和等于该数本身。例如：153是一个“水仙花数’，因为153=1的三次方＋5的三次方＋3的三次方。
-
-    ```java
-    public class Test {
-    
-        public static void main(String[] args) {
-            for (int i = 100; i < 1000; i++) {
-                int hundred = i / 100;// 百位上的数字
-                int ten = i % 100 / 10;// 十位上的数字
-                int single = i % 10;// 个位上的数字
-    //            if (i == Math.pow(hundred, 3) + Math.pow(ten, 3) + Math.pow(single, 3)) {
-                if (i == (hundred * hundred * hundred + ten * ten * ten + single * single * single)) {
-                    System.out.println(i);
-                }
-            }
-        }
-    }
-    
-    /*
-    153
-    370
-    371
-    407
-    */
-    ```
 
 4. 将一个正整数分解质因数。例如：输入90，打印出90=2\*3\*3\*5。
 
