@@ -32,7 +32,7 @@
                 跨平台
     - 程序分类
         - Application 应用程序
-        - ~~App-let 小应用程序~~
+        - ~~Applet 小应用程序~~
                 pig-let
                 lake-let
 4. 开发环境
