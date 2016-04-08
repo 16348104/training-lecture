@@ -25,6 +25,7 @@
 * [Java SE](javase/README.md)
  - [引言](javase/intro.md)
  - [语言基础](javase/basic.md)
+ - [面向对象程序设计](javase/oop.md)
  - [练习题](javase/exercise.md)
 * [MISC](misc/README.md)
    * [IDEA](misc/idea.md)
