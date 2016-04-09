@@ -68,7 +68,7 @@
         - `.` 调用域或方法
 2. 继承 `inherit`
     - `extends` 继承/扩展
-    - 子类 `extends(继承)` 父类
+    - `子类`(`sub class`) `extends`(`继承`) `父类`(`super class`)
         - 子类拥有父类的域和方法
         
         > 注意父类成员的访问限定修饰符
