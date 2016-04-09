@@ -104,6 +104,7 @@
     - `import` 导包语句
     - Java 的包
         - java.lang Java 的语言包，使用这个包的类不需要导入 `common sense`
+    - `FQN` - Full Qualified Name 全限定名
 5. 封装 `encapsulation`
     - 访问限定修饰符
         - 类的访问限定修饰符
