@@ -72,5 +72,10 @@
         - size
         - clear
         - keySet
-5. 集合框架
-  - `ArrayList`
+
+## 集合框架
+
+> The `Java Collections Framework` is a collection of interfaces and classes which helps in storing and processing the data efficiently.
+
+- `ArrayList`
+- `LinkedList`
