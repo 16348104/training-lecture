@@ -186,43 +186,42 @@
 
 #### Iterator vs ListIetrator
 
-- Iterator is used for traversing List and Set both.
+- Iterator 可用于遍历 List 和 Set
 
-> We can use ListIterator to traverse List only, we cannot traverse Set using ListIterator.
+> ListIterator 只能遍历 List
 
-- We can traverse in only forward direction using Iterator.
+- Iterator 只能向前遍历
 
-> Using ListIterator, we can traverse a List in both the directions (forward and Backward).
+> ListIterator 能向前或向后遍历
 
-- We cannot obtain indexes while using Iterator
+- 使用 Iterator 不能获得 index
 
-> We can obtain indexes at any point of time while traversing a list using ListIterator. The methods nextIndex() and previousIndex() are used for this purpose.
+> 使用 LIstIterator 可以在任何时刻取得 index，使用 nextIndex() 和 previousIndex() 方法
 
-- We cannot add element to collection while traversing it using Iterator, it throws ConcurrentModificationException when you try to do it.
+- 使用 Iterator 遍历时不能添加元素，会抛出 ConcurrentModificationException 异常
 
-> We can add element at any point of time while traversing a list using ListIterator.
+> 使用 ListIterator 遍历时可以添加元素
 
-- We cannot replace the existing element value when using Iterator.
+- 使用 Iterator 时不能替换元素
 
-> By using set(E e) method of ListIterator we can replace the last element returned by next() or previous() methods.
+> 使用 ListIterator 可以使用 set() 方法替换元素
 
-- Methods of Iterator:
+- Iterator 的常用方法
+  - hasNext()
+  - next()
+  - remove()
 
-      hasNext()
-      next()
-      remove()
 
-- Methods of ListIterator:
-
-      add(E e)
-      hasNext()
-      hasPrevious()
-      next()
-      nextIndex()
-      previous()
-      previousIndex()
-      remove()
-      set(E e)
+- ListIterator 的常用方法
+  - add(E e)
+  - hasNext()
+  - hasPrevious()
+  - next()
+  - nextIndex()
+  - previous()
+  - previousIndex()
+  - remove()
+  - set(E e)
 
 ### Utils
 - `Collections`
