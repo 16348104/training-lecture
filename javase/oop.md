@@ -16,7 +16,7 @@
         - 类是创建对象的模板
         - 类的定义
         ```java
-        [public] class 类名
+        访问限定修饰符 class 类名
         [<类型参数列表 extends 父类型名 & 父类型名 & ...>]
         [extends 父类名]
         [implents 接口名列表] {
@@ -159,7 +159,7 @@
     - 与类处于同一个级别
     - 接口的定义
     ```java
-    [public] interface 接口名
+    访问限定修饰符 interface 接口名
     [<类型参数列表 extends 父类型名 & 父类型名 & ...>]
     [extends 父接口名列表] {
         // 接口体
