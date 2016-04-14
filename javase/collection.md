@@ -184,6 +184,46 @@
 
   ![ListIterator](../image/javase/diagram/ListIterator.png)
 
+#### Iterator vs ListIetrator
+
+- Iterator is used for traversing List and Set both.
+
+> We can use ListIterator to traverse List only, we cannot traverse Set using ListIterator.
+
+- We can traverse in only forward direction using Iterator.
+
+> Using ListIterator, we can traverse a List in both the directions (forward and Backward).
+
+- We cannot obtain indexes while using Iterator
+
+> We can obtain indexes at any point of time while traversing a list using ListIterator. The methods nextIndex() and previousIndex() are used for this purpose.
+
+- We cannot add element to collection while traversing it using Iterator, it throws ConcurrentModificationException when you try to do it.
+
+> We can add element at any point of time while traversing a list using ListIterator.
+
+- We cannot replace the existing element value when using Iterator.
+
+> By using set(E e) method of ListIterator we can replace the last element returned by next() or previous() methods.
+
+- Methods of Iterator:
+
+      hasNext()
+      next()
+      remove()
+
+- Methods of ListIterator:
+
+      add(E e)
+      hasNext()
+      hasPrevious()
+      next()
+      nextIndex()
+      previous()
+      previousIndex()
+      remove()
+      set(E e)
+
 ### Utils
 - `Collections`
 - `Arrays`
