@@ -78,6 +78,11 @@
 > The `Java Collections Framework` is a collection of interfaces and classes which helps in storing and processing the data efficiently.
 
 ### List
+
+> 有序集合（序列）
+
+> 可重复元素
+
 - `Vector`
   
   ![Vector](../image/javase/diagram/Vector.png)
@@ -91,34 +96,63 @@
   ![LinkedList](../image/javase/diagram/LinkedList.png)
   
 ### Set
+
+> 不可重复元素
+
 - `HashSet`
+
+> 使用 `Hashtable` 存储元素
+
+> 无序
+
+> 效率高
   
   ![HashSet](../image/javase/diagram/HashSet.png)
   
 - `LinkedHashSet`
+
+> 使用 `Hashtable` 实现
+
+> 按元素添加顺序排序
   
   ![LinkedHashSet](../image/javase/diagram/LinkedHashSet.png)
   
 - `TreeSet`
+
+> 使用 `红-黑 树` 存储元素
+
+> 按元素值排序
   
   ![TreeSet](../image/javase/diagram/TreeSet.png)
   
   
 ### Map
+
+> `Key - Value` 对结构
   
 - `Hashtable`
   
   ![Hashtable](../image/javase/diagram/Hashtable.png)
   
 - `HashMap`
+
+> 无序
   
   ![HashMap](../image/javase/diagram/HashMap.png)
   
 - `LinkedHashMap`
+
+> 使用 `Hashtable` 实现
+
+> 按元素添加顺序排序
   
   ![LinkedHashMap](../image/javase/diagram/LinkedHashMap.png)
   
 - `TreeMap`
+
+> 使用 `红-黑 树` 存储元素
+
+> 按元素值排序
   
   ![TreeMap](../image/javase/diagram/TreeMap.png)
   
@@ -130,7 +164,13 @@
   
   ![IdentityHashMap](../image/javase/diagram/IdentityHashMap.png)
 
+### Iterator / ListIterator
+
+- `Iterator`
+- `ListIterator`
+
+  ![ListIterator](../image/javase/diagram/ListIterator.png)
+
 ### Utils
 - `Collections`
 - `Arrays`
-- `Iterable`
