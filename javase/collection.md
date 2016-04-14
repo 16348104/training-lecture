@@ -77,5 +77,6 @@
 
 > The `Java Collections Framework` is a collection of interfaces and classes which helps in storing and processing the data efficiently.
 
+- `Vector`
 - `ArrayList`
 - `LinkedList`
