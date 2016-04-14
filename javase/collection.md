@@ -72,4 +72,5 @@
         - size
         - clear
         - keySet
-5. *`集合框架`*
+5. 集合框架
+  - `ArrayList`
