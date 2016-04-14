@@ -77,6 +77,19 @@
 
 > The `Java Collections Framework` is a collection of interfaces and classes which helps in storing and processing the data efficiently.
 
+### Main Interfaces
+- `Iterable`
+- `Collection`
+  - `List`
+  
+  ![List](../image/javase/diagram/List.png)
+  
+  - `Set`
+  
+  ![Set](../image/javase/diagram/Set.png)
+  
+- `Map`
+
 ### List
 
 > 有序集合（序列）
