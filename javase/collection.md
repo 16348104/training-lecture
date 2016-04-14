@@ -77,6 +77,7 @@
 
 > The `Java Collections Framework` is a collection of interfaces and classes which helps in storing and processing the data efficiently.
 
+### List
 - `Vector`
   
   ![Vector](../image/javase/diagram/Vector.png)
@@ -89,6 +90,22 @@
   
   ![LinkedList](../image/javase/diagram/LinkedList.png)
   
+### Set
+- `HashSet`
+  
+  ![HashSet](../image/javase/diagram/HashSet.png)
+  
+- `LinkedHashSet`
+  
+  ![LinkedHashSet](../image/javase/diagram/LinkedHashSet.png)
+  
+- `TreeSet`
+  
+  ![TreeSet](../image/javase/diagram/TreeSet.png)
+  
+  
+### Map
+  
 - `Hashtable`
   
   ![Hashtable](../image/javase/diagram/Hashtable.png)
@@ -97,19 +114,23 @@
   
   ![HashMap](../image/javase/diagram/HashMap.png)
   
-- `WeakHashMap`
+- `LinkedHashMap`
   
-  ![WeakHashMap](../image/javase/diagram/WeakHashMap.png)
-  
-- `IdentityHashMap`
-  
-  ![IdentityHashMap](../image/javase/diagram/IdentityHashMap.png)
+  ![LinkedHashMap](../image/javase/diagram/LinkedHashMap.png)
   
 - `TreeMap`
   
   ![TreeMap](../image/javase/diagram/TreeMap.png)
   
+- ~~`WeakHashMap`~~
+  
+  ![WeakHashMap](../image/javase/diagram/WeakHashMap.png)
+  
+- ~~`IdentityHashMap`~~
+  
+  ![IdentityHashMap](../image/javase/diagram/IdentityHashMap.png)
 
+### Utils
 - `Collections`
 - `Arrays`
 - `Iterable`
