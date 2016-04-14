@@ -78,5 +78,38 @@
 > The `Java Collections Framework` is a collection of interfaces and classes which helps in storing and processing the data efficiently.
 
 - `Vector`
+  
+  ![Vector](../image/javase/diagram/Vector.png)
+  
 - `ArrayList`
+  
+  ![ArrayList](../image/javase/diagram/ArrayList.png)
+  
 - `LinkedList`
+  
+  ![LinkedList](../image/javase/diagram/LinkedList.png)
+  
+- `Hashtable`
+  
+  ![Hashtable](../image/javase/diagram/Hashtable.png)
+  
+- `HashMap`
+  
+  ![HashMap](../image/javase/diagram/HashMap.png)
+  
+- `WeakHashMap`
+  
+  ![WeakHashMap](../image/javase/diagram/WeakHashMap.png)
+  
+- `IdentityHashMap`
+  
+  ![IdentityHashMap](../image/javase/diagram/IdentityHashMap.png)
+  
+- `TreeMap`
+  
+  ![TreeMap](../image/javase/diagram/TreeMap.png)
+  
+
+- `Collections`
+- `Arrays`
+- `Iterable`
