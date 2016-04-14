@@ -17,8 +17,8 @@
         - 类的定义
         ```java
         [public] class 类名
-        [<类型参数列表>]
-        [类型参数列表 extends 父类型 & 父类型 & ...]
+        [<类型参数列表 extends 父类型名 & 父类型名 & ...>]
+        [extends 父类名]
         [implents 接口名列表] {
             // 类体
         }
@@ -160,8 +160,8 @@
     - 接口的定义
     ```java
     [public] interface 接口名
-    [<类型参数列表 extends 父类型 & 父类型 & ...>]
-    [extends 接口名称列表] {
+    [<类型参数列表 extends 父类型名 & 父类型名 & ...>]
+    [extends 父接口名列表] {
         // 接口体
     }
     ```
