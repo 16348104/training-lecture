@@ -197,7 +197,7 @@
 
   ![ListIterator](../image/javase/diagram/ListIterator.png)
 
-#### Iterator vs ListIetrator
+#### Iterator Vs ListIetrator
 
 - Iterator 可用于遍历 List 和 Set
 
@@ -218,6 +218,7 @@
 - 使用 Iterator 时不能替换元素
 
   > 使用 ListIterator 可以使用 set() 方法替换元素
+
 
 - Iterator 的常用方法
   - hasNext()
