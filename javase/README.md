@@ -15,13 +15,13 @@
 > Outline
 
 1. [引言](intro.md)
-2. 语言基础
-3. 面向对象
-4. 集合类
-5. 泛型
-6. 异常
-7. IO
-8. 附：练习题
+2. [语言基础](basic.md)
+3. [面向对象](oop.md)
+4. [集合](collection.md)
+5. [泛型](generics.md)
+6. [异常](exception.md)
+7. [IO](io.md)
+8. 附：[练习题](exercise.md)
 
 > 补充内容
 
