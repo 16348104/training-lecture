@@ -239,6 +239,9 @@
 
 ### Utils
 - `Collections`
+    - reverse()
+    - sort()
+    - singletonList() // compare with Arrays.asList()
 - `Arrays`
     - asList()
     - binarySearch()
