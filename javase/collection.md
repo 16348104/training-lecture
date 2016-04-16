@@ -240,3 +240,11 @@
 ### Utils
 - `Collections`
 - `Arrays`
+    - asList()
+    - binarySearch()
+    - copyOf()
+    - copyOfRange()
+    - equals()
+    - fill()
+    - sort()
+    - toString()
