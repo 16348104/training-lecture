@@ -48,5 +48,20 @@
     - 异常的处理方式
         - 输出异常信息 `e.printStackTrace();`
         - 退出程序 `System.exit(0)`
+   
+   
+   > try-with-resource
+
+    > since JDK 7
+
+    ```java
+    try (RandomAccessFile randomAccessFile = new RandomAccessFile("path-to-a-file", "rw")){
+        System.out.println();
+    } catch (IOException e) {
+        e.printStackTrace();
+    } finally {
+        // ...
+    }
+    ```
         
-4. 显示抛出异常 `throw`
+4. 显式抛出异常 `throw`
