@@ -51,5 +51,20 @@
         - 输出异常信息 `e.printStackTrace();`
         - 退出程序 `System.exit(0)`
         - 针对特定异常的更积极的处理方式
-        
-4. 显示抛出异常 `throw`
+
+   
+    > try-with-resource
+
+    > since JDK 7
+
+    ```java
+    try (RandomAccessFile randomAccessFile = new RandomAccessFile("path-to-a-file", "rw")){
+        System.out.println();
+    } catch (IOException e) {
+        e.printStackTrace();
+    } finally {
+        // ...
+    }
+    ```
+    
+4. 显式抛出异常 `throw`
