@@ -53,18 +53,18 @@
         - 针对特定异常的更积极的处理方式
 
    
-    > try-with-resource
+> try-with-resource
 
-    > since JDK 7
+> since JDK 7
 
-    ```java
-    try (RandomAccessFile randomAccessFile = new RandomAccessFile("path-to-a-file", "rw")){
-        System.out.println();
-    } catch (IOException e) {
-        e.printStackTrace();
-    } finally {
-        // ...
-    }
-    ```
+```java
+try (RandomAccessFile randomAccessFile = new RandomAccessFile("path-to-a-file", "rw")){
+    System.out.println();
+} catch (IOException e) {
+    e.printStackTrace();
+} finally {
+    // ...
+}
+```
     
 4. 显式抛出异常 `throw`
