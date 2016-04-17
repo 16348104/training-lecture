@@ -1,5 +1,7 @@
 # Chapter 6 异常处理
 
+> An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions.
+
 1. 异常的产生
 
 2. 异常的分类
@@ -14,11 +16,11 @@
                 java.*.*Exception
     ```
 
-    - 非受检异常
+    - 非受检异常 `unchecked exception`
         
         > RuntimeException类及其子类是非受检异常
 
-    - 受检异常
+    - 受检异常 `checked exception`
     
         > Exception类中除了RuntimeException之外的其他异常类及其子类
     
@@ -48,5 +50,6 @@
     - 异常的处理方式
         - 输出异常信息 `e.printStackTrace();`
         - 退出程序 `System.exit(0)`
+        - 针对特定异常的更积极的处理方式
         
 4. 显示抛出异常 `throw`
