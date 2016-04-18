@@ -36,7 +36,6 @@
  - [环境配置](database/install.md)
  - [SQL](database/sql.md)
  - [设计](database/design.md)
- - [练习题](database/exercise.md)
 * [MISC](misc/README.md)
    * [IDEA](misc/idea.md)
    * [Git](misc/git.md)
