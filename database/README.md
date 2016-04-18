@@ -12,7 +12,8 @@
 
 > Outline
 
-1. 引言
-2. 数据库安装
-3. SQL 语言
-4. 附：数据库设计
+1. [引言](intro.md)
+2. [环境配置](install.md)
+3. [SQL](sql.md)
+4. [设计](design.md)
+4. [练习题](exercise.md)
