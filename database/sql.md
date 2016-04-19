@@ -53,27 +53,27 @@ SELECT * FROM some_table;
 - SQL 数据类型
 - SQL Create Table
 
-```sql
-CREATE TABLE table_name (
-  column_name1 data_type(size),
-  column_name2 data_type(size),
-  column_name3 data_type(size),
-  ....
-);
+  ```sql
+  CREATE TABLE table_name (
+    column_name1 data_type(size),
+    column_name2 data_type(size),
+    column_name3 data_type(size),
+    ....
+  );
 ```
 
 - SQL Drop
 
-```sql
--- Drop database
-DROP DATABASE database_name;
--- Drop table
-DROP TABLE table_name;
--- Drop index in MySQL
-ALTER TABLE table_name DROP INDEX index_name;
--- Truncate table
-TRUNCATE TABLE table_name;
-```
+  ```sql
+  -- Drop database
+  DROP DATABASE database_name;
+  -- Drop table
+  DROP TABLE table_name;
+  -- Drop index in MySQL
+  ALTER TABLE table_name DROP INDEX index_name;
+  -- Truncate table
+  TRUNCATE TABLE table_name;
+  ```
 
 - SQL Constraints
     - SQL Not Null
@@ -98,7 +98,20 @@ TRUNCATE TABLE table_name;
 
     - ~~SQL Check~~ `MySQL`
     - SQL Default
-- SQL Increment
+- SQL Auto Increment
+
+  ```sql
+  CREATE TABLE Persons (
+  ID int NOT NULL UNSIGNED AUTO_INCREMENT,
+  ...
+  PRIMARY KEY (ID)
+  )
+  ```
+
+  ```sql
+  ALTER TABLE Persons AUTO_INCREMENT = 100;
+  ```
+
 - SQL Alter    
 
 ```sql
