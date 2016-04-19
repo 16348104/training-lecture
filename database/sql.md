@@ -100,12 +100,17 @@ TRUNCATE TABLE table_name;
     - SQL Default
 - SQL Increment
 - SQL Alter    
+
+```sql
+
+```
+
 - SQL Create Index
 
 ```sql
-CREATE INDEX ind_test ON demo.table_test (test);
-SHOW INDEX FROM demo.table_test;
-DROP INDEX ind_test ON demo.table_test;
+CREATE INDEX ind_test ON demo.table_name (test);
+SHOW INDEX FROM demo.table_name;
+DROP INDEX ind_test ON demo.table_name;
 ```
 
 ### DML
