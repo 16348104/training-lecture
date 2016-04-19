@@ -358,109 +358,109 @@ SELECT * FROM some_table;
 
 ### DML
 
-  > Data Manipulate Language
+> Data Manipulate Language
 
-  - SQL insert
-  
-  ```sql
-  INSERT INTO table_name
-  VALUES (value1,value2,value3,...);
-  ```
-  ```sql
-  INSERT INTO table_name (column1,column2,column3,...)
-  VALUES (value1,value2,value3,...);
-  ```
-  
-  - SQL update
-  
-  ```sql
-  UPDATE table_name
-  SET column1=value1,column2=value2,...
-  WHERE some_column=some_value;
-  ```
-  
-  - SQL delete
-  
-  ```sql
-  DELETE FROM table_name
-  WHERE some_column=some_value;
-  ```
+- SQL insert
 
-  > temporarily disable a foreign key constraint in MySQL
+```sql
+INSERT INTO table_name
+VALUES (value1,value2,value3,...);
+```
+```sql
+INSERT INTO table_name (column1,column2,column3,...)
+VALUES (value1,value2,value3,...);
+```
 
-  ```sql
-  Try DISABLE KEYS or
+- SQL update
 
-  mysql>SET FOREIGN_KEY_CHECKS=0;
+```sql
+UPDATE table_name
+SET column1=value1,column2=value2,...
+WHERE some_column=some_value;
+```
 
-  make sure to
+- SQL delete
 
-  mysql>SET FOREIGN_KEY_CHECKS=1;
+```sql
+DELETE FROM table_name
+WHERE some_column=some_value;
+```
 
-  after.
-  ```
+> temporarily disable a foreign key constraint in MySQL
 
-  > MySQL dupm and import
+```sql
+Try DISABLE KEYS or
 
-  ```sql
-  dump:
-  mysqldump -u user -p database_name > file_name.sql
+mysql>SET FOREIGN_KEY_CHECKS=0;
 
-  import:
-  mysql>source file_name.sql
-  ```
+make sure to
+
+mysql>SET FOREIGN_KEY_CHECKS=1;
+
+after.
+```
+
+> MySQL dupm and import
+
+```sql
+dump:
+mysqldump -u user -p database_name > file_name.sql
+
+import:
+mysql>source file_name.sql
+```
 
 ### DQL
 
-  > Data Query Language
+> Data Query Language
 
-  - SQL select
-  - SQL distinct
-  - SQL where
+- SQL select
+- SQL distinct
+- SQL where
 
-  > 行检索
+> 行检索
 
-  - SQL AND & OR
-  - SQL Order By
-  - SQL Top `limit`
-  - SQL Like  
-  - SQL 通配符 `%` `_`
-  - SQL In
-  - SQL Between And
-  - SQL Aliases
-  - SQL Nulls
-      - `is null / is not null`
-  - SQL ifnull(,)    
-  - SQL Join
-  - SQL Inner Join
-  - SQL Left Join
-  - SQL Right Join
-  - ~~SQL Full Join~~   `union` 
-  - SQL Union
-  - SQL Select Into    
-  - SQL View
+- SQL AND & OR
+- SQL Order By
+- SQL Top `limit`
+- SQL Like  
+- SQL 通配符 `%` `_`
+- SQL In
+- SQL Between And
+- SQL Aliases
+- SQL Nulls
+    - `is null / is not null`
+- SQL ifnull(,)    
+- SQL Join
+- SQL Inner Join
+- SQL Left Join
+- SQL Right Join
+- ~~SQL Full Join~~   `union` 
+- SQL Union
+- SQL Select Into    
+- SQL View
 
-  > 被存储的查询
+> 被存储的查询
 
-  ```sql
-  CREATE [OR REPLACE] VIEW v_test
-    [AS]
-  SELECT * FROM test;
-  ```
-  ```sql
-  show tables;
+```sql
+CREATE [OR REPLACE] VIEW v_test
+  [AS]
+SELECT * FROM test;
+```
+```sql
+show tables;
 
-  show create view scott.v_test;
-  ```
+show create view scott.v_test;
+```
 
-  - 子查询
+- 子查询
 
-  > 查询的嵌套
+> 查询的嵌套
 
-  1. 简单视图
-      - 『简单查询』生成的，可以修改基表的数据
-  2. 复杂视图
-      - 『复杂查询』生成的，不可以修改基表的数据
+1. 简单视图
+    - `简单查询` 生成的，可以修改基表的数据
+2. 复杂视图
+    - `复杂查询` 生成的，不可以修改基表的数据
 
 ### DTL
 
