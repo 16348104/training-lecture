@@ -274,7 +274,14 @@ SELECT * FROM some_table;
   - 主键约束 `Primary Key`
 
   ```sql
-  id  int(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY ,  
+  CREATE TABLE Persons (
+    P_Id int NOT NULL,
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255),
+    PRIMARY KEY (P_Id)
+  )
   ```
 
   - SQL Foreign Key
