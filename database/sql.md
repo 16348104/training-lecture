@@ -8,7 +8,21 @@ SELECT * FROM some_table;
 
 1. SQL 关键字不区分大小写
 2. `;` 分号是区分语句的标志
-3. 常用的 SQL 语句
+3. MySQL 注释
+
+  ```sql
+  SELECT 1+1;     # This comment continues to the end of line
+  SELECT 1+1;     -- This comment continues to the end of line
+  SELECT 1 /* this is an in-line comment */ + 1;
+  SELECT 1+
+  /*
+  this is a
+  multiple-line comment
+  */
+  1;
+  ```
+
+4. 常用的 SQL 语句
   
   ```sql
   SELECT - extracts data from a database
@@ -30,9 +44,36 @@ SELECT * FROM some_table;
 > Data Defination Language
 
 - SQL Create DB
+
+  ```sql
+  CREATE DATABASE database_name;
+  ```
+
 - SQL 数据类型
 - SQL Create Table
+
+```sql
+CREATE TABLE table_name (
+  column_name1 data_type(size),
+  column_name2 data_type(size),
+  column_name3 data_type(size),
+  ....
+);
+```
+
 - SQL Drop
+
+```sql
+-- Drop database
+DROP DATABASE database_name;
+-- Drop table
+DROP TABLE table_name;
+-- Drop index in MySQL
+ALTER TABLE table_name DROP INDEX index_name;
+-- Truncate table
+TRUNCATE TABLE table_name;
+```
+
 - SQL Constraints
     - SQL Not Null
     - SQL Unique
