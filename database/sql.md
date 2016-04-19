@@ -372,7 +372,19 @@ SELECT * FROM some_table;
   ```
   
   - SQL update
+  
+  ```sql
+  UPDATE table_name
+  SET column1=value1,column2=value2,...
+  WHERE some_column=some_value;
+  ```
+  
   - SQL delete
+  
+  ```sql
+  DELETE FROM table_name
+  WHERE some_column=some_value;
+  ```
 
   > temporarily disable a foreign key constraint in MySQL
 
