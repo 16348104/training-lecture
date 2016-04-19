@@ -14,11 +14,11 @@
 3. 修改两处配置
 
   ```
-  File-Settings-Keymap
-  Main menu-Code-Completion-Basci
+  File - Settings - Keymap
+  Main menu - Code - Completion - Basci
   Add Keyboard Shortcut: Alt+斜杠
 
-  File-Settings-Editor-Code Completion
+  File - Settings - Editor - Code Completion
   Case sensitive completion: None
   ```
   
