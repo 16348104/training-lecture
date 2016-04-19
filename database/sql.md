@@ -102,7 +102,18 @@ TRUNCATE TABLE table_name;
 - SQL Alter    
 
 ```sql
+ALTER TABLE table_name
+ADD column_name datatype
+```
 
+```sql
+ALTER TABLE table_name
+DROP COLUMN column_name
+```
+
+```sql
+ALTER TABLE table_name
+MODIFY COLUMN column_name datatype
 ```
 
 - SQL Create Index
