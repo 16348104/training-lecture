@@ -452,6 +452,12 @@ mysql>source file_name.sql
   OR City='München';
   ```
   
+  ```sql
+  SELECT * FROM Customers
+  WHERE Country='Germany'
+  AND (City='Berlin' OR City='München');
+  ```
+  
 - SQL Order By
 - SQL Top `limit`
 - SQL Like  
