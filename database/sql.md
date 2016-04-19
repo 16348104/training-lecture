@@ -51,16 +51,162 @@ SELECT * FROM some_table;
   ```
 
 - SQL 数据类型 `todo`
-  1. Numeric Type Overview
-    - int
-    - double
-    - float
-  3. String Type Overview
-    - varchar
-    - char
-  2. Date and Time Type Overview
-    - date
-    - datetime
+ 
+> text, number, and Date/Time
+
+1. Text types
+<table>
+    <tr>
+      <th>Data type</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>CHAR(size)</td>
+      <td>Holds a fixed length string (can contain letters, numbers, and special 
+	  characters). The fixed size is specified in parenthesis. Can store up to 
+	  255 characters</td>
+    </tr>
+    <tr>
+      <td>VARCHAR(size)</td>
+      <td>Holds a variable length string (can contain letters, numbers, and 
+	  special characters). The maximum size is specified in parenthesis. Can 
+	  store up to 255 characters. <b>Note:</b> If you put a greater value than 
+	  255 it will be converted to a TEXT type</td>
+    </tr>
+    <tr>
+      <td>TINYTEXT</td>
+      <td>Holds a string with a maximum length of 255 characters</td>
+    </tr>
+    <tr>
+      <td>TEXT</td>
+      <td>Holds a string with a maximum length of 65,535 characters</td>
+    </tr>
+    <tr>
+      <td>BLOB</td>
+      <td>For BLOBs (Binary Large OBjects). Holds up to 65,535 bytes of data</td>
+    </tr>
+    <tr>
+      <td>MEDIUMTEXT</td>
+      <td>Holds a string with a maximum length of 16,777,215 characters</td>
+    </tr>
+    <tr>
+      <td>MEDIUMBLOB</td>
+      <td>For BLOBs (Binary Large OBjects). Holds up to 16,777,215 bytes of data</td>
+    </tr>
+    <tr>
+      <td>LONGTEXT</td>
+      <td>Holds a string with a maximum length of 4,294,967,295 characters</td>
+    </tr>
+    <tr>
+      <td>LONGBLOB</td>
+      <td>For BLOBs (Binary Large OBjects). Holds up to 4,294,967,295 bytes of 
+	  data</td>
+    </tr>
+    <tr>
+      <td>ENUM(x,y,z,etc.)</td>
+      <td>Let you enter a list of possible values. You can list up to 65535 
+	  values in an ENUM list. If a value is inserted that is not in the list, a 
+	  blank value will be inserted.<p><b>
+		Note:</b> The values are sorted in the order you enter them.</p>
+		<p>You enter the possible values in this format: ENUM('X','Y','Z')</td>
+    </tr>
+	<tr>
+      <td>SET</td>
+      <td>Similar to ENUM except that SET may contain up to 64 list items and 
+	  can store more than one choice</td>
+    </tr>
+</table>
+
+2. Number types
+<table>
+    <tr>
+      <th style="width:20%">Data type</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>TINYINT(size)</td>
+      <td>-128 to 127 normal. 0 to 255 UNSIGNED*. The maximum number of digits 
+	  may be specified in parenthesis</td>
+    </tr>
+    <tr>
+      <td>SMALLINT(size)</td>
+      <td>-32768 to 32767 normal. 0 to 65535 UNSIGNED*. The maximum number of 
+	  digits may be specified in parenthesis</td>
+    </tr>
+    <tr>
+      <td>MEDIUMINT(size)</td>
+      <td>-8388608 to 8388607 normal. 0 to 16777215 UNSIGNED*. The maximum 
+	  number of digits may be specified in parenthesis</td>
+    </tr>
+    <tr>
+      <td>INT(size)</td>
+      <td>-2147483648 to 2147483647 normal. 0 to 4294967295 UNSIGNED*. The 
+	  maximum number of digits may be specified in parenthesis</td>
+    </tr>
+    <tr>
+      <td>BIGINT(size)</td>
+      <td>-9223372036854775808 to 9223372036854775807 normal. 0 to 
+	  18446744073709551615 UNSIGNED*. The maximum number of digits may be 
+	  specified in parenthesis</td>
+    </tr>
+    <tr>
+      <td>FLOAT(size,d)</td>
+      <td>A small number with a floating decimal point. The maximum number of 
+	  digits may be specified in the size parameter. The maximum number of 
+	  digits to the right of the decimal point is specified in the d parameter</td>
+    </tr>
+    <tr>
+      <td>DOUBLE(size,d)</td>
+      <td>A large number with a floating decimal point. The maximum number of 
+	  digits may be specified in the size parameter. The maximum number of 
+	  digits to the right of the decimal point is specified in the d parameter</td>
+    </tr>
+    <tr>
+      <td>DECIMAL(size,d)</td>
+      <td>A DOUBLE stored as a string , allowing for a fixed decimal point. The 
+	  maximum number of digits may be specified in the size parameter. The 
+	  maximum number of digits to the right of the decimal point is specified in 
+	  the d parameter</td>
+    </tr>
+</table>
+
+3. Date types
+<table>
+    <tr>
+      <th>Data type</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>DATE()</td>
+      <td>A date. Format: YYYY-MM-DD<p><b>Note:</b> The supported range is from 
+	  '1000-01-01' to '9999-12-31'</p></td>
+    </tr>
+    <tr>
+      <td>DATETIME()</td>
+      <td>*A date and time combination. Format: YYYY-MM-DD HH:MI:SS<p><b>Note:</b> 
+	  The supported range is from '1000-01-01 00:00:00' to '9999-12-31 23:59:59'</p></td>
+    </tr>
+    <tr>
+      <td>TIMESTAMP()</td>
+      <td>*A timestamp. TIMESTAMP values are stored as the number of seconds 
+	  since the Unix epoch ('1970-01-01 00:00:00' UTC). Format: YYYY-MM-DD 
+	  HH:MI:SS<p><b>Note:</b> The supported range is from '1970-01-01 00:00:01' 
+	  UTC to '2038-01-09 03:14:07' UTC</p></td>
+    </tr>
+    <tr>
+      <td>TIME()</td>
+      <td>A time. Format: HH:MI:SS<p><b>Note:</b> The supported range is from 
+	  '-838:59:59' to '838:59:59'</p></td>
+    </tr>
+    <tr>
+      <td>YEAR()</td>
+      <td>A year in two-digit or four-digit format.<p>
+		<b>Note:</b> Values allowed in four-digit format: 1901 to 2155. Values 
+		allowed in two-digit format: 70 to 69, representing years from 1970 to 
+		2069</p></td>
+    </tr>
+</table>
+
 
 - SQL Create Table
 
