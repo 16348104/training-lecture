@@ -2,6 +2,27 @@
 
 ## 基础语法
 
+```sql
+SELECT * FROM some_table;
+```
+
+1. SQL 关键字不区分大小写
+2. `;` 分号是区分语句的标志
+3. 常用的 SQL 语句
+  
+  ```sql
+  SELECT - extracts data from a database
+  UPDATE - updates data in a database
+  DELETE - deletes data from a database
+  INSERT INTO - inserts new data into a database
+  CREATE DATABASE - creates a new database
+  ALTER DATABASE - modifies a database
+  CREATE TABLE - creates a new table
+  ALTER TABLE - modifies a table
+  DROP TABLE - deletes a table
+  CREATE INDEX - creates an index (search key)
+  DROP INDEX - deletes an index
+  ```
 
 ## SQL 语句
 ### DDL
