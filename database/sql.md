@@ -305,6 +305,17 @@ SELECT * FROM some_table;
   > [CHECK constraint in MySQL is not working](http://stackoverflow.com/questions/2115497/check-constraint-in-mysql-is-not-working)
 
   - SQL Default
+  
+  ```sql
+  CREATE TABLE Persons (
+    P_Id int NOT NULL,
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255) DEFAULT 'Sandnes'
+  )
+  ```
+  
 - SQL Auto Increment
 
   ```sql
