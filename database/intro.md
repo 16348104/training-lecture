@@ -1,5 +1,7 @@
 # Chapter 1 引言
 
+> Database - A container (usually a file or set of files) to store organized data.
+
 1. 历史发展
     - 人工管理
     - 文件管理
