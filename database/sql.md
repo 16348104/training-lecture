@@ -233,28 +233,66 @@ SELECT * FROM some_table;
   ```
 
 - SQL Constraints
-    - SQL Not Null
-    - SQL Unique
-    - SQL Primary Key
+  1. 约束创建时间
+    - 建表时创建
+    
+      ```sql
+      CREATE TABLE table_name (
+        column_name1 data_type(size) constraint_name,
+        column_name2 data_type(size) constraint_name,
+        column_name3 data_type(size) constraint_name,
+        ....
+      );
+      ```
+      
+    - 建表后追加 `todo`
+  - 非空约束 `Not Null`
+  
+  ```sql
+  CREATE TABLE PersonsNotNull (
+    P_Id int NOT NULL,
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+  )
+  ```
+  
+  - 唯一约束 `Unique`
+  
+  ```sql
+  CREATE TABLE Persons (
+    P_Id int NOT NULL,
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255),
+    CONSTRAINT uc_PersonID UNIQUE (P_Id,LastName)
+  )
+  ```
+  
+  - 主键约束 `Primary Key`
 
-          id  int(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY ,        
+  ```sql
+  id  int(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY ,  
+  ```
 
-    - SQL Foreign Key
-        - 主表 父表（主键所在的表） / 从表 子表（外键所在的表）
+  - SQL Foreign Key
+      - 主表 父表（主键所在的表） / 从表 子表（外键所在的表）
 
-        ```
-        [CONSTRAINT [symbol]] FOREIGN KEY
-            [index_name] (index_col_name, ...)
-            REFERENCES tbl_name (index_col_name,...)
-            [ON DELETE reference_option]
-            [ON UPDATE reference_option]
+      ```
+      [CONSTRAINT [symbol]] FOREIGN KEY
+          [index_name] (index_col_name, ...)
+          REFERENCES tbl_name (index_col_name,...)
+          [ON DELETE reference_option]
+          [ON UPDATE reference_option]
 
-        reference_option:
-            RESTRICT | CASCADE | SET NULL | NO ACTION
-        ```
+      reference_option:
+          RESTRICT | CASCADE | SET NULL | NO ACTION
+      ```
 
-    - ~~SQL Check~~ `MySQL`
-    - SQL Default
+  - ~~SQL Check~~ `MySQL`
+  - SQL Default
 - SQL Auto Increment
 
   ```sql
