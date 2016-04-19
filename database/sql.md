@@ -467,7 +467,21 @@ mysql>source file_name.sql
   ```
   
 - SQL Top `limit`
+
+  ```sql
+  SELECT column_name(s)
+  FROM table_name
+  LIMIT number;
+  ```
+  
 - SQL Like  
+
+  ```sql
+  SELECT column_name(s)
+  FROM table_name
+  WHERE column_name LIKE pattern;
+  ```
+  
 - SQL 通配符 `%` `_`
 - SQL In
 - SQL Between And
