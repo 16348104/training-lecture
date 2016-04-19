@@ -67,7 +67,7 @@ SELECT * FROM some_table;
 	  255 characters</td>
     </tr>
     <tr>
-      <td>VARCHAR(size)</td>
+      <td><b>VARCHAR(size)</b></td>
       <td>Holds a variable length string (can contain letters, numbers, and 
 	  special characters). The maximum size is specified in parenthesis. Can 
 	  store up to 255 characters. <b>Note:</b> If you put a greater value than 
@@ -139,7 +139,7 @@ SELECT * FROM some_table;
 	  number of digits may be specified in parenthesis</td>
     </tr>
     <tr>
-      <td>INT(size)</td>
+      <td><b>INT(size)</b></td>
       <td>-2147483648 to 2147483647 normal. 0 to 4294967295 UNSIGNED*. The 
 	  maximum number of digits may be specified in parenthesis</td>
     </tr>
@@ -156,7 +156,7 @@ SELECT * FROM some_table;
 	  digits to the right of the decimal point is specified in the d parameter</td>
     </tr>
     <tr>
-      <td>DOUBLE(size,d)</td>
+      <td><b>DOUBLE(size,d)</b></td>
       <td>A large number with a floating decimal point. The maximum number of 
 	  digits may be specified in the size parameter. The maximum number of 
 	  digits to the right of the decimal point is specified in the d parameter</td>
@@ -177,12 +177,12 @@ SELECT * FROM some_table;
       <th>Description</th>
     </tr>
     <tr>
-      <td>DATE()</td>
+      <td><b>DATE()</b></td>
       <td>A date. Format: YYYY-MM-DD<p><b>Note:</b> The supported range is from 
 	  '1000-01-01' to '9999-12-31'</p></td>
     </tr>
     <tr>
-      <td>DATETIME()</td>
+      <td><b>DATETIME()</b></td>
       <td>*A date and time combination. Format: YYYY-MM-DD HH:MI:SS<p><b>Note:</b> 
 	  The supported range is from '1000-01-01 00:00:00' to '9999-12-31 23:59:59'</p></td>
     </tr>
