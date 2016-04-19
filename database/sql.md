@@ -482,7 +482,7 @@ mysql>source file_name.sql
   WHERE column_name LIKE pattern;
   ```
   
-- SQL 通配符 `%` `_`
+- SQL 通配符 `%` `_` `[charlist]` `[^charlist]` `[!charlist]`
 - SQL In
 - SQL Between And
 - SQL Aliases
