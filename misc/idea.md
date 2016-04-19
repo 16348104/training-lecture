@@ -11,7 +11,18 @@
   idea.log.path=${idea.system.path}/log
   ```
 
-3. IDEA key map reference
+3. 修改两处配置
+
+  ```
+  File-Settings-Keymap
+  Main menu-Code-Completion-Basci
+  Add Keyboard Shortcut: Alt+斜杠
+
+  File-Settings-Editor-Code Completion
+  Case sensitive completion: None
+  ```
+  
+4. IDEA key map reference
   
     [http://thu.github.io/IDEA/](http://thu.github.io/IDEA/)
     
