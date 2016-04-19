@@ -3,11 +3,12 @@
 ## 基础语法
 
 ```sql
+-- a SQL statement
 SELECT * FROM some_table;
 ```
 
 1. SQL 关键字不区分大小写
-2. `;` 分号是区分语句的标志
+2. 分号 `;` 是区分语句的标志
 3. MySQL 注释
 
   ```sql
