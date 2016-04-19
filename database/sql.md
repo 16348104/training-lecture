@@ -362,53 +362,54 @@ SELECT * FROM some_table;
 
 - SQL insert
 
-```sql
-INSERT INTO table_name
-VALUES (value1,value2,value3,...);
-```
-```sql
-INSERT INTO table_name (column1,column2,column3,...)
-VALUES (value1,value2,value3,...);
-```
+  ```sql
+  INSERT INTO table_name
+  VALUES (value1,value2,value3,...);
+  ```
+
+  ```sql
+  INSERT INTO table_name (column1,column2,column3,...)
+  VALUES (value1,value2,value3,...);
+  ```
 
 - SQL update
 
-```sql
-UPDATE table_name
-SET column1=value1,column2=value2,...
-WHERE some_column=some_value;
-```
+  ```sql
+  UPDATE table_name
+  SET column1=value1,column2=value2,...
+  WHERE some_column=some_value;
+  ```
 
 - SQL delete
 
-```sql
-DELETE FROM table_name
-WHERE some_column=some_value;
-```
+  ```sql
+  DELETE FROM table_name
+  WHERE some_column=some_value;
+  ```
 
-> temporarily disable a foreign key constraint in MySQL
+  > temporarily disable a foreign key constraint in MySQL
 
-```sql
-Try DISABLE KEYS or
+  ```sql
+  Try DISABLE KEYS or
 
-mysql>SET FOREIGN_KEY_CHECKS=0;
+  mysql>SET FOREIGN_KEY_CHECKS=0;
 
-make sure to
+  make sure to
 
-mysql>SET FOREIGN_KEY_CHECKS=1;
+  mysql>SET FOREIGN_KEY_CHECKS=1;
 
-after.
-```
+  after.
+  ```
 
-> MySQL dupm and import
+  > MySQL dupm and import
 
-```sql
-dump:
-mysqldump -u user -p database_name > file_name.sql
+  ```sql
+  dump:
+  mysqldump -u user -p database_name > file_name.sql
 
-import:
-mysql>source file_name.sql
-```
+  import:
+  mysql>source file_name.sql
+  ```
 
 ### DQL
 
