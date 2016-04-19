@@ -248,55 +248,56 @@ SELECT * FROM some_table;
     - 建表后追加 `todo`
   - 非空约束 `Not Null`
   
-  ```sql
-  CREATE TABLE PersonsNotNull (
-    P_Id int NOT NULL,
-    LastName varchar(255) NOT NULL,
-    FirstName varchar(255),
-    Address varchar(255),
-    City varchar(255)
-  )
-  ```
+    ```sql
+    CREATE TABLE PersonsNotNull (
+      P_Id int NOT NULL,
+      LastName varchar(255) NOT NULL,
+      FirstName varchar(255),
+      Address varchar(255),
+      City varchar(255)
+    )
+    ```
   
   - 唯一约束 `Unique`
   
-  ```sql
-  CREATE TABLE Persons (
-    P_Id int NOT NULL,
-    LastName varchar(255) NOT NULL,
-    FirstName varchar(255),
-    Address varchar(255),
-    City varchar(255),
-    CONSTRAINT uc_PersonID UNIQUE (P_Id,LastName)
-  )
-  ```
+    ```sql
+    CREATE TABLE Persons (
+      P_Id int NOT NULL,
+      LastName varchar(255) NOT NULL,
+      FirstName varchar(255),
+      Address varchar(255),
+      City varchar(255),
+      CONSTRAINT uc_PersonID UNIQUE (P_Id,LastName)
+    )
+    ```
   
   - 主键约束 `Primary Key`
 
-  ```sql
-  CREATE TABLE Persons (
-    P_Id int NOT NULL,
-    LastName varchar(255) NOT NULL,
-    FirstName varchar(255),
-    Address varchar(255),
-    City varchar(255),
-    PRIMARY KEY (P_Id)
-  )
-  ```
+    ```sql
+    CREATE TABLE Persons (
+      P_Id int NOT NULL,
+      LastName varchar(255) NOT NULL,
+      FirstName varchar(255),
+      Address varchar(255),
+      City varchar(255),
+      PRIMARY KEY (P_Id)
+    )
+    ```
 
   - SQL Foreign Key
-      - 主表 父表（主键所在的表） / 从表 子表（外键所在的表）
+    - 主表 父表（主键所在的表）
+    - 从表 子表（外键所在的表）
 
-      ```
-      [CONSTRAINT [symbol]] FOREIGN KEY
-          [index_name] (index_col_name, ...)
-          REFERENCES tbl_name (index_col_name,...)
-          [ON DELETE reference_option]
-          [ON UPDATE reference_option]
+    ```
+    [CONSTRAINT [symbol]] FOREIGN KEY
+        [index_name] (index_col_name, ...)
+        REFERENCES tbl_name (index_col_name,...)
+        [ON DELETE reference_option]
+        [ON UPDATE reference_option]
 
-      reference_option:
-          RESTRICT | CASCADE | SET NULL | NO ACTION
-      ```
+    reference_option:
+        RESTRICT | CASCADE | SET NULL | NO ACTION
+    ```
 
   - ~~SQL Check~~ `MySQL`
   
@@ -304,7 +305,7 @@ SELECT * FROM some_table;
   
   > [CHECK constraint in MySQL is not working](http://stackoverflow.com/questions/2115497/check-constraint-in-mysql-is-not-working)
 
-  - SQL Default
+  - 缺省值 `Default`
   
   ```sql
   CREATE TABLE Persons (
@@ -332,28 +333,28 @@ SELECT * FROM some_table;
 
 - SQL Alter    
 
-```sql
-ALTER TABLE table_name
-ADD column_name datatype
-```
+  ```sql
+  ALTER TABLE table_name
+  ADD column_name datatype
+  ```
 
-```sql
-ALTER TABLE table_name
-DROP COLUMN column_name
-```
+  ```sql
+  ALTER TABLE table_name
+  DROP COLUMN column_name
+  ```
 
-```sql
-ALTER TABLE table_name
-MODIFY COLUMN column_name datatype
-```
+  ```sql
+  ALTER TABLE table_name
+  MODIFY COLUMN column_name datatype
+  ```
 
 - SQL Create Index
 
-```sql
-CREATE INDEX ind_test ON demo.table_name (test);
-SHOW INDEX FROM demo.table_name;
-DROP INDEX ind_test ON demo.table_name;
-```
+  ```sql
+  CREATE INDEX ind_test ON demo.table_name (test);
+  SHOW INDEX FROM demo.table_name;
+  DROP INDEX ind_test ON demo.table_name;
+  ```
 
 ### DML
 
