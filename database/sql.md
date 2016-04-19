@@ -27,44 +27,44 @@ SELECT * FROM some_table;
 ## SQL 语句
 ### DDL
 
-  > Data Defination Language
+> Data Defination Language
 
-  - SQL Create DB
-  - SQL 数据类型
-  - SQL Create Table
-  - SQL Drop
-  - SQL Constraints
-      - SQL Not Null
-      - SQL Unique
-      - SQL Primary Key
+- SQL Create DB
+- SQL 数据类型
+- SQL Create Table
+- SQL Drop
+- SQL Constraints
+    - SQL Not Null
+    - SQL Unique
+    - SQL Primary Key
 
-            id  int(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY ,        
+          id  int(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY ,        
 
-      - SQL Foreign Key
-          - 主表 父表（主键所在的表） / 从表 子表（外键所在的表）
+    - SQL Foreign Key
+        - 主表 父表（主键所在的表） / 从表 子表（外键所在的表）
 
-          ```
-          [CONSTRAINT [symbol]] FOREIGN KEY
-              [index_name] (index_col_name, ...)
-              REFERENCES tbl_name (index_col_name,...)
-              [ON DELETE reference_option]
-              [ON UPDATE reference_option]
+        ```
+        [CONSTRAINT [symbol]] FOREIGN KEY
+            [index_name] (index_col_name, ...)
+            REFERENCES tbl_name (index_col_name,...)
+            [ON DELETE reference_option]
+            [ON UPDATE reference_option]
 
-          reference_option:
-              RESTRICT | CASCADE | SET NULL | NO ACTION
-          ```
+        reference_option:
+            RESTRICT | CASCADE | SET NULL | NO ACTION
+        ```
 
-      - ~~SQL Check~~ `MySQL`
-      - SQL Default
-  - SQL Increment
-  - SQL Alter    
-  - SQL Create Index
+    - ~~SQL Check~~ `MySQL`
+    - SQL Default
+- SQL Increment
+- SQL Alter    
+- SQL Create Index
 
-  ```sql
-  CREATE INDEX ind_test ON demo.table_test (test);
-  SHOW INDEX FROM demo.table_test;
-  DROP INDEX ind_test ON demo.table_test;
-  ```
+```sql
+CREATE INDEX ind_test ON demo.table_test (test);
+SHOW INDEX FROM demo.table_test;
+DROP INDEX ind_test ON demo.table_test;
+```
 
 ### DML
 
