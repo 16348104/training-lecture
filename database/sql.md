@@ -484,10 +484,36 @@ mysql>source file_name.sql
   
 - SQL 通配符 `%` `_` `[charlist]` `[^charlist]` `[!charlist]`
 - SQL In
+
+  ```sql
+  SELECT column_name(s)
+  FROM table_name
+  WHERE column_name IN (value1,value2,...);
+  ```
+  
 - SQL Between And
+
+  ```sql
+  SELECT column_name(s)
+  FROM table_name
+  WHERE column_name BETWEEN value1 AND value2;
+  ```
+  
 - SQL Aliases
+
+  ```sql
+  SELECT column_name AS alias_name
+  FROM table_name;
+  ```
+  
+  ``sql
+  SELECT column_name(s)
+  FROM table_name AS alias_name`
+  ```
+  
 - SQL Nulls
-    - `is null / is not null`
+    - `is null`
+    - `is not null`
 - SQL ifnull(,)    
 - SQL Join
 - SQL Inner Join
