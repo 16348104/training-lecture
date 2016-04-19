@@ -459,6 +459,13 @@ mysql>source file_name.sql
   ```
   
 - SQL Order By
+
+  ```sql
+  SELECT column_name, column_name
+  FROM table_name
+  ORDER BY column_name ASC|DESC, column_name ASC|DESC;
+  ```
+  
 - SQL Top `limit`
 - SQL Like  
 - SQL 通配符 `%` `_`
