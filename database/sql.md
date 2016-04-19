@@ -50,7 +50,18 @@ SELECT * FROM some_table;
   CREATE DATABASE database_name;
   ```
 
-- SQL 数据类型
+- SQL 数据类型 `todo`
+  1. Numeric Type Overview
+    - int
+    - double
+    - float
+  3. String Type Overview
+    - varchar
+    - char
+  2. Date and Time Type Overview
+    - date
+    - datetime
+
 - SQL Create Table
 
   ```sql
