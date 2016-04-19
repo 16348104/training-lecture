@@ -305,6 +305,7 @@ SELECT * FROM some_table;
   
   > [CHECK constraint in MySQL is not working](http://stackoverflow.com/questions/2115497/check-constraint-in-mysql-is-not-working)
 
+
   - 缺省值 `Default`
   
   ```sql
