@@ -299,6 +299,11 @@ SELECT * FROM some_table;
       ```
 
   - ~~SQL Check~~ `MySQL`
+  
+  >  The CHECK clause is parsed but ignored by all storage engines.
+  
+  > [CHECK constraint in MySQL is not working](http://stackoverflow.com/questions/2115497/check-constraint-in-mysql-is-not-working)
+
   - SQL Default
 - SQL Auto Increment
 
