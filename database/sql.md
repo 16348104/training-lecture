@@ -415,12 +415,43 @@ mysql>source file_name.sql
 > Data Query Language
 
 - SQL select
+
+  ```sql
+  SELECT column_name,column_name
+  FROM table_name;
+  ```
+
 - SQL distinct
+
+  ```sql
+  SELECT DISTINCT column_name,column_name
+  FROM table_name;
+  ```
+
 - SQL where
+  
+  ```sql
+  SELECT column_name,column_name
+  FROM table_name
+  WHERE column_name operator value;
+  ```
 
 > 行检索
 
 - SQL AND & OR
+
+  ```sql
+  SELECT * FROM Customers
+  WHERE Country='Germany'
+  AND City='Berlin';
+  ```
+  
+  ```sql
+  SELECT * FROM Customers
+  WHERE City='Berlin'
+  OR City='München';
+  ```
+  
 - SQL Order By
 - SQL Top `limit`
 - SQL Like  
