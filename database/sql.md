@@ -347,6 +347,25 @@ SELECT * FROM some_table;
   ALTER TABLE table_name
   MODIFY COLUMN column_name datatype
   ```
+  
+  ```sql
+  ALTER TABLE table_name 
+  ADD CONSTRAINT primary_key_name PRIMARY KEY(columns);
+  ```
+  
+  ```sql
+  ALTER TABLE table_name
+  ADD CONSTRAINT
+  FOREIGN KEY foreign_key_name(columns)
+  REFERENCES parent_table(columns)
+  ON DELETE action
+  ON UPDATE action;
+  ```
+  
+  ```sql
+  ALTER TABLE table_name 
+  DROP FOREIGN KEY constraint_name;
+  ```
 
 - SQL Create Index
 
