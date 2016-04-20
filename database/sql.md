@@ -431,12 +431,16 @@ SELECT * FROM some_table;
 
   > MySQL dupm and import
 
+  - import
+  
   ```sql
-  dump:
-  mysqldump -u user -p database_name > file_name.sql
+  mysql> source file_name.sql
+  ```
+  - dump
+  
+  ```
+  mysqldump -B -u your_mysql_username -p database_name > file_name.sql
 
-  import:
-  mysql>source file_name.sql
   ```
 
 ### DQL
