@@ -26,17 +26,18 @@
   - Hive
 
 
-   > DBMS Ranking 2016
+  > [DB-Engines Ranking](http://db-engines.com/en/ranking)
    
-   ![DBMS Ranking 2016](../image/database/db-ranking.png)
+  ![DBMS Ranking 2016](../image/database/db-ranking.png)
 
-3. RDBMS
+
+  - RDBMS
 
     > Relational Database Management System 关系型数据库管理系统
     
     > Entity Relationship
     
-4. NoSQL
+  - NoSQL
     
     > key - value
     
