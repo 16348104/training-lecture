@@ -581,7 +581,7 @@ show create view scott.v_test;
 
 ### DTL
 
-  > Data Transaction Language 事务处理
+  > Data Transaction Language
 
   > ACID
 
