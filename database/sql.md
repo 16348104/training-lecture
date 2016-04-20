@@ -299,26 +299,25 @@ SELECT * FROM some_table;
         RESTRICT | CASCADE | SET NULL | NO ACTION
     ```
 
-  - ~~SQL Check~~ `MySQL`
-  
-  >  The CHECK clause is parsed but ignored by all storage engines.
-  
-  > [CHECK constraint in MySQL is not working](http://stackoverflow.com/questions/2115497/check-constraint-in-mysql-is-not-working)
-
-
   - 缺省值 `Default`
   
-  ```sql
-  CREATE TABLE Persons (
-    P_Id int NOT NULL,
-    LastName varchar(255) NOT NULL,
-    FirstName varchar(255),
-    Address varchar(255),
-    City varchar(255) DEFAULT 'Sandnes'
-  )
-  ```
+    ```sql
+    CREATE TABLE Persons (
+      P_Id int NOT NULL,
+      LastName varchar(255) NOT NULL,
+      FirstName varchar(255),
+      Address varchar(255),
+      City varchar(255) DEFAULT 'Sandnes'
+    )
+    ```
+
+  - ~~SQL Check~~ `MySQL`
   
-- SQL Auto Increment
+    >  The CHECK clause is parsed but ignored by all storage engines.
+
+    > [CHECK constraint in MySQL is not working](http://stackoverflow.com/questions/2115497/check-constraint-in-mysql-is-not-working)
+  
+- Auto Increment
 
   ```sql
   CREATE TABLE Persons (
@@ -332,7 +331,7 @@ SELECT * FROM some_table;
   ALTER TABLE Persons AUTO_INCREMENT = 100;
   ```
 
-- SQL Alter    
+- Alter    
 
   ```sql
   ALTER TABLE table_name
