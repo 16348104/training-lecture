@@ -7,20 +7,34 @@
     - 数据库
         - 不适于超大规模数据
         - 不适于超大规模并发
-2. 数据库
+2. DBMS
+  - Oracle
+  - MySQL
+  - SQL Server
+  - `MongoDB`
+  - PostgreSQL
+  - DB2
+  - Access
+  - `Cassandra`
+  - `Redis`
+  - SQLite
+  - `Elasticsearch`
+  - SAP Adaptive Server
+  - Teradata
+  - `Solr`
+  - `HBase`
+  - Hive
+
+
+   > DBMS Ranking 2016
+   
+   ![DBMS Ranking 2016](../image/database/db-ranking.png)
+
 3. RDBMS
 
     > Relational Database Management System 关系型数据库管理系统
     
     > Entity Relationship
-    
-    - Oracle
-    - MySQL
-    - SQL Server
-    - PostgreSQL
-    - DB2
-    - Access
-    - SQLite
     
 4. NoSQL
     
