@@ -19,6 +19,11 @@
     DOS
     C:\Users\Administrator>edit .gitconfig
     
+    输入：
+    [user]
+       name = your_github_username
+       email = your_github_email
+    
     或：
     
     d:
@@ -28,8 +33,7 @@
     git config --global user.email = your github email
     git config -- global user.name = you github username
     ```
-  
-  - VCS - Import into Version Control - Share Project on GitHub
+
   - 创建 .gitignore 文件
     
     ```
@@ -37,7 +41,11 @@
 
     *.iml
     ```
+      
+  - VCS - Import into Version Control - Share Project on GitHub
   - Share - OK
+  
+  
 5. Git 相关快捷键
   - `Ctrl + T` Update
   - `Ctrl + K` Commit / Push
