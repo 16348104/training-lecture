@@ -335,17 +335,17 @@ SELECT * FROM some_table;
 
   ```sql
   ALTER TABLE table_name
-  ADD column_name datatype
+  ADD column_name datatype;
   ```
 
   ```sql
   ALTER TABLE table_name
-  DROP COLUMN column_name
+  DROP COLUMN column_name;
   ```
 
   ```sql
   ALTER TABLE table_name
-  MODIFY COLUMN column_name datatype
+  MODIFY COLUMN column_name datatype;
   ```
   
   ```sql
@@ -356,7 +356,8 @@ SELECT * FROM some_table;
   ```sql
   ALTER TABLE table_name
   ADD CONSTRAINT
-  FOREIGN KEY foreign_key_name(columns)
+  foreign_key_name
+  FOREIGN KEY (columns)
   REFERENCES parent_table(columns)
   ON DELETE action
   ON UPDATE action;
@@ -366,13 +367,17 @@ SELECT * FROM some_table;
   ALTER TABLE table_name 
   DROP FOREIGN KEY constraint_name;
   ```
+  
+  ```sql
+  ALTER TABLE table_name DROP INDEX unique_column_name;
+  ```
 
 - Index
 
   ```sql
-  CREATE INDEX ind_test ON demo.table_name (test);
-  SHOW INDEX FROM demo.table_name;
-  DROP INDEX ind_test ON demo.table_name;
+  CREATE INDEX ind_column ON table_name(column);
+  SHOW INDEX FROM table_name;
+  DROP INDEX ind_column ON table_name;
   ```
 
 ### DML
