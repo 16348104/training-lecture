@@ -50,11 +50,11 @@ SELECT * FROM some_table;
   CREATE DATABASE database_name;
   ```
 
-- SQL 数据类型 `todo`
+- SQL 数据类型
  
-> text, number, and Date/Time
+  > text, number, and Date/Time
 
-1. Text types
+  1. Text types
 <table>
     <tr>
       <th>Data type</th>
@@ -117,7 +117,7 @@ SELECT * FROM some_table;
     </tr>
 </table>
 
-2. Number types
+  2. Number types
 <table>
     <tr>
       <th style="width:20%">Data type</th>
@@ -170,7 +170,7 @@ SELECT * FROM some_table;
     </tr>
 </table>
 
-3. Date types
+  3. Date types
 <table>
     <tr>
       <th>Data type</th>
@@ -462,14 +462,14 @@ SELECT * FROM some_table;
   ```
 
 - SQL where
+
+  > 行检索
   
   ```sql
   SELECT column_name,column_name
   FROM table_name
   WHERE column_name operator value;
   ```
-
-> 行检索
 
 - SQL AND & OR
 
