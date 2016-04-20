@@ -515,7 +515,12 @@ SELECT * FROM some_table;
   WHERE column_name LIKE pattern;
   ```
   
-- SQL 通配符 `%` `_` `[charlist]` `[^charlist]` `[!charlist]`
+- SQL 通配符 
+  - `%`
+  - `_`
+ 
+- MySQL RLIKE
+
 - SQL In
 
   ```sql
@@ -543,7 +548,6 @@ SELECT * FROM some_table;
   SELECT column_name(s)
   FROM table_name AS alias_name`
   ```
-  
 - SQL Nulls
     - `is null`
     - `is not null`
