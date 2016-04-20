@@ -367,7 +367,7 @@ SELECT * FROM some_table;
   DROP FOREIGN KEY constraint_name;
   ```
 
-- SQL Create Index
+- Index
 
   ```sql
   CREATE INDEX ind_test ON demo.table_name (test);
@@ -379,7 +379,7 @@ SELECT * FROM some_table;
 
 > Data Manipulate Language
 
-- SQL insert
+- Insert
 
   ```sql
   INSERT INTO table_name
@@ -391,7 +391,7 @@ SELECT * FROM some_table;
   VALUES (value1,value2,value3,...);
   ```
 
-- SQL update
+- Update
 
   ```sql
   UPDATE table_name
@@ -399,7 +399,7 @@ SELECT * FROM some_table;
   WHERE some_column=some_value;
   ```
 
-- SQL delete
+- Delete
 
   ```sql
   DELETE FROM table_name
