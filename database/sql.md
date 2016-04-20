@@ -379,6 +379,10 @@ SELECT * FROM some_table;
   SHOW INDEX FROM table_name;
   DROP INDEX ind_column ON table_name;
   ```
+  
+  - primary key > index
+  - foreign key > index (only for INNODB)
+      > [Does MySQL index foreign key columns automatically?](http://stackoverflow.com/questions/304317/does-mysql-index-foreign-key-columns-automatically)
 
 ### DML
 
