@@ -637,11 +637,14 @@ SELECT * FROM some_table;
 
   > 被存储的查询
  
-  1. 简单视图
+  1. 简单视图 `updateable view`
       - `简单查询` 生成的，可以修改基表的数据
-  2. 复杂视图
+        - 单表查询
+        - 没有使用函数，计算
+        - 没有使用分组查询
+        - 没有使用 `DISTINCT`
+  2. 复杂视图 `read-only view`
       - `复杂查询` 生成的，不可以修改基表的数据
-
   ```sql
   CREATE [OR REPLACE] VIEW view_name AS
   SELECT column_name(s)
