@@ -621,7 +621,8 @@ SELECT * FROM some_table;
 - SQL Select Into  
 
   ```sql
-  CREATE TABLE new_table_name SELECT * FROM original_table_name;
+  CREATE TABLE new_table_name
+  SELECT * FROM original_table_name;
   ```
 - SQL Insert Into Select
 
