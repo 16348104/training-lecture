@@ -655,7 +655,7 @@ SELECT * FROM some_table;
   ```
 
 
-- 子查询
+- 子查询 `Sub Queries`
 
   > 查询的嵌套
 
