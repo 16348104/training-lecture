@@ -621,9 +621,7 @@ SELECT * FROM some_table;
 - SQL Select Into  
 
   ```sql
-  SELECT column_name(s)
-  INTO newtable [IN externaldb]
-  FROM table1;
+  CREATE TABLE new_table_name SELECT * FROM original_table_name;
   ```
 - SQL Insert Into Select
 
