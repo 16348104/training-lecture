@@ -618,7 +618,7 @@ SELECT * FROM some_table;
   SELECT column_name(s) FROM table2;
   ```
   
-- SQL Select Into  
+- SQL Create Table Select  
 
   ```sql
   CREATE TABLE new_table_name
