@@ -609,11 +609,11 @@ SELECT * FROM some_table;
   
 - SQL Select Into  
 
-   ```sql
-   SELECT column_name(s)
+  ```sql
+  SELECT column_name(s)
   INTO newtable [IN externaldb]
   FROM table1;
-   ```
+  ```
 - SQL Insert Into Select
 
   ```sql
@@ -626,26 +626,33 @@ SELECT * FROM some_table;
 - SQL View
 
   > 被存储的查询
+ 
+  1. 简单视图
+      - `简单查询` 生成的，可以修改基表的数据
+  2. 复杂视图
+      - `复杂查询` 生成的，不可以修改基表的数据
 
   ```sql
-  CREATE [OR REPLACE] VIEW v_test
-    [AS]
-  SELECT * FROM test;
+  CREATE [OR REPLACE] VIEW view_name AS
+  SELECT column_name(s)
+  FROM table_name
+  WHERE condition;
   ```
   ```sql
-  show tables;
+  SHOW tables;
 
-  show create view scott.v_test;
+  SHOW CREATE VIEW view_name;
   ```
+  
+  ```sql
+  DROP VIEW view_name;
+  ```
+
 
 - 子查询
 
   > 查询的嵌套
 
-  1. 简单视图
-      - `简单查询` 生成的，可以修改基表的数据
-  2. 复杂视图
-      - `复杂查询` 生成的，不可以修改基表的数据
 
 ### DTL
 
