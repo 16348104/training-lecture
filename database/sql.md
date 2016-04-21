@@ -546,7 +546,7 @@ SELECT * FROM some_table;
   
   ```sql
   SELECT alias_name.column_name(s)
-  FROM table_name [AS] alias_name`
+  FROM table_name [AS] alias_name
   ```
 - SQL Nulls
 
