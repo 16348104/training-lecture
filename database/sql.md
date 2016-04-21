@@ -544,7 +544,7 @@ SELECT * FROM some_table;
   FROM table_name;
   ```
   
-  ``sql
+  ```sql
   SELECT alias_name.column_name(s)
   FROM table_name [AS] alias_name`
   ```
@@ -552,7 +552,7 @@ SELECT * FROM some_table;
 
     > `IS [NOT] NULL`
     
-- SQL IFNULL(,)    
+- SQL ifnull(,)    
 - SQL Join
 - SQL Inner Join
 
@@ -596,7 +596,14 @@ SELECT * FROM some_table;
   SELECT column_name(s) FROM table2;
   ```
   
-- SQL Select Into    
+- SQL Select Into  
+
+   ```sql
+   SELECT column_name(s)
+  INTO newtable [IN externaldb]
+  FROM table1;
+   ```
+- SQL Insert Into Select
 
   ```sql
   INSERT INTO table2
