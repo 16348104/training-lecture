@@ -519,7 +519,7 @@ SELECT * FROM some_table;
   - `%`
   - `_`
  
-- MySQL RLIKE
+- MySQL RLIKE REGEXP
 
 - SQL In
 
