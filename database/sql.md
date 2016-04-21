@@ -607,27 +607,27 @@ SELECT * FROM some_table;
   
 - SQL View
 
-> 被存储的查询
+  > 被存储的查询
 
-```sql
-CREATE [OR REPLACE] VIEW v_test
-  [AS]
-SELECT * FROM test;
-```
-```sql
-show tables;
+  ```sql
+  CREATE [OR REPLACE] VIEW v_test
+    [AS]
+  SELECT * FROM test;
+  ```
+  ```sql
+  show tables;
 
-show create view scott.v_test;
-```
+  show create view scott.v_test;
+  ```
 
 - 子查询
 
-> 查询的嵌套
+  > 查询的嵌套
 
-1. 简单视图
-    - `简单查询` 生成的，可以修改基表的数据
-2. 复杂视图
-    - `复杂查询` 生成的，不可以修改基表的数据
+  1. 简单视图
+      - `简单查询` 生成的，可以修改基表的数据
+  2. 复杂视图
+      - `复杂查询` 生成的，不可以修改基表的数据
 
 ### DTL
 
