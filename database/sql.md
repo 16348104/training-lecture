@@ -512,7 +512,7 @@ SELECT * FROM some_table;
   ```sql
   SELECT column_name(s)
   FROM table_name
-  WHERE column_name LIKE pattern;
+  WHERE column_name [NOT] LIKE pattern;
   ```
   
 - SQL 通配符 
@@ -526,7 +526,7 @@ SELECT * FROM some_table;
   ```sql
   SELECT column_name(s)
   FROM table_name
-  WHERE column_name IN (value1,value2,...);
+  WHERE column_name [NOT] IN (value1,value2,...);
   ```
   
 - SQL Between And
@@ -534,31 +534,77 @@ SELECT * FROM some_table;
   ```sql
   SELECT column_name(s)
   FROM table_name
-  WHERE column_name BETWEEN value1 AND value2;
+  WHERE column_name [NOT] BETWEEN value1 AND value2;
   ```
   
 - SQL Aliases
 
   ```sql
-  SELECT column_name AS alias_name
+  SELECT column_name [AS] alias_name
   FROM table_name;
   ```
   
   ``sql
-  SELECT column_name(s)
-  FROM table_name AS alias_name`
+  SELECT alias_name.column_name(s)
+  FROM table_name [AS] alias_name`
   ```
 - SQL Nulls
-    - `is null`
-    - `is not null`
-- SQL ifnull(,)    
+
+    > `IS [NOT] NULL`
+    
+- SQL IFNULL(,)    
 - SQL Join
 - SQL Inner Join
+
+  ```sql
+  SELECT column_name(s)
+  FROM table1
+  [INNER] JOIN table2
+  ON table1.column_name=table2.column_name;
+  ```
+  
 - SQL Left Join
+
+  ```sql
+  SELECT column_name(s)
+  FROM table1
+  LEFT [OUTER] JOIN table2
+  ON table1.column_name=table2.column_name;
+  ```
+  
 - SQL Right Join
+
+  ```sql
+  SELECT column_name(s)
+  FROM table1
+  RIGHT [OUTER] JOIN table2
+  ON table1.column_name=table2.column_name;
+  ```
+  
 - ~~SQL Full Join~~   `union` 
 - SQL Union
+
+  ```sql
+  SELECT column_name(s) FROM table1
+  UNION
+  SELECT column_name(s) FROM table2;
+  ```
+  
+  ```sql
+  SELECT column_name(s) FROM table1
+  UNION ALL
+  SELECT column_name(s) FROM table2;
+  ```
+  
 - SQL Select Into    
+
+  ```sql
+  INSERT INTO table2
+  (column_name(s))
+  SELECT column_name(s)
+  FROM table1;
+  ```
+  
 - SQL View
 
 > 被存储的查询
