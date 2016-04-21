@@ -376,7 +376,9 @@ SELECT * FROM some_table;
 
   ```sql
   CREATE INDEX ind_column ON table_name(column);
-  SHOW INDEX FROM table_name;
+  ```
+  
+  ```sql
   DROP INDEX ind_column ON table_name;
   ```
   
@@ -446,6 +448,15 @@ SELECT * FROM some_table;
 ### DQL
 
 > Data Query Language
+
+- MySQL SHOW
+  - SHOW DATABASES;
+  - SHOW TABLES;
+  - SHOW COLUMNS FROM table_name;
+  - SHOW VARIABLES;
+  - SHOW CREATE TABLE table_name;
+  - SHOW CREATE VIEW view_name;
+  - SHOW INDEX FROM table_name;
 
 - SQL select
 
@@ -637,11 +648,6 @@ SELECT * FROM some_table;
   SELECT column_name(s)
   FROM table_name
   WHERE condition;
-  ```
-  ```sql
-  SHOW tables;
-
-  SHOW CREATE VIEW view_name;
   ```
   
   ```sql
