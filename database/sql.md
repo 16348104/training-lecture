@@ -554,6 +554,17 @@ SELECT * FROM some_table;
     
 - SQL ifnull(,)    
 - SQL Join
+
+  > SQL joins are used to combine rows from two or more tables.
+ 
+  > 连接条件 = N - 1
+
+  1. INNER JOIN
+  2. LEFT JOIN
+  3. RIGHT JOIN
+  4. FULL JOIN
+
+
 - SQL Inner Join
 
   ```sql
