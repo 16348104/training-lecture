@@ -667,29 +667,31 @@ SELECT * FROM some_table;
 ### DTL
 
   > Data Transaction Language
-
-  > ACID
-
-  - 原子性（Atomicity）
-  - 一致性（Consistency）
-  - 隔离性（Isolation）
-  - 持久性（Durability）
-
-  ```sql
-  SET AUTOCOMMIT = 0;
-  SET AUTOCOMMIT = 1;
   
-  START TRANSACTION; # 开启一次事务
+  - 事务的 ACID 特性
+    - 原子性（Atomicity）
+    - 一致性（Consistency）
+    - 隔离性（Isolation）
+    - 持久性（Durability）
+  - 开启一次事务
+    - SET AUTOCOMMIT = 0;
+    - START TRANSACTION; # 
+  - 事务处理语句
+    - DML 语句 `insert` `update` `delete`
+    - DQL 语句与事务无关
+  - 显式结束事务
+    - COMMIT; # 提交 
+    - ROLLBACK; # 回滚
+  - 隐式结束事务
+    - DDL 语句
 
-  DML... 
-
-  COMMIT; # 提交
-  ROLLBACK; # 回滚
-  DDL 隐式结束事务
-
+  - 事务保留点
+  
+  ```sql
   SAVEPOINT save_point_name; # 设置保留点
-  ROLLBACK TO save_point_name; # 回滚到保留点
+  ROLLBACK TO save_point_name; # 回滚到保留点，不能结束事务
   ```
+
 
 ### SQL 函数
 
