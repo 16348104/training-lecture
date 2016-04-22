@@ -9,8 +9,8 @@
 ## Teaching Schedule
 
 
-<div style="margin-left: 25%; text-align: left; color: #666;">25% completed.</div>
-<span style="display: inline-block; height: 10px; width: 25%; background: #2196f3; border-top-left-radius: 3px; border-bottom-left-radius: 3px;"></span><span style="display: inline-block; margin: 0; ;height: 10px;  width: 75%; background: #ddd; border-top-right-radius: 3px; border-bottom-right-radius: 3px;"><span>
+<div style="margin-left: 31%; text-align: left; color: #666;">31% completed.</div>
+<span style="display: inline-block; height: 10px; width: 31%; background: #2196f3; border-top-left-radius: 3px; border-bottom-left-radius: 3px;"></span><span style="display: inline-block; margin: 0; ;height: 10px;  width: 69%; background: #ddd; border-top-right-radius: 3px; border-bottom-right-radius: 3px;"><span>
 
 No.|Course|Time(days)|Date
 ---|------|----------|----
