@@ -676,6 +676,9 @@ SELECT * FROM some_table;
   - 持久性（Durability）
 
   ```sql
+  SET AUTOCOMMIT = 0;
+  SET AUTOCOMMIT = 1;
+  
   START TRANSACTION; # 开启一次事务
 
   DML... 
