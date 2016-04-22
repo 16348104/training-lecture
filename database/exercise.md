@@ -1,35 +1,35 @@
-# 附：练习题
+# 附: 练习题
 
 ## Sample database structure
 
-> Table `emp`
+> Table `emp` 员工表
 
- Field    | Type        | Null | Key | Default | Extra
+ Field    | Type        | Null | Key | Default | Comment
 ----------|-------------|------|-----|---------|-------
- EMPNO    | int(4)      | NO   | PRI | NULL    |       
- ENAME    | varchar(10) | YES  |     | NULL    |       
- JOB      | varchar(9)  | YES  |     | NULL    |       
- MGR      | int(4)      | YES  |     | NULL    |       
- HIREDATE | date        | YES  |     | NULL    |       
- SAL      | double(7,2) | YES  |     | NULL    |       
- COMM     | double(7,2) | YES  |     | NULL    |       
- DEPTNO   | int(2)      | YES  | MUL | NULL    |       
+ EMPNO    | int(4)      | NO   | PRI | NULL    | 员工编号      
+ ENAME    | varchar(10) | YES  |     | NULL    | 员工姓名      
+ JOB      | varchar(9)  | YES  |     | NULL    | 工作工种      
+ MGR      | int(4)      | YES  |     | NULL    | 经理编号      
+ HIREDATE | date        | YES  |     | NULL    | 入职日期      
+ SAL      | double(7,2) | YES  |     | NULL    | 基本工资      
+ COMM     | double(7,2) | YES  |     | NULL    | 奖金      
+ DEPTNO   | int(2)      | YES  | MUL | NULL    | 部门编号      
 
-> Table `dept`
+> Table `dept` 部门表
 
- Field  | Type        | Null | Key | Default | Extra 
+ Field  | Type        | Null | Key | Default | Comment 
 --------|-------------|------|-----|---------|-------
- DEPTNO | int(2)      | NO   | PRI | NULL    |       
- DNAME  | varchar(14) | YES  |     | NULL    |       
- LOC    | varchar(13) | YES  |     | NULL    |       
+ DEPTNO | int(2)      | NO   | PRI | NULL    | 部门编号      
+ DNAME  | varchar(14) | YES  |     | NULL    | 部门名称      
+ LOC    | varchar(13) | YES  |     | NULL    | 所在地区      
 
-> Table `salgrade`
+> Table `salgrade` 工资级别表
 
- Field | Type    | Null | Key | Default | Extra 
+ Field | Type    | Null | Key | Default | Comment 
 -------|---------|------|-----|---------|-------
- GRADE | int(11) | YES  |     | NULL    |       
- LOSAL | int(11) | YES  |     | NULL    |      
- HISAL | int(11) | YES  |     | NULL    |      
+ GRADE | int(11) | YES  |     | NULL    | 工资级别      
+ LOSAL | int(11) | YES  |     | NULL    | 最低工资     
+ HISAL | int(11) | YES  |     | NULL    | 最高工资     
 
 
 > 工资 = 基本工资 + 奖金
