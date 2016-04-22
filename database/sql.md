@@ -720,4 +720,3 @@ SELECT * FROM some_table;
       - SQL len()
       - SQL round()
       - SQL now()
-      - SQL format()
