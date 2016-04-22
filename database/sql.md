@@ -674,7 +674,6 @@ SELECT * FROM some_table;
     - 隔离性（Isolation）
     - 持久性（Durability）
   - 开启一次事务
-    - SET AUTOCOMMIT = 0;
     - START TRANSACTION; # 
   - 事务处理语句
     - DML 语句 `insert` `update` `delete`
