@@ -19,7 +19,7 @@ No.|Course|Time(days)|Date
 3|JavaScript<br>jQuery|2|0508/0514
 4|Database|4|0515/0521/0528/0604
 5|Java EE<br>AJAX<br>JSON|5|0605/0625/0626/0702/0703
-6|Java EE Frameworks|7|0709/0710/07160717/0723/0724/0730
+6|Java EE Frameworks|7|0709/0710/0716/0717/0723/0724/0730
 7|Android|6|0731/0806/0807/0813/0814/0820
 
 > Practice makes perfect.
