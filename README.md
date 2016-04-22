@@ -15,12 +15,12 @@
 No.|Course|Time(days)|Date
 ---|------|----------|----
 1|HTML<br>CSS<br>DIV CSS Layout<br>Bootstrap|6|~~0305/0306/0312/03130319/0320~~
-2|Java SE|6|~~0327/0409/0410~~<br>0416/0417/0423
-3|JavaScript<br>jQuery|2|0424/0507
-4|Database|4|0508/0514/0515/0521
-5|Java EE<br>AJAX<br>JSON|5|0528/0604/0605/0625/0626
-6|Java EE Frameworks|7|0702/0703/0709/0710/07160717/0723
-7|Android|6|0724/0730/0731/0806/0807/0813
+2|Java SE|6|~~0327/0409/0410~~<br>0416/0417/0507
+3|JavaScript<br>jQuery|2|0508/0514
+4|Database|4|0515/0521/0528/0604
+5|Java EE<br>AJAX<br>JSON|5|0605/0625/0626/0702/0703
+6|Java EE Frameworks|7|0709/0710/07160717/0723/0724/0730
+7|Android|6|0731/0806/0807/0813/0814/0820
 
 > Practice makes perfect.
 
