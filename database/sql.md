@@ -694,7 +694,7 @@ SELECT * FROM some_table;
 
 ### SQL 函数
 
-  - aggregate 聚合函数
+  - Aggregate function 聚合函数
       - SQL max()
       - SQL min()
       - SQL avg()
@@ -712,7 +712,7 @@ SELECT * FROM some_table;
 
       > 组检索
 
-  - 标量函数 
+  - Scalar function 标量函数 
       - SQL Date
       - SQL ucase()
       - SQL lcase()
