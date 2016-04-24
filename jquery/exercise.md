@@ -174,17 +174,21 @@
   <h1>Click me to add another!</h1>
   ```
 
-7. 选择一个元素
+7. 单击每个 `header`， 显示 `on()` 方法传递的数据
 
   ```html
-  <body>
-  <ui>
-      <li>Html Tutorial</li>
-      <li>Mongodb Tutorial</li>
-      <li>Python Tutorial</li>
-  </body>
+  <p>Click on each header element to return the data passed with the on() method.</p>
+  <h3>This is a header1.</h3>
+  <h3>This is another header2.</h3> 
   ```
-  希望输出: "Mongodb Tutorial"
+  
+  单击 header1 显示:
+ 
+  Header1. paragraph has Event data: 0
+  
+  单击 header1 显示:
+  
+  Header2. paragraph has Event data: 1
 
 8. 单击 `buttoon` 切换 `p` 背景色 
 
