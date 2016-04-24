@@ -94,7 +94,7 @@
       <li><b>2: Python Tutorial</b></li>
     </ul>
   
-## PART II: Event  
+## PART II: 事件 `Event`  
 
 1. 为 `p` 添加单击和双击事件 
 
@@ -212,7 +212,7 @@
   </body>
   ```
 
-## PART III: CSS
+## PART III: 样式 `CSS`
 1. 点击段落，输出其 `background-color`
 
     ```html
