@@ -1,7 +1,8 @@
 # 练习题
 
 ## PART I:  jQuery 核心
-1. Find all h1 elements that are children of a div element and apply a backgroud to them.
+
+1. 为所有 div 的子 h1 添加背景色
 
   ```html
   <body>
@@ -14,10 +15,10 @@
   </body>
   ```
 
-2. Set the background color of a page to red.
+2. 设置一个页面的背景色为红色
 
 
-3. Hide all the input elements within a form.
+3. 隐藏一个表单内的所有 input
 
   ```html
   <body>
@@ -29,7 +30,7 @@
   </body>
 ```
 
-4. Find the specific option tag text value of a selected option.
+4. 查找下拉列表某个选项的内容
 
   ```html
   <body>
@@ -39,12 +40,11 @@
       <option value="3">Option-3</option>
   </select>
   </body>
-
-  Expected Output :
-  "Option-2"
   ```
+  
+  希望输出: "Option-2"
 
-5. Check/uncheck a checkbox input or radio button?
+5. 选中 Female
 
   ```html
   <body>
@@ -55,14 +55,14 @@
   </body>
   ```
 
-6. Write jQuery code to append a div element (and all of its contents) dynamically to the body element. Inser the following within HTML
-  ```html
-  <body> tag :
+6. 使用 jQuery 动态的把以下 div 及其内容添加到 `<body>` 标记中 :
+  
 
+  ```html
   <div><h1>JQuery Core</h1></div>
   ```
 
-7. Write a jQuery Code to get a single element from a selection.
+7. 选择某一个标记的内容
 
   ```html
   <body>
@@ -71,28 +71,27 @@
       <li>Mongodb Tutorial</li>
       <li>Python Tutorial</li>
   </body>
-  Sample Output : "Mongodb Tutorial"
   ```
+  
+  希望输出: "Mongodb Tutorial"
 
-8. Write jQuery Code to add a `<b>` tag at the beginning of the list item, containing the index of the list item.
+8. 使用 jQuery 为下面的列表添加 `<b>` 标记和它的索引
     
     ```html
     <body>
-    <ui>
+    <ul>
         <li>Html Tutorial</li>
         <li>Mongodb Tutorial</li>
         <li>Python Tutorial</li>
+    <ul>
     </body>
-    Sample Output :
-    0: Html Tutorial
-    1: Mongodb Tutorial
-    2: Python Tutorial
-    ```
 
-    9. Write jQuery Code to change the hyperlink and the text of a existing link.
-    
-    ```html
-    <a href="www.w3resource.com/sqlite/" id='tut'>SQLite Tutorial</a>
     ```
-    Change the hyperlink to -> www.w3resource.com/mysql/mysql-tutorials.php
-    text -> MySQL Tutorial
+    
+    希望变成:
+    
+    <ul>
+      <li><b>0: Html Tutorial</b></li>
+      <li><b>1: Mongodb Tutorial</b></li>
+      <li><b>2: Python Tutorial</b></li>
+    </ul>
