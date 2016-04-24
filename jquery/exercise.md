@@ -1,6 +1,6 @@
-# 练习题
+# jQuery 练习题
 
-## PART I: jQuery 核心
+## PART I: 核心
 
 1. 为所有 `div` 的子 `h1` 添加背景色
 
