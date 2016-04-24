@@ -2,7 +2,7 @@
 
 ## PART I:  jQuery 核心
 
-1. 为所有 div 的子 h1 添加背景色
+1. 为所有 `div` 的子 `h1` 添加背景色
 
   ```html
   <body>
@@ -17,7 +17,7 @@
 
 2. 设置一个页面的背景色为红色
 
-3. 隐藏一个表单内的所有 input
+3. 隐藏一个表单内的所有 `input`
 
   ```html
   <body>
@@ -54,7 +54,7 @@
   </body>
   ```
 
-6. 使用 jQuery 动态的把以下 div 及其内容添加到 `<body>` 标记中 :
+6. 动态的把以下 `div` 及其内容添加到 `body` 标记中 :
 
   ```html
   <div><h1>JQuery Core</h1></div>
@@ -73,7 +73,7 @@
   
   希望输出: "Mongodb Tutorial"
 
-8. 使用 jQuery 为下面的列表添加 `<b>` 标记和它的索引
+8. 为下面的列表添加 `b` 标记和它的索引
     
     ```html
     <body>
