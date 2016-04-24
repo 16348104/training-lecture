@@ -139,7 +139,7 @@
   </body>
   ```
 
-4. Hide all headings on a page when they are clicked. 
+4. 当标题被点击时，隐藏所有标题
 
   ```html
   <body>
@@ -149,7 +149,7 @@
   </body>
   ```
 
-5. Double click on paragraph to toggle background color. 
+5. 双击段落时，切换背景色
 
   ```html
   <body>
@@ -159,22 +159,22 @@
   
   ```css
   p {
-  background: blue;
-  color: white;
+    background: blue;
+    color: white;
   }
   p.dbl {
-  background: yellow;
-  color: black;
+    background: yellow;
+    color: black;
   }
   ```
 
-6. Click a header to add another 
+6. 单击 `h1` 添加另一个 `h1`
 
   ```html
   <h1>Click me to add another!</h1>
   ```
 
-7. Write a jQuery Code to get a single element from a selection. 
+7. 选择一个元素
 
   ```html
   <body>
@@ -184,7 +184,7 @@
       <li>Python Tutorial</li>
   </body>
   ```
-  Sample Output : "Mongodb Tutorial"
+  希望输出: "Mongodb Tutorial"
 
 8. Change the background color of the `div` element of the following code on clicking the button. 
 
