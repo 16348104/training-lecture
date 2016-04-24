@@ -93,8 +93,283 @@
       <li><b>1: Mongodb Tutorial</b></li>
       <li><b>2: Python Tutorial</b></li>
     </ul>
+  
+## PART II: Event  
+
+1. Attach a click and double-click event to the `p` element. 
+
+  ```html
+  <body>
+  <p>Click me!</p>
+  </body>
+  For single click append the following paragraph :
+  <p>This is a click Event</p>
+
+  For double-click append the following paragraph :
+  <p>This is a double-click Event</p>
+  ```
+
+2. Attach a function to the blur event. The blur event occurs when the following `input` Field1 loses focus. 
+
+  ```html
+  <body>
+  <form>
+      <input id="field1" type="text" value="Field 1">
+      <input id="field2" type="text" value="Field 2">
+  </form>
+  </body>
+  ```
+
+3. Append a `p` element with a text message when an `input` field is changed. 
+
+  ```html
+  <body>
+  <form name='demo_form'>
+      First name: <input type="text" name="fname"><br>
+      Last name: <input type="text" name="lname"><br>
+      <input type="submit" value="Submit">
+  </form>
+  </body>
+  ```
+
+4. Hide all headings on a page when they are clicked. 
+
+  ```html
+  <body>
+  <h1>Heading-1</h1>
+  <h2>Heading-2</h2>
+  <h3>Heading-3</h3>>
+  </body>
+  ```
+
+5. Double click on paragraph to toggle background color. 
+
+  ```html
+  <body>
+  <p>Double-click here to change the background color.</p>
+  </body>
+  ```
+  
+  ```css
+  p {
+  background: blue;
+  color: white;
+  }
+  p.dbl {
+  background: yellow;
+  color: black;
+  }
+  ```
+
+6. Click a header to add another 
+
+  ```html
+  <h1>Click me to add another!</h1>
+  ```
+
+7. Write a jQuery Code to get a single element from a selection. 
+
+  ```html
+  <body>
+  <ui>
+      <li>Html Tutorial</li>
+      <li>Mongodb Tutorial</li>
+      <li>Python Tutorial</li>
+  </body>
+  ```
+  Sample Output : "Mongodb Tutorial"
+
+8. Change the background color of the `div` element of the following code on clicking the button. 
+
+  ```html
+  <body>
+  <div style="background-color:yellow">
+      <p>Click the button to change the background color of this paragraph.</p>
+      <button>Click me!</button>
+  </div>
+  </body>
+  ```
+
+9. Find the position of the mouse pointer relative to the left and top edges of the document 
+   
+10. Stop people from writing in first text input box (user ID). 
+
+  ```html
+  <body>
+  <p>User ID : <input type="text" id='field1'></p>
+  <p>Password : <input type="password" id='field2'>
+  </body>
+  ```    
+
+11. Cancel the default action (click) of the first URL. 
+
+  ```html
+  <div style="background-color:yellow">
+      <p>Click the button to change the background color of this paragraph.</p>
+      <button>Click me!</button>
+  </div>
+  ```
+
+12. Return previous values of custom events. 
+
+  ```html
+  <body>
+  <button>Display event.result</button>
+  <p></p>
+  </body>
+  ```
+
+13. Display the tag's name on click. 
+
+  ```html
+  <body>
+  <h1>Heading1</h1>
+  <h2>Heading2</h2>
+  <p>Paragraph</p>
+  <button>Button</button>
+  <div id="log"></div>
+  </body>
+  ```
     
-## PART II: CSS
+14. Count the number of milliseconds between the two click events on a paragraph. 
+
+  ```html
+  <body>
+  <h1>Heading1</h1>
+  <h2>Heading2</h2>
+  <p>Paragraph</p>
+  <button>Button</button>
+  <div id="log"></div>
+  </body>
+  ```
+  
+15. Display the event type on clicking all h1 elements. 
+
+  ```html
+  <body>
+  <h1>This is header1</h1>
+  <h1>This is another header1</h1>
+  <h2>This is header2</h2>
+  <h2>This is header3</h2>
+  </body>
+  ```    
+
+16. Display the keyboard key which was pressed in a textbox:. 
+
+  ```html
+  <body>Input your name: <input type="text">
+  <div></div>
+  </body>
+  ````    
+
+17. Attach a function to the focus event. The focus event occurs (display a message regarding the text field) when the `input` field gets focus. 
+
+  ```html
+  <body>
+  <p><input type="text"> <span>Input your first name</span></p>
+  <p><input type="text"> <span>Input your last name</span></p>
+  </body>
+  ```
+
+18. Set the focus to the first input box. 
+
+  ```html
+  <body>
+  <p>First Name: <input type="text" id='field1'></p>
+  <p>Last Name: <input type="password" id='field2'></p>
+  </body>
+  ```    
+
+19. Test if an input has focus? 
+
+  ```html
+  <body>
+  <div id="content">
+      <input tabIndex="1">
+      <select tabIndex="3">
+          <option>select menu</option>
+      </select>
+      <p tabIndex="3">
+          A Paragraph
+  </div>
+  </div>
+  </body>
+  ```
+
+  ```css
+  <style>
+      .focused {
+          background: green;
+      }
+  </style>
+  ```
+
+20. Set background color of an element when the element (or any elements inside it) gets focus or loses focus. 
+
+  ```html
+  <body>
+  <div>
+      First name: <input type="text"><br>
+      Last name: <input type="text">
+  </div>
+  </body>
+  ```
+
+  ```css
+  <style>
+      .focusedin {
+          background: green;
+      }
+
+      .focusedout {
+          background: blue;
+      }
+  </style>
+  ```
+
+21. Display the tag name of the click element. 
+
+  ```html
+  <body>
+  <p></p>
+  <h2>This is a heading 2</h2>
+  <div>
+      First name: <input type="text"><br>
+      Last name: <input type="text">
+  </div>
+  </body>
+  ```
+
+22. Count the number of specific elements. 
+
+  ```html
+  <body>
+  <ul>
+      <li>List - 1</li>
+      <li>List - 2</li>
+      <li>List - 3</li>
+  </ul>
+  <button>Display the number of li elements in console</button>
+  </body>
+  ```
+
+23. Show texts when mouseup and mousedown event triggering. 
+
+24. Display the window width while (or after) it is resized. 
+
+  ```html
+  <body>
+  <p>Press mouse and release here.</p>
+  </body>
+  </title>
+  </head>
+  <body>
+
+  </body>
+  </html>
+  ```
+
+## PART III: CSS
 1. 点击段落，输出其 `background-color`
 
     ```html
