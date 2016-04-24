@@ -37,6 +37,8 @@
  - [SQL](database/sql.md)
  - [设计](database/design.md)
  - [练习题](database/exercise.md)
+* [jQuery](jquery/README.md)
+ - [练习题](jquery/exercise.md)
 * [MISC](misc/README.md)
    * [IDEA](misc/idea.md)
    * [Git](misc/git.md)
