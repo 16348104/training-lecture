@@ -1,6 +1,6 @@
 # 练习题
 
-## PART I:  jQuery 核心
+## PART I: jQuery 核心
 
 1. 为所有 `div` 的子 `h1` 添加背景色
 
@@ -93,3 +93,160 @@
       <li><b>1: Mongodb Tutorial</b></li>
       <li><b>2: Python Tutorial</b></li>
     </ul>
+    
+## PART II: CSS
+1. 点击段落，输出其 `background-color`
+
+    ```html
+    <body>
+    <p class=".highlight">jQuery Exercises</p>
+    <p>and Solution.</p>
+    </body>
+    ```
+    
+    ```css
+    <style>
+        p {
+            margin: 8px;
+            font-size: 16px;
+        }
+    
+        .myclass {
+            color: #FA5858;
+        }
+    
+        .highlight {
+            background: #CEF6F5;
+        }
+    </style>
+    ```
+
+2. 为段落添加 `myclass`
+
+    ```html
+    <body>
+    <p>jQuery Exercises</p>
+    <p>and Solution.</p>
+    </body>
+    ```
+    
+    ```css
+    <style>
+        p {
+            margin: 8px;
+            font-size: 16px;
+        }
+    
+        .myclass {
+            color: #FA5858;
+        }
+    
+        .highlight {
+            background: #CEF6F5;
+        }
+    </style>
+    ```
+
+3. 输出 `p` 和 `div` 的高度和宽度
+
+    ```html
+    <body>
+    <p> jQuery Exercises</p>
+    <div style="height:75px;width:200px;padding:10px;margin:3px;border:1px solid blue;background-color:#81DAF5;"></div>
+    </body>
+    ```
+
+4. 输出 `p` 的 `scrollTop` 和 `scrollLeft` 值
+
+    ```html
+    <body>
+    <p></p>
+    </body>
+    ```
+
+5. 输出 `p` 的 `position` 值
+
+    ```html
+    <body>
+    <div style="height:75px;width:200px;padding:10px;margin:3px;border:1px solid blue;background-color:#F3E2A9;">
+    </div>
+    <p></p>
+    </body>
+    ```
+
+6. 输出 `div` 和 `p` 的 `innerHeight` 和 `innerWidth`
+
+    ```html
+    <body>
+    <div></div>
+    <p></p>
+    </body>
+    ```
+
+7. 输出 `div` 和 `p` 的 `outerHeight` 和 `outerWidth`
+    
+    ```html
+    <body>
+    <div></div>
+    <p></p>
+    </body>
+    ```
+
+8. 判断 `div` 是否使用了 `.divclass`
+
+    ```html
+    <body>
+    <div id="div1" class="divclass"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+    </body>
+    ```
+    
+    ```css
+    <style>
+        .divclass {
+            width: 90px;
+            height: 75px;
+            margin: 5px;
+            background-color: #F3E2A9
+        }
+    </style>
+    ```
+
+9. 输出 `p` 的 `offset` 值
+
+    ```html
+    <body>
+    <p></p>
+    </body>
+    ```
+    
+    ```css
+    <style>
+        p {
+            margin-top: 20px;
+            margin-left: 10px;
+            padding: 5px;
+            border: 2px solid #666;
+        }
+    </style>
+    ```
+
+10. 为 `p` 添加样式切换
+
+    ```html
+    <body>
+    <p></p>
+    </body>
+    ```
+    
+    ```css
+    <style>
+        p {
+            margin-top: 20px;
+            margin-left: 10px;
+            padding: 5px;
+            border: 2px solid #666;
+        }
+    </style>
+    ```
