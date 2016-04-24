@@ -96,20 +96,27 @@
   
 ## PART II: Event  
 
-1. Attach a click and double-click event to the `p` element. 
+1. 为 `p` 添加单击和双击事件 
 
   ```html
   <body>
   <p>Click me!</p>
   </body>
-  For single click append the following paragraph :
+  ```
+  
+  单击追加以下段落
+  
+  ```html
   <p>This is a click Event</p>
-
-  For double-click append the following paragraph :
+  ```
+  
+  双击追加以下段落
+  
+  ```html
   <p>This is a double-click Event</p>
   ```
 
-2. Attach a function to the blur event. The blur event occurs when the following `input` Field1 loses focus. 
+2. 为 `Field 1` `input` 添加 `blue` 事件响应
 
   ```html
   <body>
@@ -120,7 +127,7 @@
   </body>
   ```
 
-3. Append a `p` element with a text message when an `input` field is changed. 
+3. 当 `input` 发生改变时，为其追加 `p` 段落
 
   ```html
   <body>
