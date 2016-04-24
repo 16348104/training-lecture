@@ -56,7 +56,6 @@
   ```
 
 6. 使用 jQuery 动态的把以下 div 及其内容添加到 `<body>` 标记中 :
-  
 
   ```html
   <div><h1>JQuery Core</h1></div>
