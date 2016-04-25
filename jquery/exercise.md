@@ -212,6 +212,113 @@
   </body>
   ```
 
+## PART IV: 效果 `Effect`
+1. 为 `box` 做动画，改变其宽度和高度
+
+	```html
+	<body>
+	<button id="btn1">Animate height & width</button>
+	<button id="btn2">Reset</button>
+	<div id="box" style="background:#98bf21;height:100px;width:100px;margin:6px;"></div>
+	</body>
+	```
+
+2. 停止动画
+
+	```html
+	<body>
+	<button id="btn1">Start Animate</button>
+	<button id="btn2">Stop Animate</button>
+	<div id="box" style="background:#5858FA;height:100px;width:100px;margin:6px;"></div>
+	</body>
+	```
+
+3. 为 `div` 做淡入淡出效果
+
+	```html
+	<body>
+	<div style="background:#2E9AFE;width:100%;">My Effect is fadeOut Effect</div>
+	<button id="btn2">Fade In (3 Second)</button>
+	<button id="btn1">Fade Out (3 Second)</button>
+	</body>
+	```
+
+4. 为 `p` 做 `fade to opacity 0.5`，时间为 `500` 毫秒
+
+	```html
+	<body>
+	<p> Click this paragraph to see it fade.</p>
+	</body>
+	```
+
+5. 为 `div` 添加 `fade toggle` 效果，时长各不相同
+
+	```html
+	<body>
+	<p>fadeToggle() with different speed parameters.</p>
+	<button>Click to fade in/out boxes</button>
+	<br><br>
+	<div id="div1" style="width:100px;height:100px;background-color:#6D5050;"></div>
+	<br>
+	<div id="div2" style="width:100px;height:100px;background-color:#42D5A9;"></div>
+	<br>
+	<div id="div3" style="width:100px;height:100px;background-color:#8942D5;"></div>
+	</body>
+	```
+
+6. 结束一次正在运行的动画
+
+7. 单击 `button`，`3` 秒内隐藏 `p`
+
+	```html
+    <body>
+    <button>Click to hide the following paragraphs</button>
+    <p>jQuery</p>
+    <p>jQuery Exercises</p>
+    </body>
+	```
+
+8. 单击 `button`，对 `div` 应用 `toggle` 效果
+
+	```html
+	<body>
+	<p><input type="button" value="Run"></p>
+	<div></div>
+	</body>
+	```
+
+    ```css
+    div {
+        width: 150px;
+        height:85px;
+        margin: 5px;
+        float: left;
+        background: #254BF4;
+    }
+    ```
+
+9. 缓慢显示隐藏元素
+
+	```html
+	<body>
+	<button>Show it</button>
+	<p style="display: none">Hello</p>
+	</body>
+	```
+
+10. 收起或展开所有 `div`
+
+	```html
+	<body>
+	<button class="btn1">Slide down</button>
+	<button class="btn2">Slide up</button>
+	<br><br>
+	<div></div>
+	<div></div>
+	<div></div>
+	</body>
+	```
+
 ## PART III: 样式 `CSS`
 1. 点击段落，输出其 `background-color`
 
