@@ -15,12 +15,12 @@
 4. 环境配置
     - 应用服务器
         - <a href="../doc/the-great-java-app-server-debate.pdf" target="_blank">[PDF] the great java app server debate</a>
-    - JSP 和 Servlet 的 Container 容器
-    - Tomcat
+    - `JSP` 和 `Servlet` 的容器
+    - `Tomcat`
     
         ![tomcat](../image/tomcat.png)
 
-        - unzip apache-tomcat-7.0.65-windows-x86 to your_tomecat_directory
+        - unzip apache-tomcat-version-windows-x86 to your_tomcat_directory
         - Windows
             - set environment variable:
                 
@@ -50,7 +50,7 @@
             your_ip:8080
             ```
 
-5. JSP Hello,world！
+5. Java EE Hello,world！
 6. HTTP(s)
 
     > Hyper Text Transfer Protocol 超文本传输协议
