@@ -13,9 +13,9 @@
 
 1. 引言
 2. JSP 语法
-3. JSP 内建对象
+3. JSP 隐含对象
 4. Servlet
-5. JSTL
-6. Filter Listener
+5. EL 和 JSTL
+6. 过滤器和监听器
 7. JDBC
 8. 附：Server
