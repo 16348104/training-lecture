@@ -24,7 +24,7 @@
                 <th>----------------</th>
             </tr>
             <%
-                // color表示颜色，通过它来动态控制颜色。
+                // color
                 String c1 = "#9cf", c2 = "#8c3";
                 for (int i = 0; i < count; i++) {
                     String color;
@@ -57,13 +57,15 @@
     </div>
     ```
 
-2. JSP 页面元素
+2. `JSP` 页面元素
     1. 注释
-        - HTML 注释 `<!-- comment... -->`
-        - JSP 隐藏注释 `<%-- comment... --%>`
-        - Java 注释 `// comment /* comment */`
+        - `HTML` 注释 `<!-- comment... -->`
+        - `JSP` 隐藏注释 `<%-- comment... --%>`
+        - `Java` 注释 
+          - `// comment`
+          - `/* comment */`
     2. 模板元素
-        - 静态 HTML 元素
+        - 静态 `HTML` 元素
     3. 脚本元素
         - 声明 `declaration` `<%! %>` class 类体内
         - 小脚本 `scriplet` `<% %>` _jspService() 方法体内
