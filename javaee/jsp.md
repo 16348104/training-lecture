@@ -68,7 +68,7 @@
         - 静态 `HTML` 元素
     3. 脚本元素
         - 声明 `declaration` `<%! %>` class 类体内
-        - 小脚本 `scriplet` `<% %>` _jspService() 方法体内
+        - 小脚本 `scriptlet` `<% %>` _jspService() 方法体内
         - 表达式 `expression` `<%= %>` out.print() 方法的参数
     4. 指令元素 `<%@ %>`
         - page 指令
