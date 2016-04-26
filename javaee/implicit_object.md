@@ -1,6 +1,6 @@
-# Chapter 3 JSP 隐含对象
+# Chapter 3 JSP 隐式对象
 
-> `Implicit Object` JSP 隐含 / 内建 / 内置 / 隐藏 / 隐式 对象
+> `Implicit Object` JSP 隐式 / 隐藏 / 隐含 / 内建 / 内置  对象
 
 - `out`
 - `request` 请求
