@@ -13,7 +13,7 @@
 
 1. [引言](javaee/intro.md)
 2. [JSP 语法](javaee/jsp.md)
-3. [JSP 隐含对象](javaee/implicit_object.md)
+3. [JSP 隐式对象](javaee/implicit_object.md)
 4. [Servlet](javaee/servlet.md)
 5. [EL 和 JSTL](javaee/el_jstl.md)
 6. [过滤器和监听器](javaee/filter_listener.md)
