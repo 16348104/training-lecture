@@ -39,19 +39,19 @@
                 
                 shutdown.bat
                 ```
-            
+               
+            - find port using and kill task
+
+              ```
+              > netstat -ano|findstr 8080
+              > taskkill /pid 8080
+              ```
         - browser:
         
             ```
             localhost:8080
             127.0.0.1:8080
             your_ip:8080
-            ```
-        - find port using and kill task
-
-            ```
-            > netstat -ano|findstr 8080
-            > taskkill /pid 8080
             ```
 
 5. Java EE Hello,world！
