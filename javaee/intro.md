@@ -26,9 +26,7 @@
                 
                 ~~your_tomcat_directory/bin/setclasspath.bat~~
             
-                ```
                 ~~set JAVA_HOME=your_jdk_directory~~
-                ```
             
             - startup or shutdown:
                 
