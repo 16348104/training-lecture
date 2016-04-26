@@ -11,11 +11,11 @@
 
 > Outline
 
-1. [引言](javaee/intro.md)
-2. [JSP 语法](javaee/jsp.md)
-3. [JSP 隐式对象](javaee/implicit_object.md)
-4. [Servlet](javaee/servlet.md)
-5. [EL 和 JSTL](javaee/el_jstl.md)
-6. [过滤器和监听器](javaee/filter_listener.md)
-7. [JDBC](javaee/jdbc.md)
-8. [附：Server](javaee/server.md)
+1. [引言](intro.md)
+2. [JSP 语法](jsp.md)
+3. [JSP 隐式对象](implicit_object.md)
+4. [Servlet](servlet.md)
+5. [EL 和 JSTL](el_jstl.md)
+6. [过滤器和监听器](filter_listener.md)
+7. [JDBC](jdbc.md)
+8. [附：Server](server.md)
