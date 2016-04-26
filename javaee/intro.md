@@ -22,15 +22,15 @@
 
         - unzip apache-tomcat-version-windows-x86 to your_tomcat_directory
         - Windows
-            - set environment variable:
+            - ~~set environment variable:~~
                 
-                your_tomcat_directory/bin/setclasspath.bat
+                ~~your_tomcat_directory/bin/setclasspath.bat~~
             
                 ```
-                set JAVA_HOME=your_jdk_directory
+                ~~set JAVA_HOME=your_jdk_directory~~
                 ```
             
-            - run or shutdown:
+            - startup or shutdown:
                 
                 your_tomcat_directory/bin/
                 
@@ -48,6 +48,12 @@
             localhost:8080
             127.0.0.1:8080
             your_ip:8080
+            ```
+        - find port using and kill task
+
+            ```
+            > netstat -ano|findstr 8080
+            > taskkill /pid 8080
             ```
 
 5. Java EE Hello,world！
