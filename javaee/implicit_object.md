@@ -36,12 +36,12 @@
     4. `getId()`
         - HTTP `stateless` 无状态性
     5. `invalidate()`
-- application
+- `application`
     1. `setAttribute()`
     2. `getAttribute()`
-- pageContext
+- `pageContext`
     1. `setAttribute()`
     2. `getAttribute()`
-- page
-- config
-- exception
+- `page`
+- `config`
+- `exception`
