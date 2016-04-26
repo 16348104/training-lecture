@@ -42,7 +42,7 @@
 * [Java EE](javaee/README.md)
  - [引言](javaee/intro.md)
  - [JSP 语法](javaee/jsp.md)
- - [JSP 隐含对象](javaee/implicit_object.md)
+ - [JSP 隐式对象](javaee/implicit_object.md)
  - [Servlet](javaee/servlet.md)
  - [EL和JSTL](javaee/el_jstl.md)
  - [过滤器和监听器](javaee/filter_listener.md)
