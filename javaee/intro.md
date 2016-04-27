@@ -18,7 +18,7 @@
     - `JSP` 和 `Servlet` 的容器
     - `Tomcat`
     
-        ![tomcat](../image/tomcat.png)
+        ![tomcat](../image/javaee/tomcat.png)
 
         - unzip apache-tomcat-version-windows-x86 to your_tomcat_directory
         - Windows
