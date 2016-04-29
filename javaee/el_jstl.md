@@ -9,7 +9,7 @@
     2. get attribute
     
         ```
-         Page           pageScope
+         PageContext    pageScope
          Request        requestScope
          Session        sessionScope
          Application    applicationScope
