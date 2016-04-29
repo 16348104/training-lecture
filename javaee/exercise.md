@@ -1,14 +1,14 @@
 # 练习题
 
-## IP Search
+## 1. IP Search
 
 ![IP Decrypt](../image/javaee/ip.png)
 
-## MD5 Decrypt
+## 2. MD5 Decrypt
 
 > [0-9]{8}
 
-## Library
+## 3. Library
 1. 管理员登录后维护图书信息
 2. 用户登录后查询图书信息
 3. 用户登录可以借阅图书*（管理员操作）*
