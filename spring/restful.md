@@ -4,6 +4,8 @@
 
 > [What exactly is RESTful programming?](http://stackoverflow.com/questions/671118/what-exactly-is-restful-programming)
 
+> [What's the difference between a POST and a PUT HTTP REQUEST?](http://stackoverflow.com/questions/107390/whats-the-difference-between-a-post-and-a-put-http-request)
+
 
 ## Spring RESTful
 
