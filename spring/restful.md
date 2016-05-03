@@ -1,5 +1,7 @@
 # RESTful with Spring
 
+> REST = *RE*presentational *S*tate *T*ransfer
+
 ## REST(ful)
 
 > [What exactly is RESTful programming?](http://stackoverflow.com/questions/671118/what-exactly-is-restful-programming)
