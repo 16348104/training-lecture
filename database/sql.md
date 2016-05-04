@@ -595,6 +595,13 @@ SELECT * FROM some_table;
   ON table1.column_name=table2.column_name;
   ```
   
+  ```sql
+  SELECT column_name(s)
+  FROM table1
+  [INNER] JOIN table2
+  USING (column_name); -- For same column_name 
+  ```
+  
 - SQL Left Join
 
   ```sql
