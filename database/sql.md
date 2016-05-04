@@ -570,11 +570,21 @@ SELECT * FROM some_table;
  
   > 连接条件 = N - 1
 
-  1. INNER JOIN
-  2. LEFT JOIN
-  3. RIGHT JOIN
-  4. FULL JOIN
+  1. CROSS JOIN 
+  2. INNER JOIN
+  3. LEFT JOIN
+  4. RIGHT JOIN
+  5. FULL JOIN
 
+- SQL Cross Join
+
+  > 笛卡儿积
+
+  ```sql
+  SELECT column_name(s)
+  FROM table1
+  [INNER] JOIN table2
+  ```
 
 - SQL Inner Join
 
