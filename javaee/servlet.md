@@ -20,6 +20,9 @@
     @WebServlet(urlPatterns="/your_pattern")
     ```
 4. Servlet 生命周期
+
+  > [](https://www.ibm.com/developerworks/cn/java/j-lo-servlet/)
+
   - init()
     - servlet 被创建时 init() 执行一次，此后不再执行
   - service()
