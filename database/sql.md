@@ -583,7 +583,7 @@ SELECT * FROM some_table;
   ```sql
   SELECT column_name(s)
   FROM table1
-  [INNER] JOIN table2
+  [INNER] JOIN table2;
   ```
 
 - SQL Inner Join
