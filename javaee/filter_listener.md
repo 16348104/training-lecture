@@ -10,7 +10,14 @@
             urlPatterns="your_pattern", 
             initParams=@WebInitParam=(name="your_key", value="your_value"))
         ```
-        
+    - 统一编码过滤器
+
+     ```java
+     public class EncodingFilter extends Filter {
+     
+     }
+     ```
+     
 2. `Listener`
     - 监听器
     - 注解式配置
