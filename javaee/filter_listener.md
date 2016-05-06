@@ -47,12 +47,6 @@
      
 2. `Listener`
     - 监听器
-    - 注解式配置
-        
-        ```java
-        @WebListener
-        ```
-        
     - `request` 相关监听器接口
         1. ServletRequestListener
         2. ServletRequestAttributeListener
@@ -65,3 +59,8 @@
     - `application` 相关监听器接口
         1. ServletContextListener
         2. ServletContextAttributeListener
+    - 注解式配置
+        
+        ```java
+        @WebListener
+        ```
