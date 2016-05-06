@@ -2,7 +2,7 @@
 
 1. `Filter`
     - 过滤器
-    - `javax.servlet.Filter`
+    - `javax.servlet.Filter` listener
     - 注解式配置
 
       ```java
