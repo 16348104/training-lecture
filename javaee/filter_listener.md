@@ -39,9 +39,7 @@
           }
 
           @Override
-          public void destroy() {
-
-          }
+          public void destroy() {}
       }
       ```
     - 统一编码过滤器
