@@ -46,6 +46,11 @@
         - c:url
     2. fn 函数
     3. fmt 格式化
+
+      ```jsp
+      <fmt:formatDate value="${datetime_as_timeStamp_format}" pattern="yyyy-MM-dd HH:mm:ss"/>
+      ```
+      
     4. sql 数据库
     5. ~~xml xml~~
 
