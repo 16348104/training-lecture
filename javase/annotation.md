@@ -22,3 +22,7 @@
     - SOURCE:在源文件中有效（即源文件保留）
     - CLASS:在class文件中有效（即class保留）
     - RUNTIME:在运行时有效（即运行时保留）
+
+3. `@Documented
+
+  > 工具文档化。Documented是一个标记注解，没有成员
