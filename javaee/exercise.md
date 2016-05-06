@@ -6,7 +6,7 @@
 
 ## 2. MD5 Decrypt
 
-> [0-9]{1,8}
+> [0-9]{1,8} 0.1 billion records
 
 ## 3. Library
 1. 管理员登录后维护图书信息
