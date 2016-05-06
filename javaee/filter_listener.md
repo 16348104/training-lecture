@@ -4,6 +4,7 @@
     - 过滤器
     - `javax.servlet.Filter` listener
     - 注解式配置
+    - 统一编码过滤器
 
       ```java
       package filter;
@@ -43,13 +44,6 @@
           public void destroy() {}
       }
       ```
-    - 统一编码过滤器
-
-     ```java
-     public class EncodingFilter extends Filter {
-     
-     }
-     ```
      
 2. `Listener`
     - 监听器
