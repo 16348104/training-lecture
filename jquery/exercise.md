@@ -14,11 +14,18 @@
   <h1>xyz</h1>
   </body>
   ```
+  
+  ```javascript
+  $('div h1').css();
+  ```
 
 2. 设置一个页面的背景色为红色
+  
+  ```javascript
+  $('body').css();
+  ```
 
 3. 隐藏一个表单内的所有 `input`
-
   ```html
   <body>
   <form name='demo_form'>
@@ -28,6 +35,10 @@
   </form>
   </body>
 ```
+  
+  ```javascript
+  $('[name="demo_form"] :input').hide();
+  ```
 
 4. 查找下拉列表某个选项的内容
 
@@ -41,6 +52,10 @@
   </body>
   ```
   
+  ```javascript
+  $('option:eq(1)').text();
+  ```
+  
   希望输出: "Option-2"
 
 5. 选中 Female
@@ -52,6 +67,10 @@
       <input type="radio" name="sex" value="female">Female
   </form>
   </body>
+  ```
+  
+  ```javascript
+  $('[value="female"]').attr('checked','checked');
   ```
 
 6. 动态的把以下 `div` 及其内容添加到 `body` 标记中 :
@@ -69,6 +88,10 @@
       <li>Mongodb Tutorial</li>
       <li>Python Tutorial</li>
   </body>
+  ```
+  
+  ```javascript
+  $('ul li:eq(1)').text();
   ```
   
   希望输出: "Mongodb Tutorial"
