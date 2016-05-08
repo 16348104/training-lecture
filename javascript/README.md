@@ -9,3 +9,7 @@
 
 1. [W3 School](http://www.w3schools.com/js/default.asp)
 
+> outline
+
+1. [引言](intro.md)
+2. [练习题](exercise.md)
