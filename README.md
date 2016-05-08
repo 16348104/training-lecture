@@ -9,17 +9,17 @@
 ## Teaching Schedule
 
 
-<div style="margin-left: 31%; text-align: left; color: #666;">31% completed.</div>
-<span style="display: inline-block; height: 10px; width: 31%; background: #2196f3; border-top-left-radius: 3px; border-bottom-left-radius: 3px;"></span><span style="display: inline-block; margin: 0; ;height: 10px;  width: 69%; background: #ddd; border-top-right-radius: 3px; border-bottom-right-radius: 3px;"><span>
+<div style="margin-left: 36%; text-align: left; color: #666;">36% completed.</div>
+<span style="display: inline-block; height: 10px; width: 36%; background: #2196f3; border-top-left-radius: 3px; border-bottom-left-radius: 3px;"></span><span style="display: inline-block; margin: 0; ;height: 10px;  width: 64%; background: #ddd; border-top-right-radius: 3px; border-bottom-right-radius: 3px;"><span>
 
 No.|Course|Time(days)|Date
 ---|------|----------|----
 1|HTML<br>CSS<br>DIV CSS Layout<br>Bootstrap|6|~~0305/0306/0312/0313/0319/0320~~
-2|Java SE|6|~~0327/0409/0410/0416/0417~~<br>0507
-3|JavaScript<br>jQuery|2|0508/0514
-4|Database|4|0515/0521/0528/0604
-5|Java EE<br>AJAX<br>JSON|5|0605/0625/0626/0702/0703
-6|Java EE Frameworks|7|0709/0710/0716/0717/0723/0724/0730
+2|Java SE|5|~~0327/0409/0410/0416/0417~~
+3|JavaScript<br>jQuery|2|~~0507/0508~~
+4|Database|4|0514/0515/0521/0528
+5|Java EE<br>AJAX<br>JSON|5|0604/0605/0625/0626/070
+6|Java EE Frameworks|8|0703/0709/0710/0716/0717/0723/0724/0730
 7|Android|6|0731/0806/0807/0813/0814/0820
 
 > Practice makes perfect.
