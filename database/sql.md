@@ -324,7 +324,7 @@ SELECT * FROM some_table;
   ID int NOT NULL UNSIGNED AUTO_INCREMENT,
   ...
   PRIMARY KEY (ID)
-  )
+  );
   ```
 
   ```sql
@@ -675,11 +675,9 @@ SELECT * FROM some_table;
   DROP VIEW view_name;
   ```
 
-
 - 子查询 `Sub Queries`
 
   > 查询的嵌套
-
 
 ### DTL
 
@@ -691,34 +689,34 @@ SELECT * FROM some_table;
     - 隔离性（Isolation）
     - 持久性（Durability）
   - 开启一次事务
-    - START TRANSACTION; # 
+    - `START TRANSACTION;`
   - 事务处理语句
     - DML 语句 `insert` `update` `delete`
     - DQL 语句与事务无关
   - 显式结束事务
-    - COMMIT; # 提交 
-    - ROLLBACK; # 回滚
+    - `COMMIT;` `提交` 
+    - `ROLLBACK;` `回滚`
   - 隐式结束事务
     - DDL 语句
 
   - 事务保留点
   
   ```sql
-  SAVEPOINT save_point_name; # 设置保留点
-  ROLLBACK TO save_point_name; # 回滚到保留点，不能结束事务
+  SAVEPOINT save_point_name; -- 设置保留点
+  ROLLBACK TO save_point_name; -- 回滚到保留点，不能结束事务
   ```
 
 
 ### SQL 函数
 
   - Aggregate function 聚合函数
-      - SQL max()
-      - SQL min()
-      - SQL avg()
-      - SQL sum()
-      - SQL count()
-      - ~~SQL first()~~
-      - ~~SQL last()~~
+      - SQL `max()`
+      - SQL `min()`
+      - SQL `avg()`
+      - SQL `sum()`
+      - SQL `count()`
+      - ~~SQL `first()`~~
+      - ~~SQL `last()`~~
       - **SQL Group By**
 
       > GROUP BY cloumn_name
@@ -731,9 +729,9 @@ SELECT * FROM some_table;
 
   - Scalar function 标量函数 
       - SQL Date
-      - SQL ucase()
-      - SQL lcase()
-      - SQL mid()
-      - SQL len()
-      - SQL round()
-      - SQL now()
+      - SQL `ucase()`
+      - SQL `lcase()`
+      - SQL `mid()`
+      - SQL `len()`
+      - SQL `round()`
+      - SQL `now()`
