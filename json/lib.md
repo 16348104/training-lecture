@@ -9,18 +9,20 @@
         ```
         
         ```java
-        // object to json
+        // Java object to JSON object 
         JSONObject jsonObject = new JSONObject(model);
         String json = jsonObject.toString(4);
         
-        // json to object
+        // Java collection to JSON array
+        JSONArray jsonArray = new JSONArray(collection);
+        String json = jsonArray.toString(4);
+        
+        // JSON object to Java object
         
         ```
         
     2. `Jackson JSON Processor`
     
-        > gradlew dependencies
-        
         ```
         // build.gradle
         compile 'com.fasterxml.jackson.core:jackson-databind:2.5.3'
@@ -31,11 +33,15 @@
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.configure(SerializationFeature.INDENT_OUTPUT, true);
         
-        // object to json
+        // Java object to JSON Object
         String json = objectMapper.writeValueAsString(model);
         
-        // json to object
+        // Java collection to JSON Array
+        String json = objectMapper.writeValueAsString(collection);
+        
+        // JSON Object to Java object
         Model model = objectMapper.readValue(json, Model.class);
+        
         ```
         
     3. `Google-gson`
@@ -48,10 +54,10 @@
         ```java
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         
-        //  object to json
+        //  Java object to JSON object
         String json = gson.toJson(model); 
         
-        // json to object
+        // JSON object to JAVA object
         Model model = gson.fromJson(json, Model.class);
         ```
         
@@ -63,11 +69,33 @@
         ```
         
         ```java
-        // object to json
-        String json = JSON.toJSONString(model);
+        // Java Object to JSON object
+        String json = JSON.toJSONString(model, true);
         
-        // json to object
+        // JSON object to Java object
         Model model = JSON.parseObject(json, Model.class);
         ```
     
 - JavaScript
+  1. Parse JSON in jQuery AJAX
+
+    ```javascript
+    $(function () {
+        $.ajax({
+            url: 'request_url',
+            type: 'POST',
+            data: {'key': value},
+            dataType: 'json',
+            success: function (result) {
+                // parse JSON object
+                alert(result.property);
+                // iterate JSON array
+                $.each(result, function (index, item) {
+                    alert(item.property);
+                });
+            }
+        });
+    });
+    ```
+
+  
