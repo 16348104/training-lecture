@@ -39,7 +39,7 @@
     
   - NoSQL
     
-    > key - value
+    > key - value / 文档 / 列存储 / 图型 / XML
     
     - MongoDB
     - Cassandra
