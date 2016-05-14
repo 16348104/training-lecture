@@ -76,7 +76,7 @@
 
 8. SQL ` ['siːkwəl]`
 
-  - SQL is not a proprietary language used by specific database vendors. Almost every major DBMS supports SQL, so learning this one language enables you
+  - SQL is not a proprietary language used by specific database vendors. Almost every major RDBMS supports SQL, so learning this one language enables you
 to interact with just about every database you'll run into.
 
   - SQL is easy to learn. The statements are all made up of descriptive English words, and there aren't that many of them.
