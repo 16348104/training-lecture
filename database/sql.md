@@ -40,7 +40,7 @@ SELECT * FROM some_table;
   ```
 
 ## SQL 语句
-### DDL
+### 1. DDL
 
 > Data Defination Language
 
@@ -386,7 +386,7 @@ SELECT * FROM some_table;
   - foreign key > index (only for InnoDB)
       > [Does MySQL index foreign key columns automatically?](http://stackoverflow.com/questions/304317/does-mysql-index-foreign-key-columns-automatically)
 
-### DML
+### 2. DML
 
 > Data Manipulate Language
 
@@ -445,7 +445,7 @@ SELECT * FROM some_table;
 
   ```
 
-### DQL
+### 3. DQL
 
 > Data Query Language
 
@@ -679,7 +679,7 @@ SELECT * FROM some_table;
 
   > 查询的嵌套
 
-### DTL
+### 4. DTL
 
   > Data Transaction Language
   
