@@ -24,7 +24,12 @@
 
 3. Install
 	
-    > CMD your_mysql_directory/bin
+    > cmd `your_mysql_directory/bin`
+
+  ```dos
+  C:\>d:
+  D:\>cd your_mysql_directory/bin
+  ```
   
   ```sql
   mysqld --install your_mysql_service_name --defaults-file=your_mysql_directory\my.ini
@@ -39,14 +44,14 @@
 
   or:
 
-  CMD
+  cmd
   net start your_mysql_service_name
   net stop your_mysql_service_name
   ```
 
 5. Update MySQL password
 
-  > CMD your_mysql_directory/bin
+  > cmd `your_mysql_directory/bin`
     
   ```sql
   mysql -u root -p
@@ -70,7 +75,7 @@
 
 7. dump data
      
-  > CMD your_mysql_directory/bin
+  > cmd `your_mysql_directory/bin`
 
   ```sql
   mysqldump -u root -p database > your_dump_file_name.sql
