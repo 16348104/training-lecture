@@ -162,7 +162,7 @@ SELECT * FROM some_table;
 	  digits to the right of the decimal point is specified in the d parameter</td>
     </tr>
     <tr>
-      <td>DECIMAL(size,d)</td>
+      <td><b>DECIMAL(size,d)</b></td>
       <td>A DOUBLE stored as a string , allowing for a fixed decimal point. The 
 	  maximum number of digits may be specified in the size parameter. The 
 	  maximum number of digits to the right of the decimal point is specified in 
