@@ -383,6 +383,7 @@ SELECT * FROM some_table;
   ```
   
   - primary key > index
+  - unique > index
   - foreign key > index (only for InnoDB)
       > [Does MySQL index foreign key columns automatically?](http://stackoverflow.com/questions/304317/does-mysql-index-foreign-key-columns-automatically)
 
