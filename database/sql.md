@@ -392,6 +392,8 @@ SELECT * FROM some_table;
 
 - Insert
 
+  > [what is difference between insert `VALUE` and insert `VALUES` in mysql statement?](http://stackoverflow.com/a/17445644)
+  
   ```sql
   INSERT INTO table_name
   VALUES (value1,value2,value3,...);
