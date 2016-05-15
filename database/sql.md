@@ -32,6 +32,7 @@ SELECT * FROM some_table;
   INSERT INTO - inserts new data into a database
   CREATE DATABASE - creates a new database
   ALTER DATABASE - modifies a database
+  DROP DATABASE - deletes a database
   CREATE TABLE - creates a new table
   ALTER TABLE - modifies a table
   DROP TABLE - deletes a table
@@ -255,7 +256,7 @@ SELECT * FROM some_table;
       FirstName varchar(255),
       Address varchar(255),
       City varchar(255)
-    )
+    );
     ```
   
   - 唯一约束 `Unique`
@@ -268,7 +269,7 @@ SELECT * FROM some_table;
       Address varchar(255),
       City varchar(255),
       CONSTRAINT uc_PersonID UNIQUE (P_Id,LastName)
-    )
+    );
     ```
   
   - 主键约束 `Primary Key`
@@ -281,7 +282,7 @@ SELECT * FROM some_table;
       Address varchar(255),
       City varchar(255),
       PRIMARY KEY (P_Id)
-    )
+    );
     ```
 
   - SQL Foreign Key
@@ -297,6 +298,20 @@ SELECT * FROM some_table;
 
     reference_option:
         RESTRICT | CASCADE | SET NULL | NO ACTION
+    ```
+    
+    > temporarily disable a foreign key constraint in MySQL
+
+    ```sql
+    -- Try DISABLE KEYS:
+
+    SET FOREIGN_KEY_CHECKS=0;
+
+    -- make sure to
+
+    SET FOREIGN_KEY_CHECKS=1;
+
+    -- after.
     ```
 
   - 缺省值 `Default`
@@ -420,20 +435,6 @@ SELECT * FROM some_table;
   WHERE some_column=some_value;
   ```
 
-  > temporarily disable a foreign key constraint in MySQL
-
-  ```sql
-  Try DISABLE KEYS or
-
-  mysql>SET FOREIGN_KEY_CHECKS=0;
-
-  make sure to
-
-  mysql>SET FOREIGN_KEY_CHECKS=1;
-
-  after.
-  ```
-
   > MySQL dupm and import
 
   - import
@@ -452,7 +453,7 @@ SELECT * FROM some_table;
 
 > Data Query Language
 
-- MySQL SHOW
+- MySQL Show
   - SHOW DATABASES;
   - SHOW TABLES;
   - SHOW COLUMNS FROM table_name;
