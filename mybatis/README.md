@@ -11,9 +11,9 @@
 
 > Outline
 
-1. 引言
-2. 核心组件
-3. 配置
-4. XML SQL 映射
-5. Annotation SQL 映射
+1. [引言](intro.md)
+2. [核心组件](component.md)
+3. [配置](configuration.md)
+4. [XML SQL 映射](xml_sql_mapping.md)
+5. [Annotation SQL 映射](annotation_sql_mapping.md)
 6. 高级特性
