@@ -275,6 +275,14 @@ SELECT * FROM some_table;
   - 主键约束 `Primary Key`
 
     ```sql
+    -- 一般情况下的主键定义方式
+    CREATE TABLE table_name (
+      id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+      ...
+    );
+    ```
+
+    ```sql
     CREATE TABLE Persons (
       P_Id int NOT NULL,
       LastName varchar(255) NOT NULL,
