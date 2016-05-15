@@ -522,6 +522,8 @@ SELECT * FROM some_table;
   ORDER BY column_name ASC|DESC, column_name ASC|DESC;
   ```
   
+  > `NUll` min
+  
 - SQL Top `limit`
 
   ```sql
