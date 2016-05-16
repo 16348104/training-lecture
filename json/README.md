@@ -1,6 +1,6 @@
 # JSON
 
-![JSON](../image/json/logo_json.gif)
+![JSON](../image/json/logo_json.png)
 
 > 教学要求
 
