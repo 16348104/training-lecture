@@ -14,7 +14,7 @@
     - 底层有改变，高层应用类不需要做代码级更改 
 - `Inversion of Control` 控制关系的反转
 
-    > 从 松散耦合 到 强耦合 的 `decoupling` 解耦 过程中，实现了控制关系的反转C
+    > 从 松散耦合 到 强耦合 的 `decoupling` 解耦 过程中，实现了控制关系的反转
     
 - Spring IoC
     1. `Constructor` Injection
