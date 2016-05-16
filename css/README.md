@@ -1,6 +1,6 @@
 # CSS
 
-<img src="..image/css/logo_css3.png" title="CSS3" width="100">
+<img src="../image/css/logo_css3.png" title="CSS3" width="100">
 
 > 教学要求
 
