@@ -1,5 +1,7 @@
 # IDEA
 
+<img src="../image/idea/logo_idea.png" title="Intellij IDEA" width="100">
+
 1. unzip IDEA.zip to your-idea-install-folder
 
 2. 修改 IDEA 配置文件 your-idea-install-folder/bin/idea.properties
