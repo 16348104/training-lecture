@@ -1,3 +1,3 @@
 # Node.js
 
-<img src="../image/logo_nodejs.png" title="Node.js" height="100">
+<img src="../image/nodejs/logo_nodejs.png" title="Node.js" height="100">
