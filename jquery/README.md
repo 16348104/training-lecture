@@ -1,5 +1,7 @@
 # jQuery
 
+![jQuery](../image/jquery/logo_jquery.png)
+
 > 教学要求
 
 1. jQuery 基本使用
