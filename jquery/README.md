@@ -1,6 +1,6 @@
 # jQuery
 
-![jQuery](../image/jquery/logo_jquery.png)
+<img src="../image/jquery/logo_jquery.png" title="jQuery" height="100">
 
 > 教学要求
 
