@@ -10,7 +10,7 @@
 > 课外参考
 
 1. [Spring Framework Reference Documentation](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/)
-2. [Spring Framework 4.2.4.RELEASE API](http://docs.spring.io/spring/docs/current/javadoc-api/)
+2. [Spring Framework Current Release API](http://docs.spring.io/spring/docs/current/javadoc-api/)
 
 > Outline
 
