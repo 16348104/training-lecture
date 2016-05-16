@@ -1,5 +1,7 @@
 # Database
 
+<img src="../image/database/logo_mysql.svg" title="MySQL" width="100">
+
 > 教学要求
 
 1. SQL 语言
