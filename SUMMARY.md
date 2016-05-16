@@ -65,4 +65,5 @@
 * [MISC](misc/README.md)
    * [IDEA](misc/idea.md)
    * [Git](misc/git.md)
+   * [Gradle](misc/gradle.md)
 
