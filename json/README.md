@@ -1,5 +1,7 @@
 # JSON
 
+![JSON](../image/json/logo_json.gif)
+
 > 教学要求
 
 1. 掌握 `JSON` 的数据结构
