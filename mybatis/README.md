@@ -1,5 +1,7 @@
 # MyBatis
 
+<img src="../image/mybatis/logo_mybatis.png" title="MyBatis" height="100">
+
 > 教学要求
 
 1. 掌握使用 MyBatis 进行数据持久化开发
