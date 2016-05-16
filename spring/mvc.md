@@ -4,7 +4,7 @@
 
     ```
     compile 'commons-fileupload:commons-fileupload:1.3.1'
-    compile 'org.springframework:spring-webmvc:4.2.4.RELEASE'
+    compile 'org.springframework:spring-webmvc:4.2.6.RELEASE'
     ```
 
 2. update web.xml
