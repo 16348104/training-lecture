@@ -1,6 +1,6 @@
 # Bootstrap
 
-![Bootstrap](../image/bootstrap/bs.png)
+<img src="../image/bootstrap/bs.png" title="Bootstrap" width="100">
 
 > 教学要求
 
