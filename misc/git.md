@@ -1,5 +1,7 @@
 # Git
 
+<img src="../image/git/logo_git.png" title="Git" width="100">
+
 1. Git 安装
   - PortableGit 解压缩
 2. IDEA 中配置 Git
