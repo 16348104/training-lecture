@@ -2,7 +2,7 @@
 
 > Spring overview
 
-![Spring overview](../image/spring-overview.png)
+![Spring overview](../image/spring/spring_overview.png)
 
 1. Spring Framework
 2. IoC / DI
