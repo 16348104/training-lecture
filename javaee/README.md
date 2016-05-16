@@ -1,5 +1,7 @@
 # Java EE
 
+<img src="../image/javaee/logo_javaee.png" title="Java EE" width="100">
+
 > 教学要求
 
 1. HTTP 协议原理
