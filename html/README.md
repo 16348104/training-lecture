@@ -1,6 +1,6 @@
 # HTML
 
-<img src="../image/html/HTML5_Badge_256.png" width="80">
+<img src="../image/html/HTML5_Badge_256.png" width="100">
 
 > 教学要求
 
