@@ -1,6 +1,6 @@
 # JavaScript
 
-<img src="../image/javascript/logo_javascript.png" title="JavaScript" width="150">
+<img src="../image/javascript/logo_javascript.png" title="JavaScript" width="100">
 
 > 教学要求
 
