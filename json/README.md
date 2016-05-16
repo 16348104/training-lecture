@@ -1,6 +1,6 @@
 # JSON
 
-![JSON](../image/json/logo_json.png)
+<img src="../image/json/logo_json.png" title="JSON" width="100">
 
 > 教学要求
 
