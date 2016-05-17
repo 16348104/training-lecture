@@ -10,10 +10,19 @@
   ```
   - 密码
 
-  ```java
-  // 加密
-  // 验证
-  ```
+    ```java
+    // 加密
+    StrongPasswordEncryptor encryptor = new StrongPasswordEncryptor();
+    password = encryptor.encryptPassword(password);
+    // 验证
+   StrongPasswordEncryptor encryptor = new StrongPasswordEncryptor();
+   if (encryptor.checkPassword(password, encryptedPassword)) {
+         // ...
+   } else {
+         // ...
+   }
+   ```
+ - 文本
 
 2. 文件上传
 
