@@ -24,3 +24,6 @@
 1. 自动判卷
 2. 报表打印
 3. 防作弊
+
+- [ ] write some articles
+- [x] drink a cup of tea
