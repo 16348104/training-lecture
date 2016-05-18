@@ -64,6 +64,7 @@
    * [Annotation SQL 映射](mybatis/annotation_sql_mapping.md)
 * [Spring](spring/README.md)
    * [引言](spring/intro.md)
+   * [IoC/DI](spring/ioc_di.md)
 * [Project](project/README.md)
    * [通用组件](project/commons.md)
    * [Online Examination](project/examination.md)
