@@ -62,6 +62,7 @@
    * [配置](mybatis/configuration.md)
    * [XML SQL 映射](mybatis/xml_sql_mapping.md)
    * [Annotation SQL 映射](mybatis/annotation_sql_mapping.md)
+   * [+Spring](mybatis/mybatis_spring.md)
 * [Spring](spring/README.md)
    * [引言](spring/intro.md)
    * [IoC/DI](spring/ioc_di.md)
