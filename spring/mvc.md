@@ -69,13 +69,13 @@
     
     ```java
     @Controller
-    @RequestMapping("/user")
+    @RequestMapping("/model")
     public class UserController {
     
-        @RequestMapping("/add")
-        private void add() {
-            // ...
-            System.out.println("add...");
+        @RequestMapping("/create")
+        private void create(Model model) {
+            // save model...
+            System.out.println("create...");
         }
     }
     ```
