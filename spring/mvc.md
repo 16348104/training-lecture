@@ -21,6 +21,11 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
     
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>/static/*</url-pattern>
+    </servlet-mapping>
+    
     <!-- Spring ContextLoaderListener -->
     <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
