@@ -68,6 +68,10 @@
 4. create Controller
     
   ```java
+  import org.springframework.stereotype.Controller;
+  import org.springframework.web.bind.annotation.PathVariable;
+  import org.springframework.web.bind.annotation.RequestMapping;
+
   @Controller
   @RequestMapping("/model")
   public class UserController {
