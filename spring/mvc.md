@@ -74,7 +74,7 @@
 
   @Controller
   @RequestMapping("/model")
-  public class UserController {
+  public class UserController extends BaseController {
 
       @RequestMapping("/create")
       private void create(Model model) {
