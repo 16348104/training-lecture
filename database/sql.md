@@ -725,6 +725,9 @@ SELECT * FROM some_table;
   ROLLBACK TO save_point_name; -- 回滚到保留点，不能结束事务
   ```
 
+### 5. DCL
+
+> Data Control Language
 
 ### SQL 函数
 
