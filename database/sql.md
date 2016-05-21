@@ -574,7 +574,7 @@ SELECT * FROM some_table;
   SELECT alias_name.column_name(s)
   FROM table_name [AS] alias_name
   ```
-- SQL Nulls
+- SQL Nulls 判断
 
     > `IS [NOT] NULL`
     
