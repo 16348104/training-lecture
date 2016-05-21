@@ -585,11 +585,12 @@ SELECT * FROM some_table;
  
   > 连接条件 = N - 1
 
-  1. CROSS JOIN 
-  2. INNER JOIN
-  3. LEFT JOIN
-  4. RIGHT JOIN
-  5. FULL JOIN
+  1. `CROSS JOIN` 
+  2. `INNER JOIN`
+  3. OUTER JOIN
+    - `LEFT OUTER JOIN`
+    - `RIGHT OUTER JOIN`
+    - `FULL OUTER JOIN`
 
 - SQL Cross Join
 
