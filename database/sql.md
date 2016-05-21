@@ -464,6 +464,7 @@ SELECT * FROM some_table;
 - MySQL Show
   - SHOW DATABASES;
   - SHOW TABLES;
+  - SHOW TABLE STATUS FROM database_name;
   - SHOW [FULL] COLUMNS FROM table_name;
   - SHOW VARIABLES;
   - SHOW CREATE TABLE table_name;
