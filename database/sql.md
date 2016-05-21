@@ -695,6 +695,9 @@ SELECT * FROM some_table;
 
   > 查询的嵌套
 
+  - 相关子查询 `correlated sub query`
+  - 非相关子查询 `uncorrelated sub query`
+
 ### 4. DTL
 
   > Data Transaction Language
