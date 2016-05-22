@@ -405,10 +405,17 @@ SELECT * FROM some_table;
   DROP INDEX ind_column ON table_name;
   ```
   
+  ```sql
+  SHOW INDEX FROM table_name;
+  ```
+  
   - primary key > index
   - unique > index
   - foreign key > index (only for InnoDB)
       > [Does MySQL index foreign key columns automatically?](http://stackoverflow.com/questions/304317/does-mysql-index-foreign-key-columns-automatically)
+
+  - 单列索引 `todo`
+  - 组合索引 `todo`
 
 ### 2. DML
 
