@@ -1,7 +1,15 @@
 # 课外练习
 
 1. IP
-2. CSDN.NET
+  
+  > [纯真IP地址数据库](http://cz88.net/) 
+  
+  - 数据导入 MySQL 数据库
+  - 根据 IP 查询地理位置
+2. CSDN 用户数据库
+
+  > [csdn.net](http://csdn.net)
+
  - 数据导入 MySQL 数据库
  - 各列值的快速模糊查询
  - 查询
