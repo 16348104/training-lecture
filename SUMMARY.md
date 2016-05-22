@@ -42,6 +42,7 @@
    * [SQL](database/sql.md)
    * [设计](database/design.md)
    * [练习题](database/exercise.md)
+   * [课外题](database/project.md)
 * [Java EE](javaee/README.md)
    * [引言](javaee/intro.md)
    * [JSP 语法](javaee/jsp.md)
