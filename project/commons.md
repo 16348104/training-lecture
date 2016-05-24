@@ -52,11 +52,15 @@
 
   > [Project Lombok](https://projectlombok.org/)
 
+  > [Lobmok Plugin](https://github.com/mplushnikov/lombok-intellij-plugin)
+
   ```gradle
   compile 'org.projectlombok:lombok:1.16.8'
   ```
   
   IDEA
+      - install Lombok plugin
+        - [Lombok Plugin](http://plugins.jetbrains.com/plugin/6317?pr=idea)
       - File > Settings > Build, Execution, Deployment > Compiler > Annotation Processors
         - Enable annotation processing
 
