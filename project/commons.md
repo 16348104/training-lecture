@@ -45,7 +45,34 @@
   - Servlet
   
     ```java
-    
+    DiskFileItemFactory diskFileItemFactory = new DiskFileItemFactory();
+    ServletContext servletContext = request.getServletContext();
+    File repository = (File) servletContext.getAttribute("javax.servlet.context.tempdir");
+    diskFileItemFactory.setRepository(repository);
+
+    ServletFileUpload servletFileUpload = new ServletFileUpload(diskFileItemFactory);
+
+    try {
+        List<FileItem> fileItems = servletFileUpload.parseRequest(request);
+        System.out.println("size: " + fileItems.size());
+        for (FileItem fileItem : fileItems) {
+            if (fileItem.isFormField()) {
+                System.out.println(fileItem.getFieldName() + " : " + fileItem.getString());
+            } else {
+                // FILE
+                System.out.println(fileItem.getFieldName());
+                System.out.println(fileItem.getName());
+                System.out.println(fileItem.getContentType());
+                System.out.println(fileItem.isInMemory());
+                System.out.println(fileItem.getSize());
+
+                File file = new File("d:/" + fileItem.getName());
+                fileItem.write(file);
+            }
+        }
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
     ```
     
 3. Lombok
