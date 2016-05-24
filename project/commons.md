@@ -47,3 +47,23 @@
     ```java
     
     ```
+    
+3. Lombok
+
+  > [Project Lombok](https://projectlombok.org/)
+
+  ```gradle
+  compile 'org.projectlombok:lombok:1.16.8'
+  ```
+  
+  IDEA
+      - File > Settings > Build, Execution, Deployment > Compiler > Annotation Processors
+        - Enable annotation processing
+
+  ```java
+  @Data
+  public class Model {
+      private Integer id;
+      private Field field;
+  }
+  ```
