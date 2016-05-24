@@ -54,20 +54,19 @@
 
   > [Lobmok Plugin](https://github.com/mplushnikov/lombok-intellij-plugin)
 
+  - bulid.gradle
   ```gradle
   compile 'org.projectlombok:lombok:1.16.8'
   ```
   
-  IDEA
+  - IDEA
       - install Lombok plugin
         - [Lombok Plugin](http://plugins.jetbrains.com/plugin/6317?pr=idea)
       - File > Settings > Build, Execution, Deployment > Compiler > Annotation Processors
         - Enable annotation processing
 
-  ```java
-  @Data
-  public class Model {
-      private Integer id;
-      private Field field;
-  }
-  ```
+  - Model class
+  
+    ```java
+
+    ```
