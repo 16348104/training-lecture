@@ -81,7 +81,7 @@
 
   > [Project Lombok](https://projectlombok.org/)
 
-  > [Lobmok Plugin](https://github.com/mplushnikov/lombok-intellij-plugin)
+  > [Lobmok Plugin on Github](https://github.com/mplushnikov/lombok-intellij-plugin)
 
   - bulid.gradle
   ```gradle
@@ -92,7 +92,7 @@
       - install Lombok plugin
         - [Lombok Plugin](http://plugins.jetbrains.com/plugin/6317?pr=idea)
       - File > Settings > Build, Execution, Deployment > Compiler > Annotation Processors
-        - Enable annotation processing
+        - check "Enable annotation processing"
 
   - Model class
   
