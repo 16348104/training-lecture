@@ -57,7 +57,9 @@
         List<FileItem> fileItems = servletFileUpload.parseRequest(request);
         for (FileItem fileItem : fileItems) {
             if (fileItem.isFormField()) {
-                System.out.println(fileItem.getFieldName() + " : " + fileItem.getString());
+                System.out.print(fileItem.getFieldName());
+                System.out.print(" : ");
+                System.out.println(fileItem.getString());
             } else {
                 // FILE
                 System.out.println(fileItem.getFieldName());
