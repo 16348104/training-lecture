@@ -47,14 +47,14 @@
     ```java
     DiskFileItemFactory diskFileItemFactory = new DiskFileItemFactory();
     ServletContext servletContext = request.getServletContext();
-    File repository = (File) servletContext.getAttribute("javax.servlet.context.tempdir");
+    String attribute= "javax.servlet.context.tempdir";
+    File repository = (File) servletContext.getAttribute(attribute);
     diskFileItemFactory.setRepository(repository);
 
     ServletFileUpload servletFileUpload = new ServletFileUpload(diskFileItemFactory);
 
     try {
         List<FileItem> fileItems = servletFileUpload.parseRequest(request);
-        System.out.println("size: " + fileItems.size());
         for (FileItem fileItem : fileItems) {
             if (fileItem.isFormField()) {
                 System.out.println(fileItem.getFieldName() + " : " + fileItem.getString());
