@@ -46,7 +46,7 @@
 
           Template template = freeMarkerConfig.getConfiguration().getTemplate("test.ftl"); // 1. Template
           Map<String, String> map = new HashMap<>(); // 2. Java Object
-          map.put("name", "张三");
+          map.put("name", "world");
           Writer writer = new FileWriter("d:/test.html"); // 3. Output
           template.process(map, writer); // Freemarker Processing...
       }
