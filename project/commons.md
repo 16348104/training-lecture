@@ -128,7 +128,7 @@
   - 配置 `rootLogger`
 
     ```properties
-    &#35 rootLogger: all trace debug info warn error fatal off
+    # rootLogger: all trace debug info warn error fatal off
     log4j.rootLogger = error, console
     ```
 
@@ -151,7 +151,7 @@
   - 配置日志信息输出目的地 `Appender`
 
     ```properties
-    &#35; console appender
+    # console appender
     log4j.appender.console=org.apache.log4j.ConsoleAppender
     ```
     
@@ -165,7 +165,7 @@
   - 配置日志信息的输出格式 `Layout`
 
     ```properties
-    &#35; console layout
+    # console layout
     log4j.appender.console.layout=org.apache.log4j.PatternLayout
     log4j.appender.console.layout.ConversionPattern=%m%n
     ```
