@@ -123,11 +123,52 @@
 
   > Log For Java
 
-    - 配置 rootLogger
-    - 配置日志信息输出目的地 `Appender`
-    - 配置日志信息的输出格式 `Layout`
-  
+  - 配置 `rootLogger`
+
+    ```properties
+    &#35 rootLogger: all trace debug info warn error fatal off
+    log4j.rootLogger = error, console
+    ```
+
+    - 日志级别
+      - `all`
+      - `trace`
+      - `debug`
+      - `info`
+      - `warn`
+      - `error`
+      - `fetal`
+      - `off`
+
+  - 指定具体类的日志输出级别，覆盖 `rootLogger` 级别
+
+    ```properties
+    log4j.logger.demo = trace
+    ```
+
+  - 配置日志信息输出目的地 `Appender`
+
+    ```properties
+    &#35; console appender
+    log4j.appender.console=org.apache.log4j.ConsoleAppender
+    ```
+
+  - 配置日志信息的输出格式 `Layout`
+
+    ```properties
+    &#35; console layout
+    log4j.appender.console.layout=org.apache.log4j.PatternLayout
+    log4j.appender.console.layout.ConversionPattern=%m%n
+    ```
+
+  - Log4j Test
+
     ```java
+    package demo.test;
+
+    import org.slf4j.Logger;
+    import org.slf4j.LoggerFactory;
+
     public class Log4jTest {
           private static Logger logger = LoggerFactory.getLogger(Log4jTest.class);
           public static void main(String[] args) {
@@ -138,6 +179,18 @@
               logger.error("error...");
           }
       }
+    
+    /*
+    
+    output:
+    
+    trace...
+    debug...
+    info...
+    warn....
+    error...
+    
+    */
     ```
     
 3. Logback
