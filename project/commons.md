@@ -116,10 +116,30 @@
 
   > Simple Logging Facade `[fə'sɑːd]` for Java
 
+  - `Logger` interface
+  - `LoggerFactory` class
+
 2. Log4j
 
   > Log For Java
+
+    - 配置 rootLogger
+    - 配置日志信息输出目的地 `Appender`
+    - 配置日志信息的输出格式 `Layout`
   
+    ```java
+    public class Log4jTest {
+          private static Logger logger = LoggerFactory.getLogger(Log4jTest.class);
+          public static void main(String[] args) {
+              logger.trace("trace...");
+              logger.debug("debug...");
+              logger.info("info...");
+              logger.warn("warn....");
+              logger.error("error...");
+          }
+      }
+    ```
+    
 3. Logback
 
   > [Logback Project](http://logback.qos.ch/)
