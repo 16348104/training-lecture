@@ -121,7 +121,13 @@
 
 2. Log4j
 
-  > Log For Java
+  > Log For Javaw
+
+  - build.gradle
+
+    ```gradle
+    compile 'org.slf4j:slf4j-log4j12:1.7.21'
+    ```
 
   - 在类路径根目录下创建 `log4j.properties` 文件
 
