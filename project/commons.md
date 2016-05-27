@@ -123,6 +123,8 @@
 
   > Log For Java
 
+  - 在类路径根目录下创建 `log4j.properties` 文件
+
   - 配置 `rootLogger`
 
     ```properties
