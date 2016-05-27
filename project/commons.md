@@ -134,11 +134,11 @@
 
     - 日志级别
       - `all`
-      - `trace`
-      - `debug`
-      - `info`
-      - `warn`
-      - `error`
+      - `trace` 
+      - &#10003; `debug`
+      - &#10003; `info`
+      - &#10003; `warn`
+      - &#10003; `error`
       - `fetal`
       - `off`
 
@@ -154,6 +154,13 @@
     &#35; console appender
     log4j.appender.console=org.apache.log4j.ConsoleAppender
     ```
+    
+      - log4j.ConsoleAppender `控制台`
+      - log4j.FileAppender `文件`
+      - log4j.DailyRollingFileAppender `每天产生一个日志文件`
+      - log4j.RollingFileAppender `文件到达指定尺寸时产生一个新的文件`
+      - log4j.WriterAppender `以流格式发送到任意指定的地方`
+      - log4j.appender.MAIL `发送邮件`
 
   - 配置日志信息的输出格式 `Layout`
 
