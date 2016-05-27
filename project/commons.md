@@ -109,3 +109,19 @@
         private String password;
     }
     ```
+
+4. 日志处理
+
+1. SLF4J
+
+  > Simple Logging Facade `[fə'sɑːd]` for Java
+
+2. Log4j
+
+  > Log For Java
+  
+3. Logback
+
+  > [Logback Project](http://logback.qos.ch/)
+
+  > Based on our previous work on log4j, logback internals have been re-written to perform about ten times faster on certain critical execution paths. Not only are logback components faster, they have a smaller memory footprint as well.
