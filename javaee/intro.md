@@ -19,8 +19,10 @@
     - `Tomcat`
     
         ![tomcat](../image/javaee/tomcat.png)
+        
+        > [Apache Tomcat](http://tomcat.apache.org/)
 
-        - unzip apache-tomcat-version-windows-x86 to your_tomcat_directory
+        - unzip [apache-tomcat-version-windows-x86](http://tomcat.apache.org/download-80.cgi) to your_tomcat_directory
         - Windows
             - ~~set environment variable:~~
                 
@@ -44,7 +46,7 @@
 
               ```
               > netstat -ano|findstr 8080
-              > taskkill /pid 8080
+              > taskkill /pid some_pid
               ```
         - browser:
         
