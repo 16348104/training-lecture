@@ -30,7 +30,8 @@
     
 5. 创建基于 Gradle 构建的 Java Web 项目
 
-  - 安装 gradle 参见 [Gradle 的安装](gradle.md)
+  - 安装 gradle
+    - 参见 [Gradle 的安装](gradle.md)
   - 创建项目
 
     ```
