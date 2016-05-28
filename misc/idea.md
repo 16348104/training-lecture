@@ -1,10 +1,10 @@
-# IDEA
+# Intellij Idea
 
 <img src="../image/idea/logo_idea.png" title="Intellij IDEA" width="100">
 
-1. unzip IDEA.zip to your-idea-install-folder
+1. unzip Idea.zip to your-idea-install-folder
 
-2. 修改 IDEA 配置文件 your-idea-install-folder/bin/idea.properties
+2. 修改 Idea 配置文件 your-idea-install-folder/bin/idea.properties
 
   ```
   idea.config.path=your-idea-properties-folder/config
@@ -24,7 +24,7 @@
   Case sensitive completion: None
   ```
   
-4. IDEA key map reference
+4. Idea key map reference
   
     [http://thu.github.io/IDEA/](http://thu.github.io/IDEA/)
     
