@@ -78,6 +78,7 @@
     ```
    
    - 创建 Java Web 项目
+     - 参见 5
    - 在 Tomcat 中部署 Java Web 项目
    
      ```
