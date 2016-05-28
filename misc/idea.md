@@ -2,7 +2,9 @@
 
 <img src="../image/idea/logo_idea.png" title="Intellij IDEA" width="100">
 
-1. unzip Idea.zip to your-idea-install-folder
+> [JetBrains](https://www.jetbrains.com/)
+
+1. unzip [ideaIU-15.0.6.win.zip](https://confluence.jetbrains.com/display/IntelliJIDEA/Previous+IntelliJ+IDEA+Releases) to your-idea-install-folder
 
 2. 修改 Idea 配置文件 your-idea-install-folder/bin/idea.properties
 
@@ -16,11 +18,11 @@
 3. 修改两处配置
 
   ```
-  File - Settings - Keymap
-  Main menu - Code - Completion - Basci
+  Idea > File > Settings... > Keymap
+  Main menu > Code > Completion > Basic
   Add Keyboard Shortcut: Alt+斜杠
 
-  File - Settings - Editor - Code Completion
+  Idea > File > Settings > Editor > Code Completion
   Case sensitive completion: None
   ```
   
