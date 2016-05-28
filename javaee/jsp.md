@@ -33,7 +33,7 @@
                     } else {
                         color = c2;
                     }
-                    out.println("<tr style=\"background:" + color + ";\"><td>----------------</td></tr>");
+                    out.println("<tr style=\"background:" + color + ";\"><td>-</td></tr>");
                 }
             %>
         </table>
