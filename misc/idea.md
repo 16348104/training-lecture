@@ -35,7 +35,7 @@
   - 创建项目
 
     ```
-    IDEA > File > New > Project... 
+    Idea > File > New > Project... 
     
     左侧 选择 Gradle 
     右侧勾选 Java 和 Web
@@ -63,5 +63,39 @@
     
     ![图二](../image/idea/gradle_web_2.png)
     
-    
+6. Java Web 项目在 Tomcat 中的部署
+
+  - 安装 Tomcat
+    参见 [JavaEE 引言](../javaee/intro.md)
+  - 在 Idea 中关联 Tomcat
+
+    ```
+    Idea > File > Settings... > Build, Execution, Deployment > Application servers
+    单击 +
+    选择 Tomcat Server
+    指定 Tomcat Home
+    单击 OK
+    ```
+   
+   - 创建 Java Web 项目
+   - 在 Tomcat 中部署 Java Web 项目
+   
+     ```
+     Idea > Run > Edit Configurations...
+     单击 +
+     选择 Tomcat Server
+     单击 Local
+     
+     在 Server 选项卡中
+     On 'Update' action 选择 Update classes and resources
+     On frame deactivation 选择 Update classes and resources
+     
+     在 Deployment 选项卡中
+     单击 +
+     单击 Artifact...
+     选择含有 exploded 的 Artifact
+     单击 OK
+     ```
+   - Tomcat　的启动　/ 重启　/　重部署
+     -  Shift + Alt + F10
     
