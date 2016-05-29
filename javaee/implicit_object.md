@@ -8,7 +8,7 @@
     > request 封装了用户的所有请求信息
     
     1. `getParameter()` 获取用户填写的表单参数
-    2. `getParameterValues()` 获取用户填写的表单参数(多选下拉列表/复选框)
+    2. `getParameterValues()` 获取用户填写的表单参数(多选下拉列表 / 复选框)
     3. `getRemoteAddr()` 
     4. `getSession()`
     5. `setAttribute()`
@@ -28,7 +28,7 @@
         - 都可以提交表单参数
         - `get` 会在地址栏中显示表单参数与值，`post` 不会
         - `get` 提交参数有最大长度限制，`post` 没有
-        - 注：来自于连接的请求都是 `get` 
+        - 注：来自于链接的请求都是 `get` 
 - `session` 会话
     1. web 应用中，属性的存在范围
         - `pageContext`
