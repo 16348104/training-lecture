@@ -178,7 +178,7 @@
 
       - 布局方式
         - `org.apache.log4j.HTMLLayout` `HTML 表格形式布局`
-        - `org.apache.log4j.PatternLayout` `以灵活地指定布局模式`
+        - `org.apache.log4j.PatternLayout` `灵活地指定布局模式`
         - `org.apache.log4j.SimpleLayout` `日志信息的级别和信息字符串`
         - `org.apache.log4j.TTCCLayout` `日志产生的时间、线程、类别等等信息`
       - 输出格式
