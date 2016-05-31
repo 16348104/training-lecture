@@ -631,11 +631,8 @@ SELECT * FROM some_table;
   SELECT column_name(s)
   FROM table1
   LEFT [OUTER] JOIN table2
-  ON table1.column_name=table2.column_name;
-  ```
-  
-  ```sql
-  table_a LEFT OUTER JOIN table_b ON
+  ON table1.column_name=table2.column_name [AND]
+  [WHERE ...];
   ```
   
     - ON 条件用来决定如何从 table_b 中检索数据行
