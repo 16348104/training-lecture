@@ -634,6 +634,15 @@ SELECT * FROM some_table;
   ON table1.column_name=table2.column_name;
   ```
   
+  ```sql
+  table_a LEFT OUTER JOIN table_b ON
+  ```
+  
+    - ON 条件用来决定如何从 table_b 中检索数据行
+    - 如果 table_b 中没有任何一行数据匹配 ON 条件，`将会额外生成一行所有列为 NULL 的数据`
+    - 在匹配阶段 WHERE 子句的条件都不会被使用
+    - 在匹配阶段完成以后 WHERE 子句条件才会被使用，它将从匹配阶段产生的结果集进行行检索
+
 - SQL Right Join
 
   ```sql
