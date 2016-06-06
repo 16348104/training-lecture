@@ -9,8 +9,8 @@
 ## Teaching Schedule
 
 
-<div style="margin-left: 52.8%; text-align: left; color: #666;">52.8% completed.</div>
-<span style="display: inline-block; height: 10px; width: 52.8%; background: #2196f3; border-top-left-radius: 3px; border-bottom-left-radius: 3px;"></span><span style="display: inline-block; margin: 0; ;height: 10px;  width: 47.2%; background: #ddd; border-top-right-radius: 3px; border-bottom-right-radius: 3px;"><span>
+<div style="margin-left: 58.3%; text-align: left; color: #666;">58.3% completed.</div>
+<span style="display: inline-block; height: 10px; width: 58.3%; background: #2196f3; border-top-left-radius: 3px; border-bottom-left-radius: 3px;"></span><span style="display: inline-block; margin: 0; ;height: 10px;  width: 41.7%; background: #ddd; border-top-right-radius: 3px; border-bottom-right-radius: 3px;"><span>
 
 No.|Course|Time(days)|Date
 ---|------|----------|----
@@ -18,7 +18,7 @@ No.|Course|Time(days)|Date
 2|Java SE|5|~~0327/0409/0410/0416/0417~~
 3|JavaScript<br>jQuery|2|~~0507/0508~~
 4|Database|4|~~0514/05150521/0522~~
-5|Java EE<br>AJAX<br>JSON|5|~~0528/0529~~<br>0604/0605/0625
+5|Java EE<br>AJAX<br>JSON|5|~~0528/05290604/0605~~<br>0625
 6|Java EE Frameworks|8|0626/0702/0703/0709/0710/0716/0717/0723
 7|Android|6|0724/0730/0731/0806/0807/0813
 
