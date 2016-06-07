@@ -2,6 +2,8 @@
 
 > 2016 Java Web 开发脱产第三期班
 
+> 2016年6月7日 ~ 2016年9月28日
+
 > 课时 80 天
 
 <div style="margin-left: 2.5%; text-align: left; color: #666;">2.5% completed.</div>
