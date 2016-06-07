@@ -7,11 +7,11 @@
 
 No.|Course|Time(days)|Date
 ---|------|----------|----
-1|HTML<br>CSS<br>DIV CSS Layout<br>Bootstrap|8|~~0607/0608~~<br>0612/0613/0614/0615/0616/0617
+1|HTML<br>CSS<br>DIV CSS Layout<br>Bootstrap|7|~~0607/0608~~<br>0612/0613/0614/0615/0616/0617
 2|Java SE|15|
-3|JavaScript<br>jQuery|4|
+3|JavaScript<br>jQuery|3|
 4|Database|10|
-5|Java EE<br>AJAX<br>JSON|8|
+5|Java EE<br>AJAX<br>JSON|10|
 6|Java EE Frameworks|15|
 7|Android|10|
 8|Project|10|
