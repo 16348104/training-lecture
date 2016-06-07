@@ -2,6 +2,8 @@
 
 > 2016 Java Web 开发周末第一期班
 
+> 2016年3月5日 ~ 2016年8月13日
+
 > 课时 36 天
 
 <div style="margin-left: 58.3%; text-align: left; color: #666;">58.3% completed.</div>
