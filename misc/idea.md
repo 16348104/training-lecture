@@ -22,7 +22,7 @@
   Main menu > Code > Completion > Basic
   Add Keyboard Shortcut: Alt+斜杠
 
-  Idea > File > Settings > Editor > Code Completion
+  Idea > File > Settings > Editor > General > Code Completion
   Case sensitive completion: None
   ```
   
