@@ -75,12 +75,14 @@
 * [Project](project/README.md)
    * [通用组件](project/commons.md)
    * [Online Examination](project/examination.md)
+
+-->
 * [MISC](misc/README.md)
    * [IDEA](misc/idea.md)
    * [Git](misc/git.md)
    * [Gradle](misc/gradle.md)
 
--->
+
 * [Schedules](schedules/README.md)
   * [2016 Java Web 周末第一期班](schedules/schedule_2016w1.md)
   * [2016 Java Web 脱产第三期班](schedules/schedule_2016t3.md)
