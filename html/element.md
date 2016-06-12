@@ -40,7 +40,7 @@
 ### Quotations
 - abbr  `abbreviation`
 - address
-- bod   `bi-directional override`
+- bdo   `bi-directional override`
 - blockquote    `quotaed section`
 - cite
 - q `quotation`
