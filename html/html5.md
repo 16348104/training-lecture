@@ -1,8 +1,8 @@
 # Chapter 5 HTML 5
 
-> HTML 4.01 - <mark>1999</mark>
+> HTML 4.01 - 1999
 
-> HTML 5 - Since <mark>2014</mark>
+> HTML 5 - 2014
 
 - Semantic Elements
     1.  header
@@ -12,4 +12,6 @@
     5.  article
     6.  footer
     
+- Audio & Video
+
 
