@@ -13,5 +13,5 @@ h1 {
 
 1. **选择器 selector** `h1`
 2. **样式声明 declaration** `color: #f00;`
-2. **样式属性 property** `color`
-3. **样式值 value** `#f00`
+      - 样式属性 property** `color`
+      - 样式值 value** `#f00`
