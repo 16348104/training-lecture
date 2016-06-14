@@ -7,9 +7,6 @@
    * [DOM](html/dom.md)
    * [常用元素](html/element.md)
    * [HTML 5](html/html5.md)
- 
-<!--
-
 * [CSS](css/README.md)
    * [引言](css/intro.md)
    * [核心基础](css/basic.md)
@@ -20,6 +17,9 @@
    * [布局](css/layout.md)
    * [常用样式](css/style.md)
    * [预处理器](css/preprocessor.md)
+
+<!--
+
 * [Bootstrap](bootstrap/README.md)
    * [引言](bootstrap/intro.md)
    * [基本配置](bootstrap/configuration.md)
