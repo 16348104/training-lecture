@@ -1,6 +1,6 @@
 # Chapter 2 核心基础
 
-> Source code:
+> Source code
 
 ```html
 <h1 style="color:#f00;">Hello,HTML!</h1>
