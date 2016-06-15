@@ -17,7 +17,7 @@
   
 4. Stylus
   
-  > [http://learnboost.github.com/stylus](http://learnboost.github.com/stylus)
+  > [http://stylus-lang.com/](http://stylus-lang.com/)
 
   <img src="../image/css/logo_stylus.svg" title="Stylus" width="100">
 
