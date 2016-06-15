@@ -4,7 +4,7 @@
   
   > 没有 **布局样式** 时，网页呈现的布局
 
-  > 布局样式：`float` `clear` `position` `display` 等
+  > 布局样式：`float` `clear` `position` `display` `visibility` 等
 
 - `float` 改变了什么
   1. 浮动的 box 脱离了标准流，原位置被其他 box 占据
