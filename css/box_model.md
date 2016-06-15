@@ -13,7 +13,7 @@
         <div style="color:#f00; text-align:center; height:20px; line-height:20px;">border</div>
         <div style="border:1px solid #369; margin:0 20px 20px; background:#fff">
             <div style="color:#f00; text-align:center; height:30px; line-height:30px;">padding</div>
-            <div style="height:50px; color:#333; border:1px dashed #333; margin:0 30px 30px; background:#00bfff; color: #fff">
+            <div style="height:50px; color:#333; border:1px dashed #333; margin:0 30px 10px; background:#00bfff; color: #fff">
                 content
             </div>
 <br>
@@ -31,7 +31,7 @@
 div {
     color: #fff;
     background: #00bfff;
-    border: 20px solid #ddd;
+    border: 1px dashed #369;
     height: 50px;
     margin: 50px;
     pading: 30px;
@@ -41,5 +41,7 @@ div {
 - box 之间的边距
   - 并列关系 
     - 块级
+      - 垂直外边距取最大值
     - 行内
+      - 水平外边距为和
   - 嵌套
