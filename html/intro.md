@@ -4,7 +4,7 @@
 
 <h1 style="color:#f00;">Hello,HTML!</h1>
 
-> Source code:
+> Source code
 
 ```html
 <h1 style="color:#f00;">Hello,HTML!</h1>
