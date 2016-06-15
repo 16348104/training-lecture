@@ -24,7 +24,7 @@
   <img src="../image/css/logo_stylus.svg" title="Stylus" width="100">
 
 
-  - install nodejs
+  - install [nodejs](https://nodejs.org/en/)
   - install Stylus
 
   ```
