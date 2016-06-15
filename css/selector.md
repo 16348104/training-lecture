@@ -88,10 +88,12 @@
   - `hover`
   - `active`
 - `first-child` 
+- `last-child`
+- `nth-child()`
  
 
     
-## 伪元素
+## 伪元素 `pseudo-element`
   - `before`
   - `after`
   - `first-letter`
