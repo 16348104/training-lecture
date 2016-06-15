@@ -90,6 +90,7 @@
 - `first-child` 
 - `last-child`
 - `nth-child()`
+- `first-of-type`
  
 
     
