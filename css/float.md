@@ -10,9 +10,9 @@
   1. 浮动的 box 脱离了标准流，原位置被其他 box 占据
   2. 浮动的 box 宽度自适应于内容
   3. 占据浮动 box 的内容在浮动 box 的 `margin` 之外
-- 图文混排的实现
 - 塌缩 `collapse` 的解决
 - 清除浮动 `clear`
+- 图文混排的实现
 
     > Source code
     
