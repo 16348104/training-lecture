@@ -17,6 +17,9 @@
    * [布局](css/layout.md)
    * [常用样式](css/style.md)
    * [预处理器](css/preprocessor.md)
+
+<!--
+
 * [Bootstrap](bootstrap/README.md)
    * [引言](bootstrap/intro.md)
    * [基本配置](bootstrap/configuration.md)
@@ -72,9 +75,13 @@
 * [Project](project/README.md)
    * [通用组件](project/commons.md)
    * [Online Examination](project/examination.md)
+   
+   -->
+   
 * [MISC](misc/README.md)
    * [IDEA](misc/idea.md)
    * [Git](misc/git.md)
    * [Gradle](misc/gradle.md)
 * [Schedules](schedules/README.md)
   * [2016 Java Web 周末第一期班](schedules/schedule_2016w1.md)
+  * [2016 Java Web 脱产第三期班](schedules/schedule_2016t3.md)
