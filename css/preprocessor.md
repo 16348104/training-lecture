@@ -19,6 +19,8 @@
   
   > [http://stylus-lang.com/](http://stylus-lang.com/)
 
+  > [https://github.com/stylus/stylus](https://github.com/stylus/stylus)
+
   <img src="../image/css/logo_stylus.svg" title="Stylus" width="100">
 
 
