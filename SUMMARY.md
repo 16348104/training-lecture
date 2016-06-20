@@ -25,6 +25,9 @@
    * [基本配置](bootstrap/configuration.md)
    * [常用组件](bootstrap/components.md)
    * [设计练习](bootstrap/exercise.md)
+
+-->
+
 * [Java SE](javase/README.md)
    * [引言](javase/intro.md)
    * [语言基础](javase/basic.md)
@@ -34,6 +37,9 @@
    * [异常处理](javase/exception.md)
    * [数据流与文件](javase/io.md)
    * [练习题](javase/exercise.md)
+
+<!--
+
 * [JavaScript](javascript/README.md)
    * [引言](javascript/intro.md)
    * [练习题](javascript/exercise.md)
