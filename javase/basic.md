@@ -364,7 +364,9 @@
         - 选择结构
             - `if`
             - `if`/`else`(`if`)
-            - 注意 `else` 有无的区别
+            
+            > 注意 `else` 有无的区别
+                  
             - `switch`/`case`
             > 可用于 `switch` 的变量类型
             
