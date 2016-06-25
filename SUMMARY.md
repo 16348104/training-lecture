@@ -52,6 +52,9 @@
    * [设计](database/design.md)
    * [练习题](database/exercise.md)
    * [课外题](database/project.md)
+
+-->
+
 * [Java EE](javaee/README.md)
    * [引言](javaee/intro.md)
    * [JSP 语法](javaee/jsp.md)
@@ -66,6 +69,9 @@
    * [引言](json/intro.md)
    * [数据类型](json/data_format.md)
    * [常用库](json/lib.md)
+
+<!--
+
 * [MyBatis](mybatis/README.md)
    * [引言](mybatis/intro.md)
    * [核心组件](mybatis/component.md)
