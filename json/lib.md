@@ -103,80 +103,98 @@
      *         21:17, 6/25/16.
      */
     public class JSONTest {
-        public static void main(String[] args) {
+          public static void main(String[] args) {
 
-            User user = new User(1, "user@gmail.com", "123");
+              User user = new User(1, "user@gmail.com", "123");
 
-            List<User> users = new ArrayList<>();
-            for (int i = 0; i < 2; i++) {
-                users.add(new User(i, "user" + i + "@gmail.com", "123"));
-            }
-            
-            String jsonObjectString, jsonArrayString;
+              List<User> users = new ArrayList<>();
+              for (int i = 0; i < 2; i++) {
+                  users.add(new User(i, "user" + i + "@gmail.com", "123"));
+              }
 
-            System.out.println("\n--- json.org ---\n");
+              String jsonObjectString, jsonArrayString;
 
-            JSONObject jsonObject = new JSONObject(user);
-            // java object to json object
-            System.out.println(jsonObject.toString(4));
+              System.out.println("\n--- json.org ---\n");
 
-            JSONArray jsonArray = new JSONArray(users);
-            // java collection to json array
-            System.out.println(jsonArray.toString(4));
+              JSONObject jsonObject = new JSONObject(user);
+              // java object to json object
+              System.out.println(jsonObject.toString(4));
 
-            System.out.println("\n--- jackson ---\n");
+              JSONArray jsonArray = new JSONArray(users);
+              // java collection to json array
+              System.out.println(jsonArray.toString(4));
 
-            ObjectMapper objectMapper = new ObjectMapper();
-            objectMapper.configure(SerializationFeature.INDENT_OUTPUT, true);
+              System.out.println("\n--- jackson ---\n");
 
-            try {
-                // java object to json object
-                jsonObjectString = objectMapper.writeValueAsString(user);
-                System.out.println(jsonObjectString);
-                // java collection to json array
-                jsonArrayString = objectMapper.writeValueAsString(users);
-                System.out.println(jsonArrayString);
-                // json object to java object
-                System.out.println(objectMapper.readValue(jsonObjectString, User.class));
-                // json array to java collection
-                System.out.println(objectMapper.readValue(jsonArrayString, TypeFactory.defaultInstance().constructCollectionType(List.class, User.class))); // method 1
-                System.out.println(objectMapper.readValue(jsonArrayString, new TypeReference<List<User>>() {
-                })); // method 2
-                System.out.println(objectMapper.readValue(jsonArrayString, objectMapper.getTypeFactory().constructCollectionType(List.class, User.class))); // method 3
-                System.out.println(Arrays.asList(objectMapper.readValue(jsonArrayString, User[].class))); // method4
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+              ObjectMapper objectMapper = new ObjectMapper();
+              objectMapper.configure(SerializationFeature.INDENT_OUTPUT, true);
 
-            System.out.println("\n--- gson ---\n");
+              try {
+                  // java object to json object
+                  jsonObjectString = objectMapper.writeValueAsString(user);
+                  System.out.println(jsonObjectString);
+                  // java collection to json array
+                  jsonArrayString = objectMapper.writeValueAsString(users);
+                  System.out.println(jsonArrayString);
+                  // json object to java object
+                  System.out.println(objectMapper.readValue(jsonObjectString, User.class));
+                  // json array to java collection
+                  System.out.println(objectMapper.readValue(jsonArrayString, TypeFactory.defaultInstance().constructCollectionType(List.class, User.class))); // method 1
+                  System.out.println(objectMapper.readValue(jsonArrayString, new TypeReference<List<User>>() {
+                  })); // method 2
+                  System.out.println(objectMapper.readValue(jsonArrayString, objectMapper.getTypeFactory().constructCollectionType(List.class, User.class))); // method 3
+                  System.out.println(Arrays.asList(objectMapper.readValue(jsonArrayString, User[].class))); // method4
+              } catch (IOException e) {
+                  e.printStackTrace();
+              }
 
-            Gson gson = new GsonBuilder().setPrettyPrinting().create();
-            // java object to json object
-            jsonObjectString = gson.toJson(user);
-            System.out.println(jsonObjectString);
-            // java collection to json array
-            jsonArrayString = gson.toJson(users);
-            System.out.println(jsonArrayString);
-            // json object to java object
-            System.out.println(gson.fromJson(jsonObjectString, User.class));
-            // json array to java collection
-            System.out.println(gson.fromJson(jsonArrayString, new TypeToken<List<User>>() {
-            }.getType())); // method 1
-            System.out.println(gson.fromJson(jsonArrayString, ArrayList.class)); // method 2
+              System.out.println("\n--- gson ---\n");
 
-            System.out.println("\n--- fastjson ---\n");
+              Gson gson = new GsonBuilder().setPrettyPrinting().create();
+              // java object to json object
+              jsonObjectString = gson.toJson(user);
+              System.out.println(jsonObjectString);
+              // java collection to json array
+              jsonArrayString = gson.toJson(users);
+              System.out.println(jsonArrayString);
+              // json object to java object
+              System.out.println(gson.fromJson(jsonObjectString, User.class));
+              // json array to java collection
+              System.out.println(gson.fromJson(jsonArrayString, new TypeToken<List<User>>() {
+              }.getType())); // method 1
+              System.out.println(gson.fromJson(jsonArrayString, ArrayList.class)); // method 2
 
-            // java object to json object
-            jsonObjectString = JSON.toJSONString(user, true);
-            System.out.println(jsonObjectString);
-            // java collection to json array
-            jsonArrayString = JSON.toJSONString(users, true);
-            System.out.println(jsonArrayString);
-            // json object to java object
-            System.out.println(JSON.parseObject(jsonObjectString, User.class));
-            // json array to java collection
-            System.out.println(JSON.parseArray(jsonArrayString, User.class));
-        }
+              System.out.println("\n--- fastjson ---\n");
+
+              // java object to json object
+              jsonObjectString = JSON.toJSONString(user, true);
+              System.out.println(jsonObjectString);
+              // java collection to json array
+              jsonArrayString = JSON.toJSONString(users, true);
+              System.out.println(jsonArrayString);
+              // json object to java object
+              System.out.println(JSON.parseObject(jsonObjectString, User.class));
+              // json array to java collection
+              System.out.println(JSON.parseArray(jsonArrayString, User.class));
+          }
+    }
+    
+    // model class
+    class User implements Serializable {
+          private Integer id;
+          private String email;
+          private String password;
+
+          public User() {
+          }
+
+          public User(Integer id, String email, String password) {
+              this.id = id;
+              this.email = email;
+              this.password = password;
+          }
+          
+          // getters and setters
     }
 
     ```
