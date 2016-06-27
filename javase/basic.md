@@ -263,6 +263,8 @@
       - `Long` - `long`
       - `Float` - `float`
       - `Double` - `double`
+    - 浮点数的精度损失
+      - java.math.BigDecimal
     - 变量
         - 类型
         - 名字
