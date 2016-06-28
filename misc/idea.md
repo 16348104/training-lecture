@@ -68,7 +68,7 @@
 6. Java Web 项目在 Tomcat 中的部署
 
   - 安装 Tomcat
-    参见 [JavaEE 引言](../javaee/intro.md#tomcat_install)
+    参见 [JavaEE 引言](https://mingfei.gitbooks.io/training-lecture/content/javaee/intro.html#tomcat_install)
   - 在 Idea 中关联 Tomcat
 
     ```
