@@ -92,6 +92,48 @@
     - 父类没有无参构造方法
       - 子类必须显式调用父类的有参构造方法
       - 子类显式调用父类构造方法时，必须在其构造方法的第一行
+      - 类加载顺序
+      
+      > 子类静态代码块内容 - 父类构造器块 - 父类构造方法 - 子类构造器块 - 子类构造方法
+
+      ```java
+      public class Parent {
+
+          {
+              System.out.println("parent constructor block");
+          }
+
+          static {
+              System.out.println("parent static block");
+          }
+
+          public Parent() {
+              System.out.println("parent constructor");
+          }
+      }
+
+      class Child extends Parent {
+
+          {
+              System.out.println("child constructor block");
+          }
+
+          static {
+              System.out.println("child static block");
+          }
+
+          public Child() {
+              System.out.println("child constructor");
+          }
+      }
+
+      class Test {
+          public static void main(String[] args) {
+              new Child();
+          }
+      }
+      ```
+      
     - Java 语言里，类是单继承的（接口可以多实现）
     - `instanceof` 判断对象是否是类的实例
 3. 多态 `polymorphism`
