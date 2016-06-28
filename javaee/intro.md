@@ -16,7 +16,7 @@
     - 应用服务器
         - <a href="../doc/the-great-java-app-server-debate.pdf" target="_blank">[PDF] the great java app server debate</a>
     - `JSP` 和 `Servlet` 的容器
-    - `Tomcat`
+    - <a name="tomcat_install"></a>`Tomcat`
     
         ![tomcat](../image/javaee/tomcat.png)
         
