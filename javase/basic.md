@@ -263,6 +263,8 @@
       - `Long` - `long`
       - `Float` - `float`
       - `Double` - `double`
+      - 自动装箱 `Autoboxing`
+      - 自动拆箱 `Unboxing`
     - 浮点数的精度损失
       - java.math.BigDecimal
     - 变量
