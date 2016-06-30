@@ -249,7 +249,7 @@
                 - 浮点类型
                     - 单精度浮点数 `float`
                     - **双精度浮点数** `double`
-        - 引用数据类型
+        - 引用数据类型 `reference data type`
             - 类 `class`
             - 接口 `interface`
             - 枚举 `enum`
