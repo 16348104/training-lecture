@@ -45,8 +45,8 @@
         
         > 用 `,` 间隔开多个参数
         
-          - 形式参数
-          - 实际参数
+          - 形式参数 `formal parameter`
+          - 实际参数 `actual parameter`
           
         - `void` 方法没有返回值 `return;`
         - `return` 返回控制
