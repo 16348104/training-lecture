@@ -28,6 +28,7 @@
       - `Arrays.fill()`
       - `Arrays.copyOf()`
       - `Arrays.sort()`
+      - `Arrays.toString()`
       - `System.arraycopy()`
     
 2. 字符串 `java.lang.String`
