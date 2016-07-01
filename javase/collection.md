@@ -26,8 +26,9 @@
     - 多维数组
     - 常用方法
       - `Arrays.fill()`
-      - `System.arraycopy()`
       - `Arrays.copyOf()`
+      - `Arrays.sort()`
+      - `System.arraycopy()`
     
 2. 字符串 `java.lang.String`
     
