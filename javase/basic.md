@@ -377,6 +377,7 @@
                     byte char int short enum String(JDK 1.7+) 
         - 循环结构
             - `for`
+            - `for-each` - `enhanced fpr loop`
             - `while`
             - `do`/`while`
         - `break` 跳出当前这一个循环
