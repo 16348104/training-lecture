@@ -24,6 +24,10 @@
         > 注意每行列数不同的二维数组
         
     - 多维数组
+    - 常用方法
+      - `Arrays.fill()`
+      - `System.arraycopy()`
+      - `Arrays.copyOf()`
     
 2. 字符串 `java.lang.String`
     
