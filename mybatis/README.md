@@ -1,6 +1,6 @@
 # MyBatis
 
-<img src="../image/mybatis/logo_mybatis.png" title="MyBatis" height="100">
+<img src="../image/mybatis/logo_mybatis.svg" title="MyBatis" height="100">
 
 > 教学要求
 
