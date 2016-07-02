@@ -69,9 +69,6 @@
    * [引言](json/intro.md)
    * [数据类型](json/data_format.md)
    * [常用库](json/lib.md)
-
-<!--
-
 * [MyBatis](mybatis/README.md)
    * [引言](mybatis/intro.md)
    * [核心组件](mybatis/component.md)
@@ -79,6 +76,9 @@
    * [XML SQL 映射](mybatis/xml_sql_mapping.md)
    * [Annotation SQL 映射](mybatis/annotation_sql_mapping.md)
    * [+Spring](mybatis/mybatis_spring.md)
+
+<!--
+
 * [Spring](spring/README.md)
    * [引言](spring/intro.md)
    * [IoC/DI](spring/ioc_di.md)
