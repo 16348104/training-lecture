@@ -2,7 +2,7 @@
 
 1. download mysql
 
-    - [mysql-5.6.27-osx10.9-x86_64.tar.gz](http://mirrors.sohu.com/mysql/MySQL-5.6/mysql-5.6.27-osx10.9-x86_64.tar.gz)
+    > [mysql-5.6.27-osx10.9-x86_64.tar.gz](http://mirrors.sohu.com/mysql/MySQL-5.6/mysql-5.6.27-osx10.9-x86_64.tar.gz)
     
 2. cd /Users/<YourName>/Downloads
 
