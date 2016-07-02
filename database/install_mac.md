@@ -1,4 +1,4 @@
-# mysql tar.gz install in MAC yosemite 10.10.2
+# Install MySQL on MAC Yosemite 10.10.2
 
 1. download mysql
 
