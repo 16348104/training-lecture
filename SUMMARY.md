@@ -76,15 +76,14 @@
    * [XML SQL 映射](mybatis/xml_sql_mapping.md)
    * [Annotation SQL 映射](mybatis/annotation_sql_mapping.md)
    * [+Spring](mybatis/mybatis_spring.md)
-
-
-<!--
-
 * [Spring](spring/README.md)
    * [引言](spring/intro.md)
    * [IoC/DI](spring/ioc_di.md)
    * [MVC](spring/mvc.md)
    * [+Freemarker](spring/freemarker.md)
+
+<!--
+
 * [Project](project/README.md)
    * [通用组件](project/commons.md)
    * [Online Examination](project/examination.md)
