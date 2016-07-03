@@ -4,7 +4,7 @@
 
 > [Manual](https://sourceforge.net/projects/freemarker/files/chinese-manual/)
 
-![Freemarker Overview](../image/spring/overview_freemarker.png)
+<img title="Freemarker Overview" src="../image/spring/overview_freemarker.png" style="border:1px dashed #ddd">
 
 1. builde.gradle
 
