@@ -25,7 +25,7 @@
 
 > 补充内容
 
-  1. [序列化](seriallizable.md)
+  1. [序列化](serializable.md)
   2. 内部类
   3. 反射
   4. 注释类型
