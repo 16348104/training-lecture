@@ -65,6 +65,7 @@
    * [JDBC](javaee/jdbc.md)
    * [Server](javaee/server.md)
    * [练习题](javaee/exercise.md)
+   * [附1.序列化](javase/serilizable.md)
 * [JSON](json/README.md)
    * [引言](json/intro.md)
    * [数据类型](json/data_format.md)
