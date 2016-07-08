@@ -37,6 +37,7 @@
    * [异常处理](javase/exception.md)
    * [数据流与文件](javase/io.md)
    * [练习题](javase/exercise.md)
+   * [附1.序列化](javase/serializable.md)
 
 <!--
 
